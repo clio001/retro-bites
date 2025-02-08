@@ -1,0 +1,130 @@
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.navItem {
+    padding: 0.5rem;
+
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.imgList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.imgMenucard {
+    max-width: 350px;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.feature {
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 15px 50px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.startButton {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(255, 152, 152, 0.5);
+    animation: pulsing 1.5s infinite;
+}
+
+@keyframes pulsing {
+    0% {
+        
+        
+    }
+    10% {
+        scale: 1.05;
+        box-shadow: 0px 0px 10px rgba(255,
+                152,
+                152,
+                0.5);
+    }
+    20% {
+        scale: 1.1;
+        box-shadow: 0px 0px 15px rgba(255,
+                152,
+                152,
+                0.5);
+}
+    30% {scale: 1.15;
+        box-shadow: 0px 0px 20px rgba(255,
+                152,
+                152,
+                0.5);
+    }
+    40% {
+        scale: 1.2;
+        box-shadow: 0px 0px 25px rgba(255,
+                152,
+                152,
+                0.5);
+    }
+    50%{
+        scale: 1.25;
+        box-shadow: 0px 0px 30px rgba(255,
+            152,
+            152,
+            0.5);
+        
+    }
+    60% {
+        scale: 1.2;
+        box-shadow: 0px 0px 25px rgba(255,
+        152,
+        152,
+        0.5);
+    }
+70% {
+    scale: 1.15;
+    box-shadow: 0px 0px 20px rgba(255,
+    152,
+    152,
+    0.5);
+}
+80% {
+    scale: 1.1;
+    box-shadow: 0px 0px 15px rgba(255,
+    152,
+    152,
+    0.5);
+}
+    90% {
+        scale: 1.05;
+        box-shadow: 0px 0px 10px rgba(255,
+                152,
+                152,
+                0.5);
+    }
+                100% {
+                    scale: 1;
+                    box-shadow: 0px 0px 5px rgba(255,
+                            152,
+                            152,
+                            0.5);
+                }
+    
+}
+
