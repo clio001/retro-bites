@@ -10,6 +10,10 @@ def index():
     
     return render_template("index.html", menucards=COLLECTION)
 
+@app.route("/item")
+def item():
+    return render_template("item.html")
+
 @app.route("/ueber")
 def ueber():
     return render_template("ueber.html")

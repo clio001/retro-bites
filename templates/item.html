@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="container-fluid pt-3 bg-success-subtle">
+    <div class="row">
+        <div class="col">
+            <iframe class="iframeBox"
+                src="https://mirador.staatsbibliothek-berlin.de/?manifest=https://content.staatsbibliothek-berlin.de/dc/1778981879/manifest"
+                width="100%" height="850" allowfullscreen></iframe>
+        </div>
+        <div class="col">
+            <div class="itemBox">
+                <div class="lead mb-3">Metadata</div>
+                <div class="row">
+                    <div class="col">Titel</div>
+                    <div class="col">Hotel Adlon</div>
+                </div>
+                <div class="row">
+                    <div class="col">Verlag</div>
+                    <div class="col">Reimer</div>
+                </div>
+                <div class="row">
+                    <div class="col">Ort</div>
+                    <div class="col">Unter den Linden, Berlin</div>
+                </div>
+                <div class="row">
+                    <div class="col">Jahr</div>
+                    <div class="col">1902 </div>
+                </div>
+            </div>
+            <div class="itemBox">
+                <div class="lead mb-3">GenAI content<button type="button" class="btn btn-secondary btn-sm"
+                        data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+                        KI-generierter Inhalt
+                    </button>
+                </div>
+                <div class="row">Zutaten</div>
+                <div class="row">Historische Zubereitung</div>
+                <div class="row">Kontext</div>
+
+            </div>
+            <div class="itemBox">
+                <div class="lead mb-3">Zu Hause kochen</div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Gib deine E-Mail ein ...</label>
+                </div>
+                <div class="row">
+                    <button class="btn bg-danger-subtle btn-sm">Abschicken!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{%endblock%}

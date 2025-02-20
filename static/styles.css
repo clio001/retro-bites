@@ -42,6 +42,27 @@
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
 }
 
+.bgImg {
+    background-image: url('https://images.unsplash.com/photo-1470549813517-2fa741d25c92?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 95vh;
+        width: 100%;
+  
+}
+
+.itemBox{
+    padding: 1rem;
+    border-radius: 5px;
+    background: rgba(255, 152, 152, 0.5);
+    margin-bottom: 2rem;
+}
+
+.iframeBox {
+border-radius: 5px;
+}
+
 .startButton {
     width: 80px;
     height: 80px;
