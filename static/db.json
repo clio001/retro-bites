@@ -1,57 +1,86 @@
 [
     {
         "id": 1,
-        "title": "card 1",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1778981879/1200/0/00000001.jpg"
+        "title": "Men\u00fc, Hotel Kaiserhof",
+        "date": "1901",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778979165",
+        "dishes": [
+            "Holla\u0364nder Austern.",
+            "Ochsenschwanzsuppe",
+            "Kraftbru\u0364he mit Gemu\u0364se.",
+            "Ostender Seezunge nach Marguery",
+            "Merlans im Ofen gebacken.",
+            "Lammbraten mit Zwiebelsauce",
+            "Ochsenrippenstu\u0364ck, Chorronsauce.",
+            "Mittelmeer Langusten auf russische Art.",
+            "Junge Pute",
+            "Bo\u0364hmischer Goldfasan",
+            "Salat.",
+            "Ko\u0364nigsberger Bombe.",
+            "Butter und Ka\u0364se.",
+            "Nachtisch."
+        ],
+        "PPN": "1778979165"
     },
     {
         "id": 2,
-        "title": "card 2",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1779111088/1200/0/00000001.jpg"
+        "title": "Zur Hochzeitsfeier v. Fr\u00e4ulein Charotte Kappel mit Herrn Jakob Loeb, Hotel Adlon",
+        "date": "1913",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778977553",
+        "dishes": [
+            "BELUGA-CAVIAR AUSTERN",
+            "KRAFTBR\u00dcHE MIT TR\u00dcFFELKL\u00d6SSCHEN",
+            "SCHWARZW\u00c4LDER BACHFORELLE BLAU",
+            "REHR\u00dcCKEN CUMBERLAND JUNGE GEM\u00dcSE",
+            "HELGOL\u00c4NDER HUMMER. TR\u00dcFFELBUTTER",
+            "CHAMPAGNERSORBET",
+            "BR\u00dcSSELER POULARDE SALAT HELIETTE",
+            "GR\u00dcNE SPARGELSPITZEN CHANTILLY",
+            "HOCHZEITS-EISBOMBE FEINES GEB\u00c4CK",
+            "K\u00c4SET\u00d6RTCHEN",
+            "FR\u00dcCHTE \u2014 NACHTISCH"
+        ],
+        "PPN": "1778977553"
     },
     {
         "id": 3,
-        "title": "card 3",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1778980732/1200/0/00000001.jpg"
+        "title": "Men\u00fc, Rudeolf Dressel, U.d. Linden 50",
+        "date": "1887",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778319645",
+        "dishes": [
+            "Natives.",
+            "Consomm\u00e9 \u00e0 la Printani\u00e8re.",
+            "Real turtle Soup.",
+            "Tru\u00eetes aux bleu.",
+            "South down \u00e0 la Soubise.",
+            "Epinards nouveaux aux cailles.",
+            "Asperges en branches.",
+            "Homards en Bellevue.",
+            "Poularde.",
+            "B\u00e9casses",
+            "Salade romaine.",
+            "Compot.",
+            "Timbal d'ananas.",
+            "Dessert et Fruits."
+        ],
+        "PPN": "1778319645"
     },
     {
         "id": 4,
-        "title": "card 4",
-        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN1778980074&PHYSID=PHYS_0001"
-    },
-    {
-        "id": 5,
-        "title": "card 5",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1778979955/1200/0/00000001.jpg"
-    },
-    {
-        "id": 6,
-        "title": "card 6",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1778979955/1200/0/00000001.jpg"
-    },
-    {
-        "id": 7,
-        "title": "card 7",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1778979955/1200/0/00000001.jpg"
-    },
-    {
-        "id": 8,
-        "title": "card 8",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1778979955/1200/0/00000001.jpg"
-    },
-    {
-        "id": 9,
-        "title": "card 9",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1778979955/1200/0/00000001.jpg"
-    },
-    {
-        "id": 10,
-        "title": "card 10",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1778979955/1200/0/00000001.jpg"
-    },
-        {
-        "id": 11    ,
-        "title": "card 10",
-        "url": "https://content.staatsbibliothek-berlin.de/dms/PPN1778979955/1200/0/00000001.jpg"
+        "title": "Speisen-Ordnung, 4a Unter den Linden",
+        "date": "1874",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778361846",
+        "dishes": [
+            "Englische Austern",
+            "H\u00fchnerbr\u00fche",
+            "Forellen.",
+            "Rehziemer.",
+            "Artischocken mit Kalbsmilch.",
+            "Schnepfen",
+            "Tr\u00fcffeln.",
+            "Gefrorenes.",
+            "Nachtisch."
+        ],
+        "PPN": "1778361846"
     }
 ]
