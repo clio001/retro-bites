@@ -1,22 +1,40 @@
 {%extends "layout.html"%}
 {%block body%}
 <section>
-    <div class="container-fluid text-light p-5 bgImg">
+    <div class="container-fluid text-light p-5 bgImg main">
 
-        <div class="row feature">
-            <h1 class="display-1">Datenhappen</h1>
-            <h2 class="display-6">Eine kulinarische Reise durch das Berlin der Jahrhundertwende</h2>
+        <div class="row ">
+            <div class="col feature">
+                <h1 class="display-1">Datenhappen</h1>
+                <h2 class="display-6">Eine kulinarische Reise durch das Berlin der Jahrhundertwende</h2>
 
-            <div style="text-align: center; margin-top: 20px;" onclick="window.location.href='/item'">
-                <div class="btn btn-sm">
-                    <div class="startButton bg-danger-subtle"
-                        style="display: flex; justify-content: center; align-items: center;">
-                        Eingang</div>
+                <div style="text-align: center; margin-top: 20px;" onclick="window.location.href='/item'">
+                    <div class="btn btn-sm">
+                        <div class="startButton bg-danger-subtle"
+                            style="display: flex; justify-content: center; align-items: center;">
+                            Eingang</div>
+
+                    </div>
 
                 </div>
-
             </div>
+
+
         </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid text-light p-5 bg-success-subtle">
+        <div class="imgList">
+            {% for menu in menucards %}
+            <div><img src="{{menu.url}}" width="350" onclick="window.location.href='/item'" /></div>
+
+            {%endfor%}
+        </div>
+    </div>
+
+</section>
+
 
 </section>
 {%endblock%}
