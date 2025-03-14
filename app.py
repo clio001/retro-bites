@@ -1,18 +1,35 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, redirect, url_for, abort
 import json
 
 app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def index():
-    with open("static/db.json", "r") as f:
+    with open("static/db.json", "r", encoding="utf-8") as f:
         COLLECTION = json.load(f)
     
     return render_template("index.html", menucards=COLLECTION)
 
 @app.route("/item")
-def item():
-    return render_template("item.html")
+def empty_item_redirect():
+    with open("static/db.json", "r", encoding="utf-8") as f:
+        COLLECTION = json.load(f)
+    # Redirect to the item with ID 1
+    return redirect(url_for('item_nr', item_id=1))
+
+@app.route("/item/<int:item_id>")
+def item_nr(item_id):
+    with open("static/db.json", "r", encoding="utf-8") as f:
+        COLLECTION = json.load(f)
+
+    # Find the item with the given ID
+    item = next((item for item in COLLECTION if item["id"] == item_id), None)
+    
+    if item is None:
+        abort(404)  # Item not found, return a 404 error
+
+        
+    return render_template("item.html", item=item)
 
 @app.route("/ueber")
 def ueber():

@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col">
             <iframe class="iframeBox"
-                src="https://mirador.staatsbibliothek-berlin.de/?manifest=https://content.staatsbibliothek-berlin.de/dc/1778981879/manifest"
+                src="https://mirador.staatsbibliothek-berlin.de/?manifest=https://content.staatsbibliothek-berlin.de/dc/{{item.PPN}}/manifest"
                 width="100%" height="850" allowfullscreen></iframe>
         </div>
         <div class="col">
@@ -14,20 +14,23 @@
                 <div class="lead mb-3">Metadata</div>
                 <div class="row">
                     <div class="col">Titel</div>
-                    <div class="col">Hotel Adlon</div>
-                </div>
-                <div class="row">
-                    <div class="col">Verlag</div>
-                    <div class="col">Reimer</div>
-                </div>
-                <div class="row">
-                    <div class="col">Ort</div>
-                    <div class="col">Unter den Linden, Berlin</div>
+                    <div class="col">{{ item.title }}</div>
                 </div>
                 <div class="row">
                     <div class="col">Jahr</div>
-                    <div class="col">1902 </div>
+                    <div class="col">{{item.date}}</div>
                 </div>
+            </div>
+            <div class="itemBox">
+                <div class="lead mb-3">Dishes</div>
+                <div class="row">
+                    {% for dish in item.dishes %}
+                    <div class="row">
+                        <div class="col">{{ dish }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+
             </div>
             <div class="itemBox">
                 <div class="lead mb-3">GenAI content<button type="button" class="btn btn-secondary btn-sm"
