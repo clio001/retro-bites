@@ -22,14 +22,36 @@
                 </div>
             </div>
             <div class="itemBox">
-                <div class="lead mb-3">Dishes</div>
-                <div class="row">
+                <div class="lead mb-3">Gerichte</div>
+                <div class="accordion" id="accordionExample">
+
                     {% for dish in item.dishes %}
-                    <div class="row">
-                        <div class="col">{{ dish }}</div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading{{loop.index}}">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse{{loop.index}}" aria-expanded="false"
+                                aria-controls="collapse{{loop.index}}">
+                                {{dish.name}}
+                            </button>
+                        </h2>
+                        <div id="collapse{{loop.index}}" class="accordion-collapse collapse"
+                            aria-labelledby="heading{{loop.index}}" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Zutaten</strong>
+                                <ul>
+                                    {% for ingredient in dish.ingredients %}
+                                    <li>{{ingredient}}</li>
+                                    {% endfor %}
+                                </ul>
+                                <strong>Zubereitung</strong>
+                            </div>
+                        </div>
                     </div>
                     {% endfor %}
+
+
                 </div>
+
 
             </div>
             <div class="itemBox">
