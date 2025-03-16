@@ -4,83 +4,361 @@
         "title": "Men\u00fc, Hotel Kaiserhof",
         "date": "1901",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778979165",
+        "PPN": "1778979165",
         "dishes": [
-            "Holla\u0364nder Austern.",
-            "Ochsenschwanzsuppe",
-            "Kraftbru\u0364he mit Gemu\u0364se.",
-            "Ostender Seezunge nach Marguery",
-            "Merlans im Ofen gebacken.",
-            "Lammbraten mit Zwiebelsauce",
-            "Ochsenrippenstu\u0364ck, Chorronsauce.",
-            "Mittelmeer Langusten auf russische Art.",
-            "Junge Pute",
-            "Bo\u0364hmischer Goldfasan",
-            "Salat.",
-            "Ko\u0364nigsberger Bombe.",
-            "Butter und Ka\u0364se.",
-            "Nachtisch."
-        ],
-        "PPN": "1778979165"
+    {
+        "id": 1,
+        "name": "Holländer Austern.",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Ochsenschwanzsuppe",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "Kraftbrühe mit Gemüse.",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": "Ostender Seezunge nach Marguery",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "Merlans im Ofen gebacken.",
+        "description": ""
+    },
+    {
+        "id": 6,
+        "name": "Lammbraten mit Zwiebelsauce",
+        "description": ""
+    },
+    {
+        "id": 7,
+        "name": "Ochsenrippenstück, Chorronsauce.",
+        "description": ""
+    },
+    {
+        "id": 8,
+        "name": "Mittelmeer Langusten auf russische Art.",
+        "description": ""
+    },
+    {
+        "id": 9,
+        "name": "Junge Pute",
+        "description": ""
+    },
+    {
+        "id": 10,
+        "name": "Böhmischer Goldfasan",
+        "description": ""
+    },
+    {
+        "id": 11,
+        "name": "Salat.",
+        "description": ""
+    },
+    {
+        "id": 12,
+        "name": "Königsberger Bombe.",
+        "description": ""
+    },
+    {
+        "id": 13,
+        "name": "Butter und Käse.",
+        "description": ""
+    },
+    {
+        "id": 14,
+        "name": "Nachtisch.",
+        "description": ""
+    }
+]
+
     },
     {
         "id": 2,
         "title": "Zur Hochzeitsfeier v. Fr\u00e4ulein Charotte Kappel mit Herrn Jakob Loeb, Hotel Adlon",
         "date": "1913",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778977553",
+        "PPN": "1778977553",
         "dishes": [
-            "BELUGA-CAVIAR AUSTERN",
-            "KRAFTBR\u00dcHE MIT TR\u00dcFFELKL\u00d6SSCHEN",
-            "SCHWARZW\u00c4LDER BACHFORELLE BLAU",
-            "REHR\u00dcCKEN CUMBERLAND JUNGE GEM\u00dcSE",
-            "HELGOL\u00c4NDER HUMMER. TR\u00dcFFELBUTTER",
-            "CHAMPAGNERSORBET",
-            "BR\u00dcSSELER POULARDE SALAT HELIETTE",
-            "GR\u00dcNE SPARGELSPITZEN CHANTILLY",
-            "HOCHZEITS-EISBOMBE FEINES GEB\u00c4CK",
-            "K\u00c4SET\u00d6RTCHEN",
-            "FR\u00dcCHTE \u2014 NACHTISCH"
-        ],
-        "PPN": "1778977553"
+            {
+                "id": 1,
+                "name": "BELUGA-CAVIAR AUSTERN",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "KRAFTBRÜHE MIT TRÜFFELKLÖSSCHEN",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "SCHWARZWÄLDER BACHFORELLE BLAU",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "REHRÜCKEN CUMBERLAND JUNGE GEMÜSE",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "HELGOLÄNDER HUMMER. TRÜFFELBUTTER",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "CHAMPAGNERSORBET",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "BRÜSSELER POULARDE SALAT HELIETTE",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "GRÜNE SPARGELSPITZEN CHANTILLY",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "HOCHZEITS-EISBOMBE FEINES GEBÄCK",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "KÄSETÖRTCHEN",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "FRÜCHTE — NACHTISCH",
+                "description": ""
+            }
+        ]
+
     },
     {
         "id": 3,
         "title": "Men\u00fc, Rudeolf Dressel, U.d. Linden 50",
         "date": "1887",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778319645",
+        "PPN": "1778319645",
         "dishes": [
-            "Natives.",
-            "Consomm\u00e9 \u00e0 la Printani\u00e8re.",
-            "Real turtle Soup.",
-            "Tru\u00eetes aux bleu.",
-            "South down \u00e0 la Soubise.",
-            "Epinards nouveaux aux cailles.",
-            "Asperges en branches.",
-            "Homards en Bellevue.",
-            "Poularde.",
-            "B\u00e9casses",
-            "Salade romaine.",
-            "Compot.",
-            "Timbal d'ananas.",
-            "Dessert et Fruits."
-        ],
-        "PPN": "1778319645"
+    {
+        "id": 1,
+        "name": "Natives.",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Consommé à la Printanière.",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "Real turtle Soup.",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": "Truites aux bleu.",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "South down à la Soubise.",
+        "description": ""
+    },
+    {
+        "id": 6,
+        "name": "Epinards nouveaux aux cailles.",
+        "description": ""
+    },
+    {
+        "id": 7,
+        "name": "Asperges en branches.",
+        "description": ""
+    },
+    {
+        "id": 8,
+        "name": "Homards en Bellevue.",
+        "description": ""
+    },
+    {
+        "id": 9,
+        "name": "Poularde.",
+        "description": ""
+    },
+    {
+        "id": 10,
+        "name": "Bécasses",
+        "description": ""
+    },
+    {
+        "id": 11,
+        "name": "Salade romaine.",
+        "description": ""
+    },
+    {
+        "id": 12,
+        "name": "Compot.",
+        "description": ""
+    },
+    {
+        "id": 13,
+        "name": "Timbal d'ananas.",
+        "description": ""
+    },
+    {
+        "id": 14,
+        "name": "Dessert et Fruits.",
+        "description": ""
+    }
+]
+
     },
     {
         "id": 4,
         "title": "Speisen-Ordnung, 4a Unter den Linden",
         "date": "1874",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778361846",
-        "dishes": [
-            "Englische Austern",
-            "H\u00fchnerbr\u00fche",
-            "Forellen.",
-            "Rehziemer.",
-            "Artischocken mit Kalbsmilch.",
-            "Schnepfen",
-            "Tr\u00fcffeln.",
-            "Gefrorenes.",
-            "Nachtisch."
-        ],
-        "PPN": "1778361846"
+        "PPN": "1778361846",
+       "dishes": [
+    {
+        "id": 1,
+        "name": "Englische Austern",
+        "ingredients": [
+            "Frische englische Austern",
+            "Zitronenscheiben",
+            "Worcestershire-Sauce",
+            "Schwarzer Pfeffer",
+            "Butterbrot oder Roggenbrot"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Hühnerbrühe",
+        "ingredients": [
+            "Huhn",
+            "Wasser",
+            "Karotten",
+            "Sellerie",
+            "Zwiebeln",
+            "Lorbeerblatt",
+            "Petersilie",
+            "Salz",
+            "Weißer Pfeffer",
+            "Muskatnuss"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Forellen.",
+        "ingredients": [
+            "Frische Forellen",
+            "Butter",
+            "Zitrone",
+            "Salz",
+            "Weißer Pfeffer",
+            "Petersilie",
+            "Mehl zum Bestäuben",
+            "Fischfond oder Weißwein"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Rehziemer.",
+        "ingredients": [
+            "Rehkeule oder Rücken",
+            "Rotwein",
+            "Wacholderbeeren",
+            "Nelken",
+            "Lorbeerblatt",
+            "Zwiebeln",
+            "Karotten",
+            "Sellerie",
+            "Speck",
+            "Wildfond"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Artischocken mit Kalbsmilch.",
+        "ingredients": [
+            "Frische Artischocken",
+            "Kalbsmilch (Thymusdrüse)",
+            "Butter",
+            "Schalotten",
+            "Weißwein",
+            "Rinderbrühe",
+            "Zitrone",
+            "Salz",
+            "Pfeffer"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Schnepfen",
+        "ingredients": [
+            "Schnepfen (Wildvögel)",
+            "Speck",
+            "Butter",
+            "Rotwein",
+            "Schalotten",
+            "Thymian",
+            "Rosmarin",
+            "Wacholderbeeren",
+            "Toastbrot"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Trüffeln.",
+        "ingredients": [
+            "Schwarze Trüffeln",
+            "Butter",
+            "Madeira oder Portwein",
+            "Schalotten",
+            "Rinderbrühe",
+            "Salz",
+            "Pfeffer"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Gefrorenes.",
+        "ingredients": [
+            "Milch",
+            "Sahne",
+            "Eigelb",
+            "Zucker",
+            "Vanille oder Fruchtpüree",
+            "Zitronensaft",
+            "Eventuell Kirschwasser oder Rum"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Nachtisch.",
+        "ingredients": [
+            "Feine Backwaren wie Biskuit",
+            "Marzipan",
+            "Pralinen",
+            "Kandierte Früchte",
+            "Vanillecreme",
+            "Schlagsahne",
+            "Likör"
+        ]
+    }
+]
+
+
     }
 ]
