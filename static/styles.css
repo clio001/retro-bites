@@ -41,8 +41,7 @@
 
 .feature {
     z-index: 100;
-    max-width: 60%;
-    background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.7);
     padding: 2rem;
     border-radius: 15px 50px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
@@ -76,6 +75,23 @@ border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(255, 152, 152, 0.5);
     animation: pulsing 1.5s infinite;
 }
+
+.listIngredients {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.chip {
+    padding: 7px 12px 7px 12px;
+    border-radius: 25px;
+    border: 0px;
+    max-width: fit-content;
+    margin: 0.5rem;
+}
+
+
 
 @keyframes pulsing {
     0% {

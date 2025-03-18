@@ -28,7 +28,7 @@
         <div class="imgList">
             {% for menu in menucards %}
             <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN{{menu.PPN}}/1200/0/00000001.jpg"
-                    width="350" onclick="window.location.href='/item'" /></div>
+                    width="350" onclick="window.location.href='/item/{{menu.id}}'" /></div>
 
             {%endfor%}
         </div>

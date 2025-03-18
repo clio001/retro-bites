@@ -2,7 +2,7 @@
 
 {% block body %}
 
-<div class="container-fluid pt-3 bg-success-subtle">
+<div class="container-fluid pt-3 bg-success-subtle" style="min-height: 96vh;">
     <div class="row">
         <div class="col">
             <iframe class="iframeBox"
@@ -10,40 +10,42 @@
                 width="100%" height="850" allowfullscreen></iframe>
         </div>
         <div class="col">
+
             <div class="itemBox">
-                <div class="lead mb-3">Metadata</div>
-                <div class="row">
-                    <div class="col">Titel</div>
-                    <div class="col">{{ item.title }}</div>
+                <div class="text-center">
+                    <div class="display-6 p-3 mt-3">{{item.title}}</div>
+                    <div class="lead p-1">{{item.date}}</div>
                 </div>
-                <div class="row">
-                    <div class="col">Jahr</div>
-                    <div class="col">{{item.date}}</div>
-                </div>
-            </div>
-            <div class="itemBox">
-                <div class="lead mb-3">Gerichte</div>
-                <div class="accordion" id="accordionExample">
+                <div class="text-center mt-5"><img src="/static/flower1.svg" width="48" height="48" /></div>
+
+                <div class="accordion" style="padding: 3rem 10rem 10rem 10rem" id="accordionExample">
 
                     {% for dish in item.dishes %}
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="heading{{loop.index}}">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse{{loop.index}}" aria-expanded="false"
                                 aria-controls="collapse{{loop.index}}">
                                 {{dish.name}}
                             </button>
                         </h2>
-                        <div id="collapse{{loop.index}}" class="accordion-collapse collapse"
+                        <div id="collapse{{loop.index}}" class="accordion-collapse collapse "
                             aria-labelledby="heading{{loop.index}}" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>Zutaten</strong>
-                                <ul>
+                                <div class="text-end">
+                                    <div class="btn-group" role="group" aria-label="E-mail Info group">
+                                        <div type="button" class="btn btn-outline-secondary">E-Mail</div>
+                                        <div type="button" class="btn btn-outline-secondary">Info</div>
+                                    </div>
+                                </div>
+
+                                <div style="margin-bottom: 1rem;"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
                                     {% for ingredient in dish.ingredients %}
-                                    <li>{{ingredient}}</li>
+                                    <div class="chip bg-success-subtle">{{ingredient}}</div>
                                     {% endfor %}
-                                </ul>
-                                <strong>Historische Zubereitung</strong>
+                                </div>
+                                <strong>Zubereitung</strong>
                                 <p>{{dish.preparation}}</p>
 
                             </div>
@@ -55,26 +57,6 @@
                 </div>
 
 
-            </div>
-            <div class="itemBox">
-                <div class="lead mb-3">GenAI content<button type="button" class="btn btn-secondary btn-sm"
-                        data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
-                        KI-generierter Inhalt
-                    </button>
-                </div>
-                <div class="row">Zutaten</div>
-                <div class="row">Historische Zubereitung</div>
-                <div class="row">Kontext</div>
-
-                <div class="lead mb-3">Rezepte</div>
-                <div class="lead mb-3">Zu Hause kochen</div>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Gib deine E-Mail ein ...</label>
-                </div>
-                <div class="row">
-                    <button class="btn bg-danger-subtle btn-sm">Abschicken!</button>
-                </div>
             </div>
         </div>
     </div>

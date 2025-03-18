@@ -1,6 +1,10 @@
 {%extends "layout.html"%}
 {%block body%}
-
+<div>
+    <iframe
+        src="https://query.wikidata.org/sparql?query=%23H%C3%B6chste%20Orte%20auf%20der%20Erde%0A%23title%3AElevations%20over%208000%20meter%0ASELECT%20%3Felevation%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fcoord%20WHERE%20%7B%0A%20%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22.%0A%20%20%3Fst%20psn%3AP2044%20%3Fpsn%20.%0A%20%20%3Fpsn%20wikibase%3AquantityAmount%20%3Felevation%20.%20FILTER(%3Felevation%20%3E%208000)%20.%0A%20%20%3Fpsn%20wikibase%3AquantityUnit%20wd%3AQ11573%20.%0A%20%20%3Fst%20wikibase%3Arank%20%3Frank%20.%20FILTER(%3Frank%20!%3D%20wikibase%3ADeprecatedRank)%20.%0A%20%20%3Fitem%20p%3AP2044%20%3Fst%20.%0A%20%20%3Fitem%20wdt%3AP625%20%3Fcoord%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cmul%2Cen%22.%20%7D%0A%7D%0AORDER%20BY%20DESC(%3Felevation)"
+        width="100%" />
+</div>
 <section>
     <h1 class="display-2">Über RetroBites</h1>
     <h2 class="lead">Eine kulinarische Reise durch das Berlin der Jahrhundertwende</h2>

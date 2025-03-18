@@ -15,7 +15,7 @@ def empty_item_redirect():
     with open("static/db.json", "r", encoding="utf-8") as f:
         COLLECTION = json.load(f)
     # Redirect to the item with ID 1
-    return redirect(url_for('item_nr', item_id=1))
+    return redirect(url_for('item_nr', item_id=4))
 
 @app.route("/item/<int:item_id>")
 def item_nr(item_id):
