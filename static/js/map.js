@@ -51,7 +51,7 @@ const setMarkers = (testLocations) => {
     const popupCard = `
     <div class="card" style="width: 22rem; border: none;">
       <div class="card-body">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Bundesarchiv_Bild_183-R99514%2C_Berlin%2C_Wilhelmplatz%2C_Hotel_%22Kaiserhof%22.jpg" alt="...">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Bundesarchiv_Bild_183-R99514%2C_Berlin%2C_Wilhelmplatz%2C_Hotel_%22Kaiserhof%22.jpg" style="width: 20rem;" alt="...">
         <h5 class="mt-3">${element.name}</h5>
         <p>Das Hotel Kaiserhof war das erste Luxushotel in Berlin. Es stand am Wilhelmplatz 3–5 schräg gegenüber der Reichskanzlei im damaligen Berliner Regierungsviertel. Das Hotel wurde im Oktober 1875 eröffnet und am 23. November 1943 durch mehrere Bombeneinschläge zerstört.</p>
         <div class="small text-body-secondary text-center mt-4 mb-2">Quelle: Wikidata und Wikipedia</div>
@@ -70,6 +70,15 @@ const setMarkers = (testLocations) => {
 
 setMarkers(testLocations);
 
+const backButton = L.control({ position: "topright" });
+
+backButton.onAdd = function(map) {
+  var div = L.DomUtil.create("div");
+  div.innerHTML = "<div class='leaflet-control-backButton'><a href='#top'><div class='btn btn-secondary' style='width: 250px;'>Zurück</div ></a> ";
+    return div;
+};
+backButton.addTo(map);
+
 const textOverlay = L.control({ position: "topright" });
 
 textOverlay.onAdd = function(map) {
@@ -79,3 +88,4 @@ textOverlay.onAdd = function(map) {
 };
 
 textOverlay.addTo(map);
+
