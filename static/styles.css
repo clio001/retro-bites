@@ -33,6 +33,28 @@
   
 }
 
+#map {
+    height: 100vh;
+    width: 100vw;
+}
+
+.leaflet-control-textbox {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    width: 250px;
+}
+
+.leaflet-control-backButton {   
+    margin-right: 15px;
+    margin-top: 1rem;
+    font-size: 14px;
+    width: 250px;
+}
+
 .imgMenucard {
     max-width: 350px;
     border-radius: 15px;
