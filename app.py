@@ -38,3 +38,7 @@ def sammlung():
 @app.route("/data")
 def data():
     return render_template("data.html")
+
+@app.route("/team")
+def team():
+    return render_template("team.html")
