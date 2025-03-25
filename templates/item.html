@@ -2,7 +2,7 @@
 
 {% block body %}
 
-<div class="container-fluid pt-3 bg-success-subtle" style="min-height: 96vh;">
+<div class="container-fluid pt-3 bg-danger-subtle" style="min-height: 96vh;">
     <div class="row">
         <div class="col">
             <iframe class="iframeBox"
@@ -32,21 +32,27 @@
                         <div id="collapse{{loop.index}}" class="accordion-collapse collapse "
                             aria-labelledby="heading{{loop.index}}" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <div class="text-end">
-                                    <div class="btn-group" role="group" aria-label="E-mail Info group">
-                                        <div type="button" class="btn btn-outline-secondary">E-Mail</div>
-                                        <div type="button" class="btn btn-outline-secondary">Info</div>
-                                    </div>
-                                </div>
-
-                                <div style="margin-bottom: 1rem;"><strong>Zutaten</strong></div>
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
                                 <div class="listIngredients">
                                     {% for ingredient in dish.ingredients %}
                                     <div class="chip bg-success-subtle">{{ingredient}}</div>
                                     {% endfor %}
                                 </div>
-                                <strong>Zubereitung</strong>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
                                 <p>{{dish.preparation}}</p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
 
                             </div>
                         </div>

@@ -31,6 +31,10 @@ def item_nr(item_id):
         
     return render_template("item.html", item=item)
 
-@app.route("/ueber")
-def ueber():
-    return render_template("ueber.html")
+@app.route("/sammlung")
+def sammlung():
+    return render_template("collection.html")
+
+@app.route("/data")
+def data():
+    return render_template("data.html")
