@@ -1,0 +1,177 @@
+.imgList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.main {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+}
+
+.leaflet-control-textbox {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    width: 250px;
+}
+
+.leaflet-control-backButton {   
+    margin-right: 15px;
+    margin-top: 1rem;
+    font-size: 14px;
+    width: 250px;
+}
+
+.imgMenucard {
+    max-width: 350px;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.feature {
+    z-index: 100;
+   background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px 50px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+    
+
+.bgImg {
+    background-image: url('/static/Berlin_Unter_den_Linden_um_1900.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 95vh;
+        width: 100%;
+       
+  
+}
+
+
+.itemBox{
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+.iframeBox {
+border-radius: 5px;
+}
+
+.startButton {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(255, 152, 152, 0.5);
+    animation: pulsing 1.5s infinite;
+}
+
+.listIngredients {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.chip {
+    padding: 7px 12px 7px 12px;
+    border-radius: 25px;
+    border: 0px;
+    max-width: fit-content;
+    margin: 0.5rem;
+}
+
+
+
+@keyframes pulsing {
+    0% {
+        
+        
+    }
+    10% {
+        scale: 1.05;
+        box-shadow: 0px 0px 10px rgba(255,
+                152,
+                152,
+                0.5);
+    }
+    20% {
+        scale: 1.1;
+        box-shadow: 0px 0px 15px rgba(255,
+                152,
+                152,
+                0.5);
+}
+    30% {scale: 1.15;
+        box-shadow: 0px 0px 20px rgba(255,
+                152,
+                152,
+                0.5);
+    }
+    40% {
+        scale: 1.2;
+        box-shadow: 0px 0px 25px rgba(255,
+                152,
+                152,
+                0.5);
+    }
+    50%{
+        scale: 1.25;
+        box-shadow: 0px 0px 30px rgba(255,
+            152,
+            152,
+            0.5);
+        
+    }
+    60% {
+        scale: 1.2;
+        box-shadow: 0px 0px 25px rgba(255,
+        152,
+        152,
+        0.5);
+    }
+70% {
+    scale: 1.15;
+    box-shadow: 0px 0px 20px rgba(255,
+    152,
+    152,
+    0.5);
+}
+80% {
+    scale: 1.1;
+    box-shadow: 0px 0px 15px rgba(255,
+    152,
+    152,
+    0.5);
+}
+    90% {
+        scale: 1.05;
+        box-shadow: 0px 0px 10px rgba(255,
+                152,
+                152,
+                0.5);
+    }
+                100% {
+                    scale: 1;
+                    box-shadow: 0px 0px 5px rgba(255,
+                            152,
+                            152,
+                            0.5);
+                }
+    
+}

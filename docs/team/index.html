@@ -25,10 +25,10 @@
         </div>
 
 
-        <div class="btn btn-lg" onclick="window.location.href='{{ url_for('index') }}'">START</div>
-<div class="btn btn-lg" onclick="window.location.href='{{ url_for('sammlung') }}'">SAMMLUNG</div>
-<div class="btn btn-lg" onclick="window.location.href='{{ url_for('data') }}'">DATEN</div>
-<div class="btn btn-lg" onclick="window.location.href='{{ url_for('team') }}'">ÜBER</div>
+        <div class="btn btn-lg" onclick="window.location.href='/regC/'">START</div>
+<div class="btn btn-lg" onclick="window.location.href='/regC/sammlung'">SAMMLUNG</div>
+<div class="btn btn-lg" onclick="window.location.href='/regC/data'">DATEN</div>
+<div class="btn btn-lg" onclick="window.location.href='/regC/team/'">ÜBER</div>
         <div class="text-end" style="width: 100%;">
             <img src="/static/stabilab-logo.png" alt="" height="64px">
         </div>
@@ -38,7 +38,44 @@
 
 
 
-        {%block body%}{%endblock%}
+        
+
+<div class="display-3 p-5">Über</div>
+<div class="lead ps-5 pb-5" style="width: 95ch;">Diese Web-Anwendung wurde von Januar bis April 2025 von einem
+    fünf-köpfigen Team der Staatsbibliothek zu Berlin entwickelt.</div>
+
+<hr class="ms-5 me-5 ps-5 pt-5">
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="h5">Transkription und Auszeichnung</div>
+            <p>Stefanie Arendt<br>Judith Utz<br>Aniko</p>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <div class="h5">Datenmanagement und Webentwicklung</div>
+            <p>Roman Kuhn<br>John Woitkowitz</p>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <div class="h5">Kontakt</div>
+            <p>lab.sbb.berlin | lab@sbb.spk-berlin.de</p>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Logo_Staatsbibliothek_zu_Berlin.svg"
+                alt="Logo der Staatsbibliothek zu Berlin" style="height: 50px;">
+        </div>
+    </div>
+
+</div>
+</div>
+
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>

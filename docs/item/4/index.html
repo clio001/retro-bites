@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+            integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+            crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+            integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+            crossorigin=""></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <title>RetroBites - Eine kulinarische Reise durch das Berlin der Jahrhundertwende</title>
+    </head>
+
+    <body>
+
+        <div id="top" class="" style="display: flex; align-items:center; width: 100%; box-shadow: 0 0 10px 0 grey"">
+            <div class=" text-start">
+            <img src="/static/ndb.png" alt="" style="height: 64px; margin-right: 20px;">
+        </div>
+
+
+        <div class="btn btn-lg" onclick="window.location.href='/regC/'">START</div>
+<div class="btn btn-lg" onclick="window.location.href='/regC/sammlung'">SAMMLUNG</div>
+<div class="btn btn-lg" onclick="window.location.href='/regC/data'">DATEN</div>
+<div class="btn btn-lg" onclick="window.location.href='/regC/team/'">ÜBER</div>
+        <div class="text-end" style="width: 100%;">
+            <img src="/static/stabilab-logo.png" alt="" height="64px">
+        </div>
+        </div>
+        </div>
+
+
+
+
+        
+
+<div class="container-fluid pt-3 bg-danger-subtle" style="min-height: 96vh;">
+    <div class="row">
+        <div class="col">
+            <iframe class="iframeBox"
+                src="https://mirador.staatsbibliothek-berlin.de/?manifest=https://content.staatsbibliothek-berlin.de/dc/1778361846/manifest"
+                width="100%" height="850" allowfullscreen></iframe>
+        </div>
+        <div class="col">
+
+            <div class="itemBox">
+                <div class="text-center">
+                    <div class="display-6 p-3 mt-3">Speisen-Ordnung, 4a Unter den Linden</div>
+                    <div class="lead p-1">1874</div>
+                </div>
+                <div class="text-center mt-5"><img src="/static/flower1.svg" width="48" height="48" /></div>
+
+                <div class="accordion" style="padding: 3rem 10rem 10rem 10rem" id="accordionExample">
+
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading1">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse1" aria-expanded="false"
+                                aria-controls="collapse1">
+                                Englische Austern
+                            </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse "
+                            aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                    <div class="chip bg-success-subtle">Frische englische Austern</div>
+                                    
+                                    <div class="chip bg-success-subtle">Zitronenscheiben</div>
+                                    
+                                    <div class="chip bg-success-subtle">Worcestershire-Sauce</div>
+                                    
+                                    <div class="chip bg-success-subtle">Schwarzer Pfeffer</div>
+                                    
+                                    <div class="chip bg-success-subtle">Butterbrot oder Roggenbrot</div>
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p>Frische Austern müssen sorgfältig geprüft werden. Nur geschlossene Austern sind frisch. Mit einem Austernmesser behutsam öffnen, dabei darauf achten, das Austernwasser nicht zu verlieren. Das Fleisch in der tiefen Schale belassen und direkt auf Eis legen. Die Austern auf einer silbernen Platte anrichten und mit Zitronenscheiben servieren. Feinschmecker geben einige Tropfen Worcestershire-Sauce oder etwas schwarzen Pfeffer hinzu. Als Beilage reicht man dunkles Roggenbrot oder feines Butterbrot. Zu diesem Gericht empfiehlt sich ein kühler Weißwein oder ein Glas Champagner.</p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse2" aria-expanded="false"
+                                aria-controls="collapse2">
+                                Hühnerbrühe
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse "
+                            aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                    <div class="chip bg-success-subtle">Huhn</div>
+                                    
+                                    <div class="chip bg-success-subtle">Wasser</div>
+                                    
+                                    <div class="chip bg-success-subtle">Karotten</div>
+                                    
+                                    <div class="chip bg-success-subtle">Sellerie</div>
+                                    
+                                    <div class="chip bg-success-subtle">Zwiebeln</div>
+                                    
+                                    <div class="chip bg-success-subtle">Lorbeerblatt</div>
+                                    
+                                    <div class="chip bg-success-subtle">Petersilie</div>
+                                    
+                                    <div class="chip bg-success-subtle">Salz</div>
+                                    
+                                    <div class="chip bg-success-subtle">Weißer Pfeffer</div>
+                                    
+                                    <div class="chip bg-success-subtle">Muskatnuss</div>
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p>Ein frisches Huhn sorgfältig reinigen und in Stücke zerteilen. In einen großen Suppentopf mit kaltem Wasser geben und langsam zum Sieden bringen. Beim ersten Aufkochen den Schaum mit einer Kelle abschöpfen. Fein geschnittene Karotten, Sellerie und Zwiebeln hinzufügen. Ein Lorbeerblatt und einige Stängel frischer Petersilie einlegen. Mit Salz, weißem Pfeffer und einer Prise geriebener Muskatnuss würzen. Die Suppe mindestens drei Stunden sanft köcheln lassen, bis das Fleisch sich leicht vom Knochen löst. Anschließend durch ein feines Sieb passieren und heiß servieren.</p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse3" aria-expanded="false"
+                                aria-controls="collapse3">
+                                Forellen.
+                            </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse "
+                            aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                    <div class="chip bg-success-subtle">Frische Forellen</div>
+                                    
+                                    <div class="chip bg-success-subtle">Butter</div>
+                                    
+                                    <div class="chip bg-success-subtle">Zitrone</div>
+                                    
+                                    <div class="chip bg-success-subtle">Salz</div>
+                                    
+                                    <div class="chip bg-success-subtle">Weißer Pfeffer</div>
+                                    
+                                    <div class="chip bg-success-subtle">Petersilie</div>
+                                    
+                                    <div class="chip bg-success-subtle">Mehl zum Bestäuben</div>
+                                    
+                                    <div class="chip bg-success-subtle">Fischfond oder Weißwein</div>
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p>Die Forellen säubern und gut abtrocknen. Innen und außen mit Salz und weißem Pfeffer würzen. Eine leichte Mehlschicht auftragen, um eine feine Kruste zu erhalten. In einer schweren gusseisernen Pfanne Butter erhitzen und die Forellen bei mittlerer Hitze auf beiden Seiten goldbraun braten. Nach dem Wenden mit etwas Fischfond oder Weißwein ablöschen und einige Minuten ziehen lassen. Mit gehackter Petersilie bestreuen und mit Zitronenscheiben anrichten. Dazu passen Salzkartoffeln oder gedünsteter Spargel.</p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse4" aria-expanded="false"
+                                aria-controls="collapse4">
+                                Rehziemer.
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse "
+                            aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                    <div class="chip bg-success-subtle">Rehkeule oder Rücken</div>
+                                    
+                                    <div class="chip bg-success-subtle">Rotwein</div>
+                                    
+                                    <div class="chip bg-success-subtle">Wacholderbeeren</div>
+                                    
+                                    <div class="chip bg-success-subtle">Nelken</div>
+                                    
+                                    <div class="chip bg-success-subtle">Lorbeerblatt</div>
+                                    
+                                    <div class="chip bg-success-subtle">Zwiebeln</div>
+                                    
+                                    <div class="chip bg-success-subtle">Karotten</div>
+                                    
+                                    <div class="chip bg-success-subtle">Sellerie</div>
+                                    
+                                    <div class="chip bg-success-subtle">Speck</div>
+                                    
+                                    <div class="chip bg-success-subtle">Wildfond</div>
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p>Das Rehfleisch in einem Sud aus Rotwein, zerstoßenen Wacholderbeeren, Nelken und Lorbeerblatt für 24 Stunden marinieren. Danach das Fleisch abtrocknen und in einer schweren Pfanne mit ausgelassenem Speck anbraten. Fein gehackte Zwiebeln, Karotten und Sellerie hinzugeben und anrösten. Anschließend mit dem abgeseihten Rotweinsud und Wildfond ablöschen. Bei mäßiger Hitze mindestens zwei Stunden schmoren, bis das Fleisch zart ist. Die Sauce passieren und mit Mehl oder Stärke leicht binden. Dazu serviert man Rotkohl und Semmelknödel.</p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading5">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse5" aria-expanded="false"
+                                aria-controls="collapse5">
+                                Artischocken mit Kalbsmilch.
+                            </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse "
+                            aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                    <div class="chip bg-success-subtle">Frische Artischocken</div>
+                                    
+                                    <div class="chip bg-success-subtle">Kalbsmilch (Thymusdrüse)</div>
+                                    
+                                    <div class="chip bg-success-subtle">Butter</div>
+                                    
+                                    <div class="chip bg-success-subtle">Schalotten</div>
+                                    
+                                    <div class="chip bg-success-subtle">Weißwein</div>
+                                    
+                                    <div class="chip bg-success-subtle">Rinderbrühe</div>
+                                    
+                                    <div class="chip bg-success-subtle">Zitrone</div>
+                                    
+                                    <div class="chip bg-success-subtle">Salz</div>
+                                    
+                                    <div class="chip bg-success-subtle">Pfeffer</div>
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p>Die Artischocken von harten Blättern befreien und den Stiel kürzen. In Salzwasser mit Zitronensaft kochen, bis sie weich sind. Die Kalbsmilch in kaltem Wasser wässern, dann kurz in heißem Wasser blanchieren und die feine Haut abziehen. In einer schweren Pfanne Schalotten in Butter anschwitzen, die Kalbsmilch zugeben und leicht anbräunen. Mit Weißwein ablöschen und mit Rinderbrühe auffüllen. Kurz schmoren, dann mit den gekochten Artischocken servieren. Dazu reicht man eine Sauce aus Butter und feinem Zitronensaft.</p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading6">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse6" aria-expanded="false"
+                                aria-controls="collapse6">
+                                Schnepfen
+                            </button>
+                        </h2>
+                        <div id="collapse6" class="accordion-collapse collapse "
+                            aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                    <div class="chip bg-success-subtle">Schnepfen (Wildvögel)</div>
+                                    
+                                    <div class="chip bg-success-subtle">Speck</div>
+                                    
+                                    <div class="chip bg-success-subtle">Butter</div>
+                                    
+                                    <div class="chip bg-success-subtle">Rotwein</div>
+                                    
+                                    <div class="chip bg-success-subtle">Schalotten</div>
+                                    
+                                    <div class="chip bg-success-subtle">Thymian</div>
+                                    
+                                    <div class="chip bg-success-subtle">Rosmarin</div>
+                                    
+                                    <div class="chip bg-success-subtle">Wacholderbeeren</div>
+                                    
+                                    <div class="chip bg-success-subtle">Toastbrot</div>
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p>Die Schnepfen sorgfältig rupfen, ausnehmen und mit Speckstreifen umwickeln. In einer gusseisernen Pfanne Butter zerlassen und die Schnepfen von allen Seiten anbraten. Dann aus der Pfanne nehmen und im Bratenrückstand fein gehackte Schalotten anschwitzen. Mit Rotwein ablöschen, einige Wacholderbeeren, Thymian und Rosmarin hinzugeben. Die Schnepfen in diesen Sud legen und langsam garen. Nach etwa 40 Minuten herausnehmen und ruhen lassen. Die Sauce passieren und über geröstetes Toastbrot geben. Die Schnepfen darauf anrichten und heiß servieren.</p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

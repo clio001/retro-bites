@@ -2,6 +2,10 @@ from flask import Flask, request, render_template, redirect, url_for, abort
 import json
 
 app = Flask(__name__)
+app.config['FREEZER_BASE_URL'] = 'https://r0man-ist.github.io/regC/'
+app.config['FREEZER_DESTINATION'] = 'docs'
+app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
+
 
 @app.route("/", methods=["GET"])
 def index():
@@ -10,14 +14,14 @@ def index():
     
     return render_template("index.html", menucards=COLLECTION)
 
-@app.route("/item")
+@app.route("/item/default")
 def empty_item_redirect():
     with open("static/db.json", "r", encoding="utf-8") as f:
         COLLECTION = json.load(f)
     # Redirect to the item with ID 1
     return redirect(url_for('item_nr', item_id=4))
 
-@app.route("/item/<int:item_id>")
+@app.route("/item/<int:item_id>/")
 def item_nr(item_id):
     with open("static/db.json", "r", encoding="utf-8") as f:
         COLLECTION = json.load(f)
@@ -39,6 +43,6 @@ def sammlung():
 def data():
     return render_template("data.html")
 
-@app.route("/team")
+@app.route("/team/")
 def team():
-    return render_template("team.html")
+    return render_template("team.html/")
