@@ -35,14 +35,14 @@ def item_nr(item_id):
         
     return render_template("item.html", item=item)
 
-@app.route("/sammlung")
+@app.route("/sammlung/")
 def sammlung():
     return render_template("collection.html")
 
-@app.route("/data")
+@app.route("/data/")
 def data():
     return render_template("data.html")
 
 @app.route("/team/")
 def team():
-    return render_template("team.html/")
+    return render_template("team.html")
