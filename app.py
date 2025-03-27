@@ -2,7 +2,7 @@ from flask import Flask, request, render_template, redirect, url_for, abort
 import json
 
 app = Flask(__name__)
-app.config['FREEZER_BASE_URL'] = 'https://r0man-ist.github.io/regC/'
+app.config['FREEZER_BASE_URL'] = 'https://r0man-ist.github.io/retro-bites/'
 app.config['FREEZER_DESTINATION'] = 'docs'
 app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
 
