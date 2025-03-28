@@ -57,7 +57,7 @@ const setMarkers = (testLocations) => {
         <div class="small text-body-secondary text-center mt-4 mb-2">Quelle: Wikidata und Wikipedia</div>
         <hr/>
         <div class="text-center">
-          <div class="btn btn-secondary" onclick="window.location.href='retro-bites/item/${element.id}'">Menükarte</div>
+          <div class="btn btn-secondary" onclick="window.location.href='item/${element.id}'">Menükarte</div>
         </div>
         
       </div>
