@@ -16,7 +16,7 @@
                     <div class="display-6 p-3 mt-3">{{item.title}}</div>
                     <div class="lead p-1">{{item.date}}</div>
                 </div>
-                <div class="text-center mt-5"><img src="/static/flower1.svg" width="48" height="48" /></div>
+                <div class="text-center mt-5"><img src="{{ url_for('static', filename='flower1.svg') }}" width="48" height="48" /></div>
 
                 <div class="accordion" style="padding: 3rem 10rem 10rem 10rem" id="accordionExample">
 
