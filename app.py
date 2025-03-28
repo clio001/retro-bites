@@ -5,7 +5,6 @@ app = Flask(__name__)
 app.config['FREEZER_BASE_URL'] = 'https://r0man-ist.github.io/retro-bites/'
 app.config['FREEZER_DESTINATION'] = 'docs'
 app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
-app.config['FREEZER_RELATIVE_URLS'] = True
 
 @app.route("/", methods=["GET"])
 def index():
