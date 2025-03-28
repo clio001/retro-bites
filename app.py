@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.config['FREEZER_BASE_URL'] = 'https://r0man-ist.github.io/retro-bites/'
 app.config['FREEZER_DESTINATION'] = 'docs'
 app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
-
+app.config['FREEZER_RELATIVE_URLS'] = True
 
 @app.route("/", methods=["GET"])
 def index():
@@ -14,12 +14,13 @@ def index():
     
     return render_template("index.html", menucards=COLLECTION)
 
-@app.route("/item/default")
+# no longer needed (?)
+"""@app.route("/item/default")
 def empty_item_redirect():
     with open("static/db.json", "r", encoding="utf-8") as f:
         COLLECTION = json.load(f)
     # Redirect to the item with ID 1
-    return redirect(url_for('item_nr', item_id=4))
+    return redirect(url_for('item_nr', item_id=4))"""
 
 @app.route("/item/<int:item_id>/")
 def item_nr(item_id):
@@ -33,7 +34,7 @@ def item_nr(item_id):
         abort(404)  # Item not found, return a 404 error
 
         
-    return render_template("item.html", item=item)
+    return render_template("item.html", item=item,  _external=True)
 
 @app.route("/sammlung/")
 def sammlung():
