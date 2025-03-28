@@ -51,7 +51,7 @@
     
 
 .bgImg {
-    background-image: url("{{ url_for('static', filename='Berlin_Unter_den_Linden_um_1900.jpg') }}");
+    background-image: url('/retro-bites/static/Berlin_Unter_den_Linden_um_1900.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
