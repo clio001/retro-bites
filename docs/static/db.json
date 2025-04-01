@@ -1,90 +1,94 @@
 [
     {
         "id": 1,
-        "title": "Men\u00fc, Hotel Kaiserhof",
+        "title": "Menü, Hotel Kaiserhof",
         "date": "1901",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778979165",
-        "PPN": "1778979165",
         "dishes": [
-    {
-        "id": 1,
-        "name": "Holländer Austern.",
-        "description": ""
+            {
+                "id": 1,
+                "name": "Hollaͤnder Austern.",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Ochsenschwanzsuppe",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Kraftbruͤhe mit Gemuͤse.",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Ostender Seezunge nach Marguery",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Merlans im Ofen gebacken.",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Lammbraten mit Zwiebelsauce",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Ochsenrippenstuͤck, Chorronsauce.",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Mittelmeer Langusten auf russische Art.",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Junge Pute",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Boͤhmischer Goldfasan",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Salat.",
+                "description": ""
+            },
+            {
+                "id": 12,
+                "name": "Koͤnigsberger Bombe.",
+                "description": ""
+            },
+            {
+                "id": 13,
+                "name": "Butter und Kaͤse.",
+                "description": ""
+            },
+            {
+                "id": 14,
+                "name": "Nachtisch.",
+                "description": ""
+            }
+        ],
+        "PPN": "1778979165",
+        "place": {
+            "Name": "Hotel Kaiserhof",
+            "WikiData": "https://www.wikidata.org/wiki/Q320591",
+            "lat": "52.5117",
+            "long": "13.3854"
+        }
     },
     {
         "id": 2,
-        "name": "Ochsenschwanzsuppe",
-        "description": ""
-    },
-    {
-        "id": 3,
-        "name": "Kraftbrühe mit Gemüse.",
-        "description": ""
-    },
-    {
-        "id": 4,
-        "name": "Ostender Seezunge nach Marguery",
-        "description": ""
-    },
-    {
-        "id": 5,
-        "name": "Merlans im Ofen gebacken.",
-        "description": ""
-    },
-    {
-        "id": 6,
-        "name": "Lammbraten mit Zwiebelsauce",
-        "description": ""
-    },
-    {
-        "id": 7,
-        "name": "Ochsenrippenstück, Chorronsauce.",
-        "description": ""
-    },
-    {
-        "id": 8,
-        "name": "Mittelmeer Langusten auf russische Art.",
-        "description": ""
-    },
-    {
-        "id": 9,
-        "name": "Junge Pute",
-        "description": ""
-    },
-    {
-        "id": 10,
-        "name": "Böhmischer Goldfasan",
-        "description": ""
-    },
-    {
-        "id": 11,
-        "name": "Salat.",
-        "description": ""
-    },
-    {
-        "id": 12,
-        "name": "Königsberger Bombe.",
-        "description": ""
-    },
-    {
-        "id": 13,
-        "name": "Butter und Käse.",
-        "description": ""
-    },
-    {
-        "id": 14,
-        "name": "Nachtisch.",
-        "description": ""
-    }
-]
-
-    },
-    {
-        "id": 2,
-        "title": "Zur Hochzeitsfeier v. Fr\u00e4ulein Charotte Kappel mit Herrn Jakob Loeb, Hotel Adlon",
+        "title": "Zur Hochzeitsfeier v. Fräulein Charotte Kappel mit Herrn Jakob Loeb, Hotel Adlon",
         "date": "1913",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778977553",
-        "PPN": "1778977553",
         "dishes": [
             {
                 "id": 1,
@@ -141,192 +145,1085 @@
                 "name": "FRÜCHTE — NACHTISCH",
                 "description": ""
             }
-        ]
-
+        ],
+        "PPN": "1778977553",
+        "place": {
+            "Name": "Hotel Adlon",
+            "WikiData": "https://www.wikidata.org/wiki/Q123117397",
+            "lat": "52.516",
+            "long": "13.38"
+        }
     },
     {
         "id": 3,
-        "title": "Men\u00fc, Rudeolf Dressel, U.d. Linden 50",
+        "title": "Menü, Rudolf Dressel, U.d. Linden 50",
         "date": "1887",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778319645",
-        "PPN": "1778319645",
         "dishes": [
-    {
-        "id": 1,
-        "name": "Natives.",
-        "description": ""
-    },
-    {
-        "id": 2,
-        "name": "Consommé à la Printanière.",
-        "description": ""
-    },
-    {
-        "id": 3,
-        "name": "Real turtle Soup.",
-        "description": ""
-    },
-    {
-        "id": 4,
-        "name": "Truites aux bleu.",
-        "description": ""
-    },
-    {
-        "id": 5,
-        "name": "South down à la Soubise.",
-        "description": ""
-    },
-    {
-        "id": 6,
-        "name": "Epinards nouveaux aux cailles.",
-        "description": ""
-    },
-    {
-        "id": 7,
-        "name": "Asperges en branches.",
-        "description": ""
-    },
-    {
-        "id": 8,
-        "name": "Homards en Bellevue.",
-        "description": ""
-    },
-    {
-        "id": 9,
-        "name": "Poularde.",
-        "description": ""
-    },
-    {
-        "id": 10,
-        "name": "Bécasses",
-        "description": ""
-    },
-    {
-        "id": 11,
-        "name": "Salade romaine.",
-        "description": ""
-    },
-    {
-        "id": 12,
-        "name": "Compot.",
-        "description": ""
-    },
-    {
-        "id": 13,
-        "name": "Timbal d'ananas.",
-        "description": ""
-    },
-    {
-        "id": 14,
-        "name": "Dessert et Fruits.",
-        "description": ""
-    }
-]
-
+            {
+                "id": 1,
+                "name": "Natives.",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Consommé à la Printanière.",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Real turtle Soup.",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Truîtes aux bleu.",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "South down à la Soubise.",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Epinards nouveaux aux cailles.",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Asperges en branches.",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Homards en Bellevue.",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Poularde.",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Bécasses",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Salade romaine.",
+                "description": ""
+            },
+            {
+                "id": 12,
+                "name": "Compot.",
+                "description": ""
+            },
+            {
+                "id": 13,
+                "name": "Timbal d'ananas.",
+                "description": ""
+            },
+            {
+                "id": 14,
+                "name": "Dessert et Fruits.",
+                "description": ""
+            }
+        ],
+        "PPN": "1778319645",
+        "place": {
+            "Name": "Restaurant Rudolf Dressel",
+            "WikiData": null,
+            "lat": "52.5117",
+            "long": "13.3854"
+        }
     },
     {
         "id": 4,
         "title": "Speisen-Ordnung, 4a Unter den Linden",
         "date": "1874",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778361846",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Englische Austern",
+                "ingredients": [
+                    "Frische englische Austern",
+                    "Zitronenscheiben",
+                    "Worcestershire-Sauce",
+                    "Schwarzer Pfeffer",
+                    "Butterbrot oder Roggenbrot"
+                ],
+                "preparation": "Frische Austern müssen sorgfältig geprüft werden. Nur geschlossene Austern sind frisch. Mit einem Austernmesser behutsam öffnen, dabei darauf achten, das Austernwasser nicht zu verlieren. Das Fleisch in der tiefen Schale belassen und direkt auf Eis legen. Die Austern auf einer silbernen Platte anrichten und mit Zitronenscheiben servieren. Feinschmecker geben einige Tropfen Worcestershire-Sauce oder etwas schwarzen Pfeffer hinzu. Als Beilage reicht man dunkles Roggenbrot oder feines Butterbrot. Zu diesem Gericht empfiehlt sich ein kühler Weißwein oder ein Glas Champagner."
+            },
+            {
+                "id": 2,
+                "name": "Hühnerbrühe",
+                "ingredients": [
+                    "Huhn",
+                    "Wasser",
+                    "Karotten",
+                    "Sellerie",
+                    "Zwiebeln",
+                    "Lorbeerblatt",
+                    "Petersilie",
+                    "Salz",
+                    "Weißer Pfeffer",
+                    "Muskatnuss"
+                ],
+                "preparation": "Ein frisches Huhn sorgfältig reinigen und in Stücke zerteilen. In einen großen Suppentopf mit kaltem Wasser geben und langsam zum Sieden bringen. Beim ersten Aufkochen den Schaum mit einer Kelle abschöpfen. Fein geschnittene Karotten, Sellerie und Zwiebeln hinzufügen. Ein Lorbeerblatt und einige Stängel frischer Petersilie einlegen. Mit Salz, weißem Pfeffer und einer Prise geriebener Muskatnuss würzen. Die Suppe mindestens drei Stunden sanft köcheln lassen, bis das Fleisch sich leicht vom Knochen löst. Anschließend durch ein feines Sieb passieren und heiß servieren."
+            },
+            {
+                "id": 3,
+                "name": "Forellen.",
+                "ingredients": [
+                    "Frische Forellen",
+                    "Butter",
+                    "Zitrone",
+                    "Salz",
+                    "Weißer Pfeffer",
+                    "Petersilie",
+                    "Mehl zum Bestäuben",
+                    "Fischfond oder Weißwein"
+                ],
+                "preparation": "Die Forellen säubern und gut abtrocknen. Innen und außen mit Salz und weißem Pfeffer würzen. Eine leichte Mehlschicht auftragen, um eine feine Kruste zu erhalten. In einer schweren gusseisernen Pfanne Butter erhitzen und die Forellen bei mittlerer Hitze auf beiden Seiten goldbraun braten. Nach dem Wenden mit etwas Fischfond oder Weißwein ablöschen und einige Minuten ziehen lassen. Mit gehackter Petersilie bestreuen und mit Zitronenscheiben anrichten. Dazu passen Salzkartoffeln oder gedünsteter Spargel."
+            },
+            {
+                "id": 4,
+                "name": "Rehziemer.",
+                "ingredients": [
+                    "Rehkeule oder Rücken",
+                    "Rotwein",
+                    "Wacholderbeeren",
+                    "Nelken",
+                    "Lorbeerblatt",
+                    "Zwiebeln",
+                    "Karotten",
+                    "Sellerie",
+                    "Speck",
+                    "Wildfond"
+                ],
+                "preparation": "Das Rehfleisch in einem Sud aus Rotwein, zerstoßenen Wacholderbeeren, Nelken und Lorbeerblatt für 24 Stunden marinieren. Danach das Fleisch abtrocknen und in einer schweren Pfanne mit ausgelassenem Speck anbraten. Fein gehackte Zwiebeln, Karotten und Sellerie hinzugeben und anrösten. Anschließend mit dem abgeseihten Rotweinsud und Wildfond ablöschen. Bei mäßiger Hitze mindestens zwei Stunden schmoren, bis das Fleisch zart ist. Die Sauce passieren und mit Mehl oder Stärke leicht binden. Dazu serviert man Rotkohl und Semmelknödel."
+            },
+            {
+                "id": 5,
+                "name": "Artischocken mit Kalbsmilch.",
+                "ingredients": [
+                    "Frische Artischocken",
+                    "Kalbsmilch (Thymusdrüse)",
+                    "Butter",
+                    "Schalotten",
+                    "Weißwein",
+                    "Rinderbrühe",
+                    "Zitrone",
+                    "Salz",
+                    "Pfeffer"
+                ],
+                "preparation": "Die Artischocken von harten Blättern befreien und den Stiel kürzen. In Salzwasser mit Zitronensaft kochen, bis sie weich sind. Die Kalbsmilch in kaltem Wasser wässern, dann kurz in heißem Wasser blanchieren und die feine Haut abziehen. In einer schweren Pfanne Schalotten in Butter anschwitzen, die Kalbsmilch zugeben und leicht anbräunen. Mit Weißwein ablöschen und mit Rinderbrühe auffüllen. Kurz schmoren, dann mit den gekochten Artischocken servieren. Dazu reicht man eine Sauce aus Butter und feinem Zitronensaft."
+            },
+            {
+                "id": 6,
+                "name": "Schnepfen",
+                "ingredients": [
+                    "Schnepfen (Wildvögel)",
+                    "Speck",
+                    "Butter",
+                    "Rotwein",
+                    "Schalotten",
+                    "Thymian",
+                    "Rosmarin",
+                    "Wacholderbeeren",
+                    "Toastbrot"
+                ],
+                "preparation": "Die Schnepfen sorgfältig rupfen, ausnehmen und mit Speckstreifen umwickeln. In einer gusseisernen Pfanne Butter zerlassen und die Schnepfen von allen Seiten anbraten. Dann aus der Pfanne nehmen und im Bratenrückstand fein gehackte Schalotten anschwitzen. Mit Rotwein ablöschen, einige Wacholderbeeren, Thymian und Rosmarin hinzugeben. Die Schnepfen in diesen Sud legen und langsam garen. Nach etwa 40 Minuten herausnehmen und ruhen lassen. Die Sauce passieren und über geröstetes Toastbrot geben. Die Schnepfen darauf anrichten und heiß servieren."
+            }
+        ],
         "PPN": "1778361846",
-       "dishes": [
-    {
-        "id": 1,
-        "name": "Englische Austern",
-        "ingredients": [
-            "Frische englische Austern",
-            "Zitronenscheiben",
-            "Worcestershire-Sauce",
-            "Schwarzer Pfeffer",
-            "Butterbrot oder Roggenbrot"
-        ],
-        "preparation": "Frische Austern müssen sorgfältig geprüft werden. Nur geschlossene Austern sind frisch. Mit einem Austernmesser behutsam öffnen, dabei darauf achten, das Austernwasser nicht zu verlieren. Das Fleisch in der tiefen Schale belassen und direkt auf Eis legen. Die Austern auf einer silbernen Platte anrichten und mit Zitronenscheiben servieren. Feinschmecker geben einige Tropfen Worcestershire-Sauce oder etwas schwarzen Pfeffer hinzu. Als Beilage reicht man dunkles Roggenbrot oder feines Butterbrot. Zu diesem Gericht empfiehlt sich ein kühler Weißwein oder ein Glas Champagner."
-    },
-    {
-        "id": 2,
-        "name": "Hühnerbrühe",
-        "ingredients": [
-            "Huhn",
-            "Wasser",
-            "Karotten",
-            "Sellerie",
-            "Zwiebeln",
-            "Lorbeerblatt",
-            "Petersilie",
-            "Salz",
-            "Weißer Pfeffer",
-            "Muskatnuss"
-        ],
-        "preparation": "Ein frisches Huhn sorgfältig reinigen und in Stücke zerteilen. In einen großen Suppentopf mit kaltem Wasser geben und langsam zum Sieden bringen. Beim ersten Aufkochen den Schaum mit einer Kelle abschöpfen. Fein geschnittene Karotten, Sellerie und Zwiebeln hinzufügen. Ein Lorbeerblatt und einige Stängel frischer Petersilie einlegen. Mit Salz, weißem Pfeffer und einer Prise geriebener Muskatnuss würzen. Die Suppe mindestens drei Stunden sanft köcheln lassen, bis das Fleisch sich leicht vom Knochen löst. Anschließend durch ein feines Sieb passieren und heiß servieren."
-    },
-    {
-        "id": 3,
-        "name": "Forellen.",
-        "ingredients": [
-            "Frische Forellen",
-            "Butter",
-            "Zitrone",
-            "Salz",
-            "Weißer Pfeffer",
-            "Petersilie",
-            "Mehl zum Bestäuben",
-            "Fischfond oder Weißwein"
-        ],
-        "preparation": "Die Forellen säubern und gut abtrocknen. Innen und außen mit Salz und weißem Pfeffer würzen. Eine leichte Mehlschicht auftragen, um eine feine Kruste zu erhalten. In einer schweren gusseisernen Pfanne Butter erhitzen und die Forellen bei mittlerer Hitze auf beiden Seiten goldbraun braten. Nach dem Wenden mit etwas Fischfond oder Weißwein ablöschen und einige Minuten ziehen lassen. Mit gehackter Petersilie bestreuen und mit Zitronenscheiben anrichten. Dazu passen Salzkartoffeln oder gedünsteter Spargel."
-    },
-    {
-        "id": 4,
-        "name": "Rehziemer.",
-        "ingredients": [
-            "Rehkeule oder Rücken",
-            "Rotwein",
-            "Wacholderbeeren",
-            "Nelken",
-            "Lorbeerblatt",
-            "Zwiebeln",
-            "Karotten",
-            "Sellerie",
-            "Speck",
-            "Wildfond"
-        ],
-        "preparation": "Das Rehfleisch in einem Sud aus Rotwein, zerstoßenen Wacholderbeeren, Nelken und Lorbeerblatt für 24 Stunden marinieren. Danach das Fleisch abtrocknen und in einer schweren Pfanne mit ausgelassenem Speck anbraten. Fein gehackte Zwiebeln, Karotten und Sellerie hinzugeben und anrösten. Anschließend mit dem abgeseihten Rotweinsud und Wildfond ablöschen. Bei mäßiger Hitze mindestens zwei Stunden schmoren, bis das Fleisch zart ist. Die Sauce passieren und mit Mehl oder Stärke leicht binden. Dazu serviert man Rotkohl und Semmelknödel."
+        "place": {
+            "Name": "Restaurant Unter den Linden 4a",
+            "WikiData": null,
+            "lat": "52.51827273011844",
+            "long": "13.395581844179343"
+        }
     },
     {
         "id": 5,
-        "name": "Artischocken mit Kalbsmilch.",
-        "ingredients": [
-            "Frische Artischocken",
-            "Kalbsmilch (Thymusdrüse)",
-            "Butter",
-            "Schalotten",
-            "Weißwein",
-            "Rinderbrühe",
-            "Zitrone",
-            "Salz",
-            "Pfeffer"
+        "title": "Menü, Hotel Bristol, Unter den Linden 5",
+        "date": "1894",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778366228",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Rindsſuppe",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Lendenbraten",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "neue Kartoffeln",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "frische Carotten",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "frische Morcheln",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "gemästete Hühner",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Salat",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "frischer Spargel",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Reispudding",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Käse und Butter",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Nachtisch",
+                "description": ""
+            }
         ],
-        "preparation": "Die Artischocken von harten Blättern befreien und den Stiel kürzen. In Salzwasser mit Zitronensaft kochen, bis sie weich sind. Die Kalbsmilch in kaltem Wasser wässern, dann kurz in heißem Wasser blanchieren und die feine Haut abziehen. In einer schweren Pfanne Schalotten in Butter anschwitzen, die Kalbsmilch zugeben und leicht anbräunen. Mit Weißwein ablöschen und mit Rinderbrühe auffüllen. Kurz schmoren, dann mit den gekochten Artischocken servieren. Dazu reicht man eine Sauce aus Butter und feinem Zitronensaft."
+        "PPN": "1778366228",
+        "place": {
+            "Name": "Hotel Bristol",
+            "WikiData": "https://www.wikidata.org/wiki/Q1630839",
+            "lat": "52.5162",
+            "long": "13.3835"
+        }
     },
     {
         "id": 6,
-        "name": "Schnepfen",
-        "ingredients": [
-            "Schnepfen (Wildvögel)",
-            "Speck",
-            "Butter",
-            "Rotwein",
-            "Schalotten",
-            "Thymian",
-            "Rosmarin",
-            "Wacholderbeeren",
-            "Toastbrot"
+        "title": "Menü, Rudolf Dressel Hoflieferant, Unter den Linden 50",
+        "date": "1888",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778266207",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Schildkröten-Suppe.",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Steinbutte m/ Austern-Sauce",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Englischer Hammelrücken m/ jungen Gemüsen",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Krebse.",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Junge Gans",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Gurken-Salat.",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Stangen-Spargel.",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Eis",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Dessert.",
+                "description": ""
+            }
         ],
-        "preparation": "Die Schnepfen sorgfältig rupfen, ausnehmen und mit Speckstreifen umwickeln. In einer gusseisernen Pfanne Butter zerlassen und die Schnepfen von allen Seiten anbraten. Dann aus der Pfanne nehmen und im Bratenrückstand fein gehackte Schalotten anschwitzen. Mit Rotwein ablöschen, einige Wacholderbeeren, Thymian und Rosmarin hinzugeben. Die Schnepfen in diesen Sud legen und langsam garen. Nach etwa 40 Minuten herausnehmen und ruhen lassen. Die Sauce passieren und über geröstetes Toastbrot geben. Die Schnepfen darauf anrichten und heiß servieren."
-    }
-]
-
-
-
+        "PPN": "1778266207",
+        "place": {
+            "Name": "Restaurant Rudolf Dressel",
+            "WikiData": null,
+            "lat": "52.5117",
+            "long": "13.3854"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Menü, Berlin Hotel Brisol unter den Linden 5",
+        "date": "1892",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778323286",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Caviar sur socle",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Consommé aux nids d'hirondelles",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Homard à l'américaine",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Selle de pré-salé à la Richelieu",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Timibale denatives a Capoulette",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Truffes de Périgord au vin de Champagne",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Bécasse sur Croûtons",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Salade",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Asperges primeures hollandaise",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Pèches à la bordaloue",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Paillet au Fromage",
+                "description": ""
+            },
+            {
+                "id": 12,
+                "name": "Fruits",
+                "description": ""
+            }
+        ],
+        "PPN": "1778323286",
+        "place": {
+            "Name": "Hotel Bristol",
+            "WikiData": "https://www.wikidata.org/wiki/Q1630839",
+            "lat": "52.5162",
+            "long": "13.3835"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Menü, Rudolf Dressel Hoflieferant, Unter den Linden 50",
+        "date": "1888",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778266126",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Tourtle soup en taſse",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Turbot au vin blanc",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Selte de mouton à la soubise",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Pâte de foies gras",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "garnie",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Faisans de Bohëme",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Glace à la Prince Pückler",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Deſsert",
+                "description": ""
+            }
+        ],
+        "PPN": "1778266126",
+        "place": {
+            "Name": "Restaurant Rudolf Dressel",
+            "WikiData": null,
+            "lat": "52.5117",
+            "long": "13.3854"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Menü, Rudolf Dressel Hoflieferant, Unter den Linden 50",
+        "date": "1888",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778266371",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Real Turtle en Tasses.",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Hors d'oeuvres à la Diplomate.",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Selle d'agneau à la Hongroise.",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Turbot sauce aux huîtres.",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Truffes en Serviette.",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Bécasses.",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Pointes d'asperges à la française.",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Soufflée au Chocolat.",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Dessert.",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Fruits.",
+                "description": ""
+            }
+        ],
+        "PPN": "1778266371",
+        "place": {
+            "Name": "Restaurant Rudolf Dressel",
+            "WikiData": null,
+            "lat": "52.5117",
+            "long": "13.3854"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Diner, Carlton Hotel & Restaurant Astoria, Unter den Linden 32 Ecke Charlottenstr.",
+        "date": "1907",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778977286",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Consommé Sevigné",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "ou",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Bisques d'écrevisses",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Turbot d'Ostende, sauce caviar",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Tournedos portugaise, pommes soufflées",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Chaud-froid de cailles truffé",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Poularde de Bruxelles",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Choux-fleurs, sauce crême",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Salade",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Mousse à la diplomate",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Fromage et beurre",
+                "description": ""
+            },
+            {
+                "id": 12,
+                "name": "Fruits",
+                "description": ""
+            }
+        ],
+        "PPN": "1778977286",
+        "place": {
+            "Name": "Carlton Hotel",
+            "WikiData": "https://www.wikidata.org/wiki/Q16061122",
+            "lat": "52.516389",
+            "long": "13.390561"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Grand Restaurant Strub, Unter den Linden 33, Berlin",
+        "date": "1883",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778321801",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Oxtail Soup",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Consommé de volaille sevigné.",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Turbot garni sauce aux huîtres",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Selle de mouton",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Escalop de veau.",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "à la jardinière",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Homards à l'americaine",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Poulet de grain au cresson",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Salade & Compôte",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Mousse aux fraises.",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Patisserie.",
+                "description": ""
+            },
+            {
+                "id": 12,
+                "name": "Desserts.",
+                "description": ""
+            }
+        ],
+        "PPN": "1778321801",
+        "place": {
+            "Name": "Grand Restaurant Strub",
+            "WikiData": null,
+            "lat": "52.516948876210236",
+            "long": "13.388682720244752"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Menü, Restaurant I Ranges Carl Hiller, Inhaber L. Adlon",
+        "date": "1888",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778322808",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Kraftbrühe mit Gemüse",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Suppe Pierre le Grand",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Steinbutte mit Capernsauce",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Pastetchen",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Rinderbrust mit Meerrettig",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Hammelrücken bretonne",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Kartoffeln bayonne",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Blumenkohl mit Butter",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Schoten englisch",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Rohen Schinken",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Kapaun",
+                "description": ""
+            },
+            {
+                "id": 12,
+                "name": "Birkhuhn",
+                "description": ""
+            },
+            {
+                "id": 13,
+                "name": "Salat",
+                "description": ""
+            },
+            {
+                "id": 14,
+                "name": "Compott",
+                "description": ""
+            },
+            {
+                "id": 15,
+                "name": "Gemischtes Eis",
+                "description": ""
+            },
+            {
+                "id": 16,
+                "name": "Cabinets Pudding",
+                "description": ""
+            },
+            {
+                "id": 17,
+                "name": "Nachtisch",
+                "description": ""
+            }
+        ],
+        "PPN": "1778322808",
+        "place": {
+            "Name": "Restaurant Hiller",
+            "WikiData": "https://www.wikidata.org/wiki/Q2798056",
+            "lat": "52.5169",
+            "long": "13.3833"
+        }
+    },
+    {
+        "id": 13,
+        "title": "Menü, Restaurant, Wein-& Delicatessen-Handlung Carl Hiller, Inh. L. Adlon",
+        "date": "1887",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778322476",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Kraftbrühe mit Graupen",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Spargel-Suppe",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Steinbutte mit Butter",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Hummer mit Remouladen-Sce.",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Rinderbrust mit Meerrettig",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Ochsenlende m/ Madeira, gebr. Kartoffeln.",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Rehbraten",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Französ. Masthuhn",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Salat und Eingem. Früchte",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Steinpilze vom Limousin",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Schoten englisch",
+                "description": ""
+            },
+            {
+                "id": 12,
+                "name": "Vanille und Erdbeeren-Eis.",
+                "description": ""
+            },
+            {
+                "id": 13,
+                "name": "Nachtisch.",
+                "description": ""
+            }
+        ],
+        "PPN": "1778322476",
+        "place": {
+            "Name": "Restaurant Hiller",
+            "WikiData": "https://www.wikidata.org/wiki/Q2798056",
+            "lat": "52.5169",
+            "long": "13.3833"
+        }
+    },
+    {
+        "id": 14,
+        "title": "Hotel Bristol, Unter den Linden 5",
+        "date": "1892",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778363784",
+        "dishes": [],
+        "PPN": "1778363784",
+        "place": {
+            "Name": "Hotel Bristol",
+            "WikiData": "https://www.wikidata.org/wiki/Q1630839",
+            "lat": "52.5162",
+            "long": "13.3835"
+        }
+    },
+    {
+        "id": 15,
+        "title": "Diner, Hotel-Bristol unter den Linden 5",
+        "date": "1892",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778363741",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Consommé à la Princesse",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Potage parmentier",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Cotelettes de saumon du Rhin à la Verneuil",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Roastbeef à la renaissance sauce béarnaise",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Tartelettes à la favorite",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Selle de chevreuil sce. poivrade",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Salade",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Asperges sauce mousseline",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Riz à la Malte",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Fromages",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Dessert.",
+                "description": ""
+            },
+            {
+                "id": 12,
+                "name": "Kraftbrühe à la princesse",
+                "description": ""
+            },
+            {
+                "id": 13,
+                "name": "Kartoffelsuppe",
+                "description": ""
+            },
+            {
+                "id": 14,
+                "name": "Rheinlachscotelettes à la Verneuil",
+                "description": ""
+            },
+            {
+                "id": 15,
+                "name": "Roastbeef à la renaissance suace béarnaise",
+                "description": ""
+            },
+            {
+                "id": 16,
+                "name": "Tartelettes à la favorite",
+                "description": ""
+            },
+            {
+                "id": 17,
+                "name": "Rehrücken sauce poivrade",
+                "description": ""
+            },
+            {
+                "id": 18,
+                "name": "Salat",
+                "description": ""
+            },
+            {
+                "id": 19,
+                "name": "Spargel sce. mousseline",
+                "description": ""
+            },
+            {
+                "id": 20,
+                "name": "Malteser-Reis",
+                "description": ""
+            },
+            {
+                "id": 21,
+                "name": "Käse",
+                "description": ""
+            },
+            {
+                "id": 22,
+                "name": "Nachtisch",
+                "description": ""
+            }
+        ],
+        "PPN": "1778363741",
+        "place": {
+            "Name": "Hotel Bristol",
+            "WikiData": "https://www.wikidata.org/wiki/Q1630839",
+            "lat": "52.5162",
+            "long": "13.3835"
+        }
+    },
+    {
+        "id": 16,
+        "title": "Fest-Bankett zur Geburtstags-Feier Wilhelm I., Restaurant C. Hiller, Inhaber L. Adlon",
+        "date": "1887",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN177832228X",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Vorspeisen",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Kaiser-Suppe",
+                "description": ""
+            },
+            {
+                "id": 3,
+                "name": "Ochsenschweif-Suppe",
+                "description": ""
+            },
+            {
+                "id": 4,
+                "name": "Rheinlachs, Sauce Diplomate",
+                "description": ""
+            },
+            {
+                "id": 5,
+                "name": "Frische Hummer, Sauce à la Russe",
+                "description": ""
+            },
+            {
+                "id": 6,
+                "name": "Rinderbrust mit Meerrettig",
+                "description": ""
+            },
+            {
+                "id": 7,
+                "name": "Kalbsrücken à la Bismarck, Neue Kartoffeln",
+                "description": ""
+            },
+            {
+                "id": 8,
+                "name": "Poularde von Metz",
+                "description": ""
+            },
+            {
+                "id": 9,
+                "name": "Birkhuhn",
+                "description": ""
+            },
+            {
+                "id": 10,
+                "name": "Salat und Compot",
+                "description": ""
+            },
+            {
+                "id": 11,
+                "name": "Cêpes du Limousin",
+                "description": ""
+            },
+            {
+                "id": 12,
+                "name": "Schoten à l'anglaise",
+                "description": ""
+            },
+            {
+                "id": 13,
+                "name": "Prinz Wilhelm-Eis",
+                "description": ""
+            },
+            {
+                "id": 14,
+                "name": "Nachtisch",
+                "description": ""
+            }
+        ],
+        "PPN": "177832228X",
+        "place": {
+            "Name": "Restaurant Hiller",
+            "WikiData": "https://www.wikidata.org/wiki/Q2798056",
+            "lat": "52.5169",
+            "long": "13.3833"
+        }
     }
 ]
