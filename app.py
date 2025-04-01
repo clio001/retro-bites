@@ -56,8 +56,6 @@ def locations():
     with open("static/db.json", "r", encoding="utf-8") as f:
        COLLECTION = json.load(f)
     # Extract unique locations from the collection
-    # Assuming each menu has a 'place' key with 'lat', 'long', and 'Name'
-    # Create a dictionary to store unique locations
     unique_locations = {}
     for item in COLLECTION:
         place = item.get('place')
@@ -69,7 +67,7 @@ def locations():
                 unique_locations[name] = {'lat': lat, 'long': long}
     # Return the unique locations as JSON
     return jsonify(unique_locations)
-    print(unique_locations)
+   
 
 @app.route("/sammlung/")
 def sammlung():
