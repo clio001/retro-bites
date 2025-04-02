@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/retro-bites/static/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+            integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+            crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+            integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+            crossorigin=""></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <title>RetroBites - Eine kulinarische Reise durch das Berlin der Jahrhundertwende</title>
+    </head>
+
+    <body>
+
+        <div id="top" class="" style="display: flex; align-items:center; width: 100%; box-shadow: 0 0 10px 0 grey"">
+            <div class=" text-start">
+            <img src="/retro-bites/static/ndb.png" alt="" style="height: 64px; margin-right: 20px;">
+        </div>
+
+
+        <div class="btn btn-lg" onclick="window.location.href='/retro-bites/'">START</div>
+<div class="btn btn-lg" onclick="window.location.href='/retro-bites/sammlung/'">SAMMLUNG</div>
+<div class="btn btn-lg" onclick="window.location.href='/retro-bites/data/'">DATEN</div>
+<div class="btn btn-lg" onclick="window.location.href='/retro-bites/team/'">ÜBER</div>
+        <div class="text-end" style="width: 100%;">
+            <img src="/retro-bites/static/stabilab-logo.png" alt="" height="64px">
+        </div>
+        </div>
+        </div>
+
+
+
+
+        
+
+<div class="container-fluid pt-3 bg-danger-subtle" style="min-height: 96vh;">
+    <div class="row">
+        <div class="col">
+            <iframe class="iframeBox"
+                src="https://mirador.staatsbibliothek-berlin.de/?manifest=https://content.staatsbibliothek-berlin.de/dc/1778266371/manifest"
+                width="100%" height="850" allowfullscreen></iframe>
+        </div>
+        <div class="col">
+
+            <div class="itemBox">
+                <div class="text-center">
+                    <div class="display-6 p-3 mt-3">Menü, Rudolf Dressel Hoflieferant, Unter den Linden 50</div>
+                    <div class="lead p-1">1888</div>
+                </div>
+                <div class="text-center mt-5"><img src="/retro-bites/static/flower1.svg" width="48" height="48" /></div>
+
+                <div class="accordion" style="padding: 3rem 10rem 10rem 10rem" id="accordionExample">
+
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading1">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse1" aria-expanded="false"
+                                aria-controls="collapse1">
+                                Real Turtle en Tasses.
+                            </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse "
+                            aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse2" aria-expanded="false"
+                                aria-controls="collapse2">
+                                Hors d&#39;oeuvres à la Diplomate.
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse "
+                            aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse3" aria-expanded="false"
+                                aria-controls="collapse3">
+                                Selle d&#39;agneau à la Hongroise.
+                            </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse "
+                            aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse4" aria-expanded="false"
+                                aria-controls="collapse4">
+                                Turbot sauce aux huîtres.
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse "
+                            aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading5">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse5" aria-expanded="false"
+                                aria-controls="collapse5">
+                                Truffes en Serviette.
+                            </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse "
+                            aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading6">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse6" aria-expanded="false"
+                                aria-controls="collapse6">
+                                Bécasses.
+                            </button>
+                        </h2>
+                        <div id="collapse6" class="accordion-collapse collapse "
+                            aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading7">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse7" aria-expanded="false"
+                                aria-controls="collapse7">
+                                Pointes d&#39;asperges à la française.
+                            </button>
+                        </h2>
+                        <div id="collapse7" class="accordion-collapse collapse "
+                            aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading8">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse8" aria-expanded="false"
+                                aria-controls="collapse8">
+                                Soufflée au Chocolat.
+                            </button>
+                        </h2>
+                        <div id="collapse8" class="accordion-collapse collapse "
+                            aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading9">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse9" aria-expanded="false"
+                                aria-controls="collapse9">
+                                Dessert.
+                            </button>
+                        </h2>
+                        <div id="collapse9" class="accordion-collapse collapse "
+                            aria-labelledby="heading9" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading10">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse10" aria-expanded="false"
+                                aria-controls="collapse10">
+                                Fruits.
+                            </button>
+                        </h2>
+                        <div id="collapse10" class="accordion-collapse collapse "
+                            aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="margin-bottom: 1rem; margin-top: 1rem"><strong>Zutaten</strong></div>
+                                <div class="listIngredients">
+                                    
+                                </div>
+                                <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
+                                <p></p>
+                                <div style="display: flex;">
+                                    <div class="small text-secondary mt-3">Quelle: Diese
+                                        Informationen wurde mittels ChatGPT
+                                        4
+                                        Turbo generiert
+                                        <div type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="border-radius: 25px;"><small>Info</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

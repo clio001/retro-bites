@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/retro-bites/static/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+            integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+            crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+            integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+            crossorigin=""></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <title>RetroBites - Eine kulinarische Reise durch das Berlin der Jahrhundertwende</title>
+    </head>
+
+    <body>
+
+        <div id="top" class="" style="display: flex; align-items:center; width: 100%; box-shadow: 0 0 10px 0 grey"">
+            <div class=" text-start">
+            <img src="/retro-bites/static/ndb.png" alt="" style="height: 64px; margin-right: 20px;">
+        </div>
+
+
+        <div class="btn btn-lg" onclick="window.location.href='/retro-bites/'">START</div>
+<div class="btn btn-lg" onclick="window.location.href='/retro-bites/sammlung/'">SAMMLUNG</div>
+<div class="btn btn-lg" onclick="window.location.href='/retro-bites/data/'">DATEN</div>
+<div class="btn btn-lg" onclick="window.location.href='/retro-bites/team/'">ÜBER</div>
+        <div class="text-end" style="width: 100%;">
+            <img src="/retro-bites/static/stabilab-logo.png" alt="" height="64px">
+        </div>
+        </div>
+        </div>
+
+
+
+
+        
+<section>
+    <div class="container-fluid text-light p-5 bgImg main">
+
+        <div class="row ">
+            <div class="col feature" style="padding: 3rem;">
+                <h1 class="display-1">Datenhappen</h1>
+                <h2 class="display-6">Kulinarik und Code im Stabi Lab</h2>
+
+                <a href="#map">
+                    <div style="text-align: center; margin-top: 20px;">
+                        <div class="btn btn-sm">
+                            <div class="startButton bg-danger-subtle"
+                                style="display: flex; justify-content: center; align-items: center;">
+                                Los geht's</div>
+
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!-- <section>
+    <div class="container-fluid text-light p-5 bg-success-subtle">
+        <div class="imgList">
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778979165/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/1'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778977553/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/2'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778319645/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/3'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778361846/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/4'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778366228/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/5'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778266207/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/6'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778323286/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/7'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778266126/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/8'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778266371/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/9'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778977286/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/10'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778321801/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/11'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778322808/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/12'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778322476/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/13'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778363784/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/14'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN1778363741/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/15'" /></div>
+
+            
+            <div><img src="https://content.staatsbibliothek-berlin.de/dms/PPN177832228X/1200/0/00000001.jpg"
+                    width="350" onclick="window.location.href='/item/16'" /></div>
+
+            
+        </div>
+    </div>
+
+</section> -->
+<section>
+    <div id="map" />
+    <script src="/retro-bites/static/js/map.js" />
+</section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
