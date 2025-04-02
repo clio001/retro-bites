@@ -6,80 +6,124 @@
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778979165",
         "dishes": [
             {
-                "id": 1,
-                "name": "Hollaͤnder Austern.",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Ochsenschwanzsuppe",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Kraftbruͤhe mit Gemuͤse.",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Ostender Seezunge nach Marguery",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Merlans im Ofen gebacken.",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Lammbraten mit Zwiebelsauce",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Ochsenrippenstuͤck, Chorronsauce.",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Mittelmeer Langusten auf russische Art.",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Junge Pute",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Boͤhmischer Goldfasan",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Salat.",
-                "description": ""
-            },
-            {
-                "id": 12,
-                "name": "Koͤnigsberger Bombe.",
-                "description": ""
-            },
-            {
-                "id": 13,
-                "name": "Butter und Kaͤse.",
-                "description": ""
-            },
-            {
-                "id": 14,
-                "name": "Nachtisch.",
-                "description": ""
-            }
+            "id": 1,
+            "name": "Holländer Austern",
+            "description": "Die Austern werden vorsichtig geöffnet und aus der Schale gelöst. In einem Topf Butter und Mehl zu einer Mehlschwitze anrösten, dann mit heißer Milch ablöschen und zu einer cremigen Sauce rühren. Mit Muskatnuss und Salz abschmecken. Die Austern in die Schalen zurücklegen, mit der Sauce übergießen und mit Semmelbröseln bestreuen. Im Ofen goldbraun gratinieren.",
+            "ingredients": [
+                "Austern", "Butter", "Mehl", "Milch", "Eigelb", "Muskatnuss", "Salz", "Semmelbrösel"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Ochsenschwanzsuppe",
+            "description": "Den Ochsenschwanz in Stücke schneiden und in heißem Schmalz anbraten. Mit Wasser aufgießen und Suppengrün, Lorbeerblätter, Nelken und Pfefferkörnern hinzufügen. Einige Stunden köcheln lassen, um die Brühe kräftig zu machen. Durch ein Sieb abgießen, entfetten und mit einem Schuss Madeira verfeinern.",
+            "ingredients": [
+                "Ochsenschwanz", "Schmalz", "Suppengrün", "Lorbeerblätter", "Nelken", "Pfefferkörner", "Madeira"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Kraftbrühe mit Gemüse",
+            "description": "Fleisch mit Knochen (Rind oder Huhn) in Wasser zum Kochen bringen. Suppengrün, Lorbeerblätter und Pfefferkörner dazugeben. Langsam mehrere Stunden köcheln lassen, bis die Brühe eine kräftige Farbe und Geschmack erhält. Das Gemüse in kleine Stücke schneiden und in der Brühe garen. Vor dem Servieren die Brühe durchseihen.",
+            "ingredients": [
+                "Rindfleisch oder Huhn mit Knochen", "Wasser", "Suppengrün", "Lorbeerblätter", "Pfefferkörner"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Ostender Seezunge nach Marguery",
+            "description": "Die Seezunge filetieren, mit Zitronensaft beträufeln und mit Salz würzen. In Butter anbraten und dann mit Fischbrühe und Weißwein ablöschen. Eine Sauce aus Butter, Eigelb und Sahne zubereiten und die Seezunge darin anrichten. Mit frischen Kräutern garnieren.",
+            "ingredients": [
+                "Seezunge", "Zitronensaft", "Butter", "Fischbrühe", "Weißwein", "Eigelb", "Sahne", "Kräuter"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Merlans im Ofen gebacken",
+            "description": "Die Merlans ausnehmen, mit Salz und Zitronensaft würzen. In einer Butterschale im vorgeheizten Ofen bei mittlerer Hitze backen, bis sie goldbraun sind. Mit frischer Petersilie garnieren und servieren.",
+            "ingredients": [
+                "Merlans", "Salz", "Zitronensaft", "Butter", "Petersilie"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Lammbraten mit Zwiebelsauce",
+            "description": "Das Lamm in einem Bräter anbraten, bis es schön gebräunt ist. Mit Weißwein und Wasser ablöschen, dann Zwiebeln, Lorbeer und Pfefferkörner hinzufügen. Im Ofen langsam garen, bis das Fleisch zart ist. Die Sauce mit Zwiebeln verfeinern und das Fleisch darin servieren.",
+            "ingredients": [
+                "Lammbraten", "Zwiebeln", "Weißwein", "Wasser", "Lorbeerblätter", "Pfefferkörner"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Ochsenrippenstück, Chorronsauce",
+            "description": "Die Ochsenrippen in einem Bräter anbraten, mit Rotwein und Brühe ablöschen. Einige Stunden schmoren lassen. Für die Chorronsauce, Tomatenpüree, Zwiebeln und Gewürze wie Thymian und Lorbeerblatt in der Brühe kochen. Mit der Sauce das Fleisch übergießen und servieren.",
+            "ingredients": [
+                "Ochsenrippen", "Rotwein", "Brühe", "Tomatenpüree", "Zwiebeln", "Thymian", "Lorbeerblatt"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Mittelmeer Langusten auf russische Art",
+            "description": "Langusten in kochendem Wasser blanchieren, dann in Butter anbraten. Eine Sauce aus Eigelb, Butter, Sahne und Zitronensaft zubereiten und mit Dill würzen. Die Langusten mit der Sauce übergießen und servieren.",
+            "ingredients": [
+                "Langusten", "Butter", "Eigelb", "Sahne", "Zitronensaft", "Dill"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Junge Pute",
+            "description": "Die junge Pute mit Salz und Pfeffer würzen und mit Butter einreiben. Im Ofen braten, dabei regelmäßig mit Bratenfond begießen. Für die Sauce, den Bratenfond mit Sahne und etwas Mehl einkochen und über die Pute gießen.",
+            "ingredients": [
+                "Junge Pute", "Salz", "Pfeffer", "Butter", "Bratenfond", "Sahne", "Mehl"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Böhmischer Goldfasan",
+            "description": "Der Fasan wird mit Salz und Pfeffer gewürzt und in Butter angebraten. Mit Rotwein und Brühe ablöschen und langsam schmoren lassen, bis das Fleisch zart ist. Mit einer Sauce aus der Bratflüssigkeit und Sahne anrichten.",
+            "ingredients": [
+                "Goldfasan", "Salz", "Pfeffer", "Butter", "Rotwein", "Brühe", "Sahne"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Salat",
+            "description": "Frisches Gemüse wie Kopfsalat, Radieschen und Gurken in feine Scheiben schneiden. Mit einer Vinaigrette aus Essig, Öl, Salz und Pfeffer anmachen.",
+            "ingredients": [
+                "Kopfsalat", "Radieschen", "Gurken", "Essig", "Öl", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Königsberger Bombe",
+            "description": "Diese Delikatesse besteht aus einer süßen Meringue-Basis, die mit einer Creme aus Sahne und Früchten gefüllt wird. Die Bombe wird im Ofen gebacken und mit Zucker überzogen.",
+            "ingredients": [
+                "Eiweiß", "Zucker", "Sahne", "Früchte"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Butter und Käse",
+            "description": "Frische Butter und gereifter Käse werden als Beilage serviert, oft begleitet von frisch gebackenem Brot oder Brötchen.",
+            "ingredients": [
+                "Butter", "Käse", "Brot"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Nachtisch",
+            "description": "Ein klassischer Nachtisch aus der Belle Époque könnte aus einer Fruchtsülze oder einem Pudding bestehen, oft verfeinert mit Sahne und Zucker.",
+            "ingredients": [
+                "Sahne", "Zucker", "Früchte", "Gelatine"
+            ]
+        }
         ],
         "PPN": "1778979165",
         "place": {
             "Name": "Hotel Kaiserhof",
             "WikiData": "https://www.wikidata.org/wiki/Q320591",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bundesarchiv_Bild_183-R99514%2C_Berlin%2C_Wilhelmplatz%2C_Hotel_%22Kaiserhof%22.jpg",
+            "context": "Das Hotel Kaiserhof war das erste Luxushotel in Berlin. Es stand am Wilhelmplatz 3–5 schräg gegenüber der Reichskanzlei im damaligen Berliner Regierungsviertel. Das Hotel wurde im Oktober 1875 eröffnet und am 23. November 1943 durch mehrere Bombeneinschläge zerstört.",
             "lat": "52.5117",
             "long": "13.3854"
         }
@@ -90,66 +134,101 @@
         "date": "1913",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778977553",
         "dishes": [
-            {
-                "id": 1,
-                "name": "BELUGA-CAVIAR AUSTERN",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "KRAFTBRÜHE MIT TRÜFFELKLÖSSCHEN",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "SCHWARZWÄLDER BACHFORELLE BLAU",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "REHRÜCKEN CUMBERLAND JUNGE GEMÜSE",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "HELGOLÄNDER HUMMER. TRÜFFELBUTTER",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "CHAMPAGNERSORBET",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "BRÜSSELER POULARDE SALAT HELIETTE",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "GRÜNE SPARGELSPITZEN CHANTILLY",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "HOCHZEITS-EISBOMBE FEINES GEBÄCK",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "KÄSETÖRTCHEN",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "FRÜCHTE — NACHTISCH",
-                "description": ""
-            }
+                    {
+            "id": 1,
+            "name": "BELUGA-CAVIAR AUSTERN",
+            "description": "Die Austern werden vorsichtig geöffnet und das Kaviar wird als Topping darübergelegt. Die Austern werden dann auf Eis serviert, um die Frische zu bewahren. Für eine edlere Note kann etwas Zitronensaft oder frischer Dill hinzugefügt werden.",
+            "ingredients": [
+                "Beluga-Kaviar", "Austern", "Eis", "Zitronensaft", "Dill"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "KRAFTBRÜHE MIT TRÜFFELKLÖSSCHEN",
+            "description": "Die Kraftbrühe wird aus Rindfleisch mit Knochen und Suppengrün zubereitet, dann durch ein Sieb gegossen, um eine klare Brühe zu erhalten. Trüffelklößchen, die aus Trüffeln, Ei, Mehl und Butter zubereitet werden, werden in die heiße Brühe gegeben und darin gar gezogen.",
+            "ingredients": [
+                "Rindfleisch", "Suppengrün", "Lorbeerblätter", "Pfefferkörner", "Trüffel", "Ei", "Mehl", "Butter"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "SCHWARZWÄLDER BACHFORELLE BLAU",
+            "description": "Die Bachforellen werden in einem Topf mit Wasser, Essig, Zwiebeln und Gewürzen gekocht, bis sie die charakteristische blaue Farbe annehmen. Die Forellen werden dann mit einer einfachen Sauce aus Butter und Zitronensaft serviert.",
+            "ingredients": [
+                "Schwarzwälder Bachforelle", "Wasser", "Essig", "Zwiebeln", "Pfefferkörner", "Lorbeerblätter", "Butter", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "REHRÜCKEN CUMBERLAND JUNGE GEMÜSE",
+            "description": "Der Rehrücken wird mit Salz und Pfeffer gewürzt und in Butter angebraten. Dann wird er im Ofen bei mittlerer Hitze weiter gegart. Für die Cumberland-Sauce werden Orangenmarmelade, Senf, Rotwein und Gewürze zu einer dicken Sauce eingekocht. Das Gericht wird mit jungen Gemüsearten wie Erbsen, Karotten und Spargel serviert.",
+            "ingredients": [
+                "Rehrücken", "Salz", "Pfeffer", "Butter", "Orangenmarmelade", "Senf", "Rotwein", "Gewürze", "Erbsen", "Karotten", "Spargel"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "HELGOLÄNDER HUMMER. TRÜFFELBUTTER",
+            "description": "Der Hummer wird aus dem Wasser genommen und in Butter gebraten. Für die Trüffelbutter wird Butter mit Trüffeln und einer Prise Salz vermischt und auf den Hummern serviert. Die Trüffelbutter wird warm aufgetragen und sorgt für ein intensives Aroma.",
+            "ingredients": [
+                "Helgoländer Hummer", "Butter", "Trüffel", "Salz"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "CHAMPAGNERSORBET",
+            "description": "Champagner wird mit Zucker und Zitronensaft vermischt und in eine Eismaschine gegeben, um zu einem feinen Sorbet zu gefrieren. Es wird als erfrischender Zwischengang serviert.",
+            "ingredients": [
+                "Champagner", "Zucker", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "BRÜSSELER POULARDE SALAT HELIETTE",
+            "description": "Die Poulette wird gekocht und in Stücke zerlegt. Für den Salat werden frische grüne Blätter mit der Poulette, Kräutern, einer feinen Vinaigrette und einem Hauch von Senf vermischt. Das Gericht wird kühl serviert.",
+            "ingredients": [
+                "Poulette (Huhn)", "grüne Salatblätter", "Kräuter", "Vinaigrette", "Senf"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "GRÜNE SPARGELSPITZEN CHANTILLY",
+            "description": "Die grünen Spargelspitzen werden in Salzwasser blanchiert und in einer feinen Chantilly-Sauce serviert, die aus Sahne, Eigelb und Butter besteht. Der Spargel wird mit der Sauce überzogen und als edler Beilagen-Gang serviert.",
+            "ingredients": [
+                "Grüne Spargelspitzen", "Salz", "Sahne", "Eigelb", "Butter"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "HOCHZEITS-EISBOMBE FEINES GEBÄCK",
+            "description": "Eine Eisbombe wird aus verschiedenen Schichten von Eiscreme und feinem Gebäck zubereitet. Diese wird mit einem Hauch von Likör und frischen Früchten serviert, oft umrahmt von einer leichten Meringue.",
+            "ingredients": [
+                "Eiscreme", "Gebäck", "Likör", "Früchte", "Meringue"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "KÄSETÖRTCHEN",
+            "description": "Für die Käsetörtchen wird ein feiner Mürbeteig vorbereitet, der mit einer Füllung aus frischem Quark, Eiern und Zucker gefüllt wird. Diese kleinen Törtchen werden goldbraun gebacken und als süße Köstlichkeit serviert.",
+            "ingredients": [
+                "Mürbeteig", "Quark", "Eier", "Zucker"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "FRÜCHTE — NACHTISCH",
+            "description": "Ein einfacher, aber eleganter Nachtisch, der aus einer Auswahl frischer, saisonaler Früchte besteht, die mit Zucker und einem Spritzer Zitronensaft verfeinert werden. Manchmal wird auch ein wenig süße Sahne dazu gereicht.",
+            "ingredients": [
+                "Saisonale Früchte", "Zucker", "Zitronensaft", "Sahne"
+            ]
+        }
         ],
         "PPN": "1778977553",
         "place": {
             "Name": "Hotel Adlon",
             "WikiData": "https://www.wikidata.org/wiki/Q123117397",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Bundesarchiv_Bild_102-13848F%2C_Berlin%2C_Hotel_Adlon.jpg",
+            "context": "Im Oktober 1907 eröffnetes Hotels, das 1945 ausbrannte und später bis auf einen Seitenflügel abgerissen wurde, der noch bis 1984 stand. (GND-ID: 5167236-4)",
             "lat": "52.516",
             "long": "13.38"
         }
@@ -161,80 +240,124 @@
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778319645",
         "dishes": [
             {
-                "id": 1,
-                "name": "Natives.",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Consommé à la Printanière.",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Real turtle Soup.",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Truîtes aux bleu.",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "South down à la Soubise.",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Epinards nouveaux aux cailles.",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Asperges en branches.",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Homards en Bellevue.",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Poularde.",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Bécasses",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Salade romaine.",
-                "description": ""
-            },
-            {
-                "id": 12,
-                "name": "Compot.",
-                "description": ""
-            },
-            {
-                "id": 13,
-                "name": "Timbal d'ananas.",
-                "description": ""
-            },
-            {
-                "id": 14,
-                "name": "Dessert et Fruits.",
-                "description": ""
-            }
+            "id": 1,
+            "name": "Natives.",
+            "description": "Natives ist ein traditionelles Gericht aus frischen, regionalen Zutaten, oft bestehend aus einfachen Zutaten wie Kartoffeln, Gemüse und Kräutern, die gekocht und in Butter geschwenkt serviert werden.",
+            "ingredients": [
+                "Kartoffeln", "Karotten", "Zwiebeln", "Butter", "Petersilie", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Consommé à la Printanière.",
+            "description": "Eine klare Brühe, die aus Rindfleisch und Geflügel zubereitet wird, mit frischen Frühjahrsgemüsen wie Erbsen, Karotten und Spargel verfeinert. Die Brühe wird langsam gekocht, um eine klare Flüssigkeit zu erhalten, und dann mit den Gemüsestücken serviert.",
+            "ingredients": [
+                "Rindfleisch", "Geflügel", "Karotten", "Erbsen", "Spargel", "Zwiebeln", "Lorbeerblätter", "Pfefferkörner", "Salz"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Real turtle Soup.",
+            "description": "Eine traditionelle Suppe, die mit Schildkrötenfleisch, Gemüse und Gewürzen zubereitet wird. Das Fleisch wird in Brühe gekocht und mit einer Mischung aus Eiern, Sherry und Essig zu einer reichhaltigen, cremigen Suppe verarbeitet.",
+            "ingredients": [
+                "Schildkrötenfleisch", "Zwiebeln", "Karotten", "Sellerie", "Sherry", "Essig", "Eier", "Butter", "Pfefferkörner", "Lorbeerblätter", "Mehl"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Truîtes aux bleu.",
+            "description": "Die Forellen werden in einem Sud aus Wasser, Essig und Gewürzen gekocht, bis sie ihre charakteristische blaue Farbe annehmen. Danach werden sie mit einer leichten Buttersauce serviert.",
+            "ingredients": [
+                "Forellen", "Essig", "Wasser", "Pfefferkörner", "Lorbeerblätter", "Butter", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "South down à la Soubise.",
+            "description": "Das Gericht wird aus Lammfleisch zubereitet, das mit Zwiebeln und einer feinen weißen Sauce, der sogenannten Soubise-Sauce, serviert wird. Die Sauce besteht aus gekochten Zwiebeln, Butter und einer Mischung aus Sahne und Mehl.",
+            "ingredients": [
+                "Lammfleisch", "Zwiebeln", "Butter", "Sahne", "Mehl", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Epinards nouveaux aux cailles.",
+            "description": "Frischer Spinat wird zusammen mit gebratenen Wachteln serviert. Die Wachteln werden gewürzt und in Butter gebraten, während der Spinat in einer kleinen Menge Wasser und Butter gedünstet wird.",
+            "ingredients": [
+                "Frischer Spinat", "Wachteln", "Butter", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Asperges en branches.",
+            "description": "Die Spargelstangen werden in Salzwasser gekocht und danach in Butter geschwenkt. Sie werden oft mit einer Zitronenbutter serviert oder mit einer Sauce Hollandaise beträufelt.",
+            "ingredients": [
+                "Spargel", "Butter", "Salz", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Homards en Bellevue.",
+            "description": "Die Hummer werden in einem Sud aus Wasser, Weißwein und Gewürzen gekocht. Danach werden sie in einer Marinade aus Butter, Zitronensaft und Kräutern serviert und auf Eis präsentiert.",
+            "ingredients": [
+                "Hummer", "Weißwein", "Wasser", "Pfefferkörner", "Lorbeerblätter", "Butter", "Zitronensaft", "Kräuter"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Poularde.",
+            "description": "Die Poulette (Hühnchen) wird mit Kräutern, Butter und Gewürzen gewürzt und im Ofen gebraten, bis sie zart und goldbraun ist. Sie wird oft mit einer Sauce aus Weißwein und Hühnerbrühe serviert.",
+            "ingredients": [
+                "Poulette (Hühnchen)", "Butter", "Kräuter", "Weißwein", "Hühnerbrühe", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Bécasses",
+            "description": "Die Bécasses (Schnepfen) werden mit einer Füllung aus Kräutern und Gewürzen zubereitet, dann gebraten oder gegrillt. Sie werden mit einer Sauce aus Rotwein und Wildbrühe serviert.",
+            "ingredients": [
+                "Schnepfen", "Kräuter", "Rotwein", "Wildbrühe", "Butter", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Salade romaine.",
+            "description": "Ein einfacher, aber eleganter Salat aus frischen Romaine-Salatblättern, gewürzt mit einer feinen Vinaigrette aus Essig, Öl, Senf und Gewürzen.",
+            "ingredients": [
+                "Romaine-Salatblätter", "Essig", "Öl", "Senf", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Compot.",
+            "description": "Ein klassisches Kompott aus gekochten Früchten, meist Äpfeln oder Birnen, die mit Zucker, Zimt und Zitronensaft gewürzt und langsam gekocht werden, bis sie weich sind.",
+            "ingredients": [
+                "Äpfel", "Birnen", "Zucker", "Zimt", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Timbal d'ananas.",
+            "description": "Ein Ananastimbal wird aus Ananas, Zucker und Gelatine zubereitet. Die Ananas wird in dünne Scheiben geschnitten und in einer Form mit einer süßen Fruchtmischung eingefroren, bis sie fest wird.",
+            "ingredients": [
+                "Ananas", "Zucker", "Gelatine"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Dessert et Fruits.",
+            "description": "Ein leichtes und erfrischendes Dessert, das aus einer Auswahl frischer Früchte besteht, oft ergänzt mit einer Vanillesahne oder einem Hauch von Zucker.",
+            "ingredients": [
+                "Saisonale Früchte", "Vanillesahne", "Zucker"
+            ]
+        }
         ],
         "PPN": "1778319645",
         "place": {
             "Name": "Restaurant Rudolf Dressel",
             "WikiData": null,
+            "context": "Keine Beschreibung vorhanden.",
+            "imageUrl": null,
             "lat": "52.5117",
             "long": "13.3854"
         }
@@ -255,7 +378,7 @@
                     "Schwarzer Pfeffer",
                     "Butterbrot oder Roggenbrot"
                 ],
-                "preparation": "Frische Austern müssen sorgfältig geprüft werden. Nur geschlossene Austern sind frisch. Mit einem Austernmesser behutsam öffnen, dabei darauf achten, das Austernwasser nicht zu verlieren. Das Fleisch in der tiefen Schale belassen und direkt auf Eis legen. Die Austern auf einer silbernen Platte anrichten und mit Zitronenscheiben servieren. Feinschmecker geben einige Tropfen Worcestershire-Sauce oder etwas schwarzen Pfeffer hinzu. Als Beilage reicht man dunkles Roggenbrot oder feines Butterbrot. Zu diesem Gericht empfiehlt sich ein kühler Weißwein oder ein Glas Champagner."
+                "description": "Frische Austern müssen sorgfältig geprüft werden. Nur geschlossene Austern sind frisch. Mit einem Austernmesser behutsam öffnen, dabei darauf achten, das Austernwasser nicht zu verlieren. Das Fleisch in der tiefen Schale belassen und direkt auf Eis legen. Die Austern auf einer silbernen Platte anrichten und mit Zitronenscheiben servieren. Feinschmecker geben einige Tropfen Worcestershire-Sauce oder etwas schwarzen Pfeffer hinzu. Als Beilage reicht man dunkles Roggenbrot oder feines Butterbrot. Zu diesem Gericht empfiehlt sich ein kühler Weißwein oder ein Glas Champagner."
             },
             {
                 "id": 2,
@@ -272,7 +395,7 @@
                     "Weißer Pfeffer",
                     "Muskatnuss"
                 ],
-                "preparation": "Ein frisches Huhn sorgfältig reinigen und in Stücke zerteilen. In einen großen Suppentopf mit kaltem Wasser geben und langsam zum Sieden bringen. Beim ersten Aufkochen den Schaum mit einer Kelle abschöpfen. Fein geschnittene Karotten, Sellerie und Zwiebeln hinzufügen. Ein Lorbeerblatt und einige Stängel frischer Petersilie einlegen. Mit Salz, weißem Pfeffer und einer Prise geriebener Muskatnuss würzen. Die Suppe mindestens drei Stunden sanft köcheln lassen, bis das Fleisch sich leicht vom Knochen löst. Anschließend durch ein feines Sieb passieren und heiß servieren."
+                "description": "Ein frisches Huhn sorgfältig reinigen und in Stücke zerteilen. In einen großen Suppentopf mit kaltem Wasser geben und langsam zum Sieden bringen. Beim ersten Aufkochen den Schaum mit einer Kelle abschöpfen. Fein geschnittene Karotten, Sellerie und Zwiebeln hinzufügen. Ein Lorbeerblatt und einige Stängel frischer Petersilie einlegen. Mit Salz, weißem Pfeffer und einer Prise geriebener Muskatnuss würzen. Die Suppe mindestens drei Stunden sanft köcheln lassen, bis das Fleisch sich leicht vom Knochen löst. Anschließend durch ein feines Sieb passieren und heiß servieren."
             },
             {
                 "id": 3,
@@ -287,7 +410,7 @@
                     "Mehl zum Bestäuben",
                     "Fischfond oder Weißwein"
                 ],
-                "preparation": "Die Forellen säubern und gut abtrocknen. Innen und außen mit Salz und weißem Pfeffer würzen. Eine leichte Mehlschicht auftragen, um eine feine Kruste zu erhalten. In einer schweren gusseisernen Pfanne Butter erhitzen und die Forellen bei mittlerer Hitze auf beiden Seiten goldbraun braten. Nach dem Wenden mit etwas Fischfond oder Weißwein ablöschen und einige Minuten ziehen lassen. Mit gehackter Petersilie bestreuen und mit Zitronenscheiben anrichten. Dazu passen Salzkartoffeln oder gedünsteter Spargel."
+                "description": "Die Forellen säubern und gut abtrocknen. Innen und außen mit Salz und weißem Pfeffer würzen. Eine leichte Mehlschicht auftragen, um eine feine Kruste zu erhalten. In einer schweren gusseisernen Pfanne Butter erhitzen und die Forellen bei mittlerer Hitze auf beiden Seiten goldbraun braten. Nach dem Wenden mit etwas Fischfond oder Weißwein ablöschen und einige Minuten ziehen lassen. Mit gehackter Petersilie bestreuen und mit Zitronenscheiben anrichten. Dazu passen Salzkartoffeln oder gedünsteter Spargel."
             },
             {
                 "id": 4,
@@ -304,7 +427,7 @@
                     "Speck",
                     "Wildfond"
                 ],
-                "preparation": "Das Rehfleisch in einem Sud aus Rotwein, zerstoßenen Wacholderbeeren, Nelken und Lorbeerblatt für 24 Stunden marinieren. Danach das Fleisch abtrocknen und in einer schweren Pfanne mit ausgelassenem Speck anbraten. Fein gehackte Zwiebeln, Karotten und Sellerie hinzugeben und anrösten. Anschließend mit dem abgeseihten Rotweinsud und Wildfond ablöschen. Bei mäßiger Hitze mindestens zwei Stunden schmoren, bis das Fleisch zart ist. Die Sauce passieren und mit Mehl oder Stärke leicht binden. Dazu serviert man Rotkohl und Semmelknödel."
+                "description": "Das Rehfleisch in einem Sud aus Rotwein, zerstoßenen Wacholderbeeren, Nelken und Lorbeerblatt für 24 Stunden marinieren. Danach das Fleisch abtrocknen und in einer schweren Pfanne mit ausgelassenem Speck anbraten. Fein gehackte Zwiebeln, Karotten und Sellerie hinzugeben und anrösten. Anschließend mit dem abgeseihten Rotweinsud und Wildfond ablöschen. Bei mäßiger Hitze mindestens zwei Stunden schmoren, bis das Fleisch zart ist. Die Sauce passieren und mit Mehl oder Stärke leicht binden. Dazu serviert man Rotkohl und Semmelknödel."
             },
             {
                 "id": 5,
@@ -320,7 +443,7 @@
                     "Salz",
                     "Pfeffer"
                 ],
-                "preparation": "Die Artischocken von harten Blättern befreien und den Stiel kürzen. In Salzwasser mit Zitronensaft kochen, bis sie weich sind. Die Kalbsmilch in kaltem Wasser wässern, dann kurz in heißem Wasser blanchieren und die feine Haut abziehen. In einer schweren Pfanne Schalotten in Butter anschwitzen, die Kalbsmilch zugeben und leicht anbräunen. Mit Weißwein ablöschen und mit Rinderbrühe auffüllen. Kurz schmoren, dann mit den gekochten Artischocken servieren. Dazu reicht man eine Sauce aus Butter und feinem Zitronensaft."
+                "description": "Die Artischocken von harten Blättern befreien und den Stiel kürzen. In Salzwasser mit Zitronensaft kochen, bis sie weich sind. Die Kalbsmilch in kaltem Wasser wässern, dann kurz in heißem Wasser blanchieren und die feine Haut abziehen. In einer schweren Pfanne Schalotten in Butter anschwitzen, die Kalbsmilch zugeben und leicht anbräunen. Mit Weißwein ablöschen und mit Rinderbrühe auffüllen. Kurz schmoren, dann mit den gekochten Artischocken servieren. Dazu reicht man eine Sauce aus Butter und feinem Zitronensaft."
             },
             {
                 "id": 6,
@@ -336,13 +459,15 @@
                     "Wacholderbeeren",
                     "Toastbrot"
                 ],
-                "preparation": "Die Schnepfen sorgfältig rupfen, ausnehmen und mit Speckstreifen umwickeln. In einer gusseisernen Pfanne Butter zerlassen und die Schnepfen von allen Seiten anbraten. Dann aus der Pfanne nehmen und im Bratenrückstand fein gehackte Schalotten anschwitzen. Mit Rotwein ablöschen, einige Wacholderbeeren, Thymian und Rosmarin hinzugeben. Die Schnepfen in diesen Sud legen und langsam garen. Nach etwa 40 Minuten herausnehmen und ruhen lassen. Die Sauce passieren und über geröstetes Toastbrot geben. Die Schnepfen darauf anrichten und heiß servieren."
+                "description": "Die Schnepfen sorgfältig rupfen, ausnehmen und mit Speckstreifen umwickeln. In einer gusseisernen Pfanne Butter zerlassen und die Schnepfen von allen Seiten anbraten. Dann aus der Pfanne nehmen und im Bratenrückstand fein gehackte Schalotten anschwitzen. Mit Rotwein ablöschen, einige Wacholderbeeren, Thymian und Rosmarin hinzugeben. Die Schnepfen in diesen Sud legen und langsam garen. Nach etwa 40 Minuten herausnehmen und ruhen lassen. Die Sauce passieren und über geröstetes Toastbrot geben. Die Schnepfen darauf anrichten und heiß servieren."
             }
         ],
         "PPN": "1778361846",
         "place": {
             "Name": "Restaurant Unter den Linden 4a",
             "WikiData": null,
+            "context": "Keine Beschreibung vorhanden.",
+            "imageUrl": null,
             "lat": "52.51827273011844",
             "long": "13.395581844179343"
         }
@@ -354,65 +479,100 @@
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778366228",
         "dishes": [
             {
-                "id": 1,
-                "name": "Rindsſuppe",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Lendenbraten",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "neue Kartoffeln",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "frische Carotten",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "frische Morcheln",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "gemästete Hühner",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Salat",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "frischer Spargel",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Reispudding",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Käse und Butter",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Nachtisch",
-                "description": ""
-            }
+            "id": 1,
+            "name": "Rindsſuppe",
+            "description": "Eine klare Rindsbrühe, die mit Rindfleisch, Gemüse und Gewürzen langsam gekocht wird, bis sie eine klare, reichhaltige Brühe bildet. Diese Suppe ist oft die Grundlage für viele gehobene Gerichte.",
+            "ingredients": [
+                "Rindfleisch (Schwanz, Markknochen)", "Karotten", "Sellerie", "Zwiebeln", "Pfefferkörner", "Lorbeerblätter", "Salz"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Lendenbraten",
+            "description": "Ein saftiger Rinderbraten, der im Ofen langsam gegart wird. Der Lendenbraten wird mit Salz, Pfeffer und Kräutern gewürzt und häufig mit einer kräftigen Sauce aus Fleischfond und Wein serviert.",
+            "ingredients": [
+                "Rinderlende", "Zwiebeln", "Knoblauch", "Butter", "Weißwein", "Rinderfond", "Rosmarin", "Thymian", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "neue Kartoffeln",
+            "description": "Frische neue Kartoffeln, die in Wasser gekocht und dann in Butter geschwenkt werden. Oft wird ein wenig Salz und frisch gemahlener Pfeffer hinzugefügt, um den natürlichen Geschmack zu unterstreichen.",
+            "ingredients": [
+                "Neue Kartoffeln", "Butter", "Salz", "Pfeffer", "Frische Petersilie"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "frische Carotten",
+            "description": "Frische Karotten werden in Butter oder Sahne gedünstet, bis sie weich und leicht karamellisiert sind. Sie können auch mit Zucker und Zimt verfeinert werden, um einen süßen Geschmack zu erhalten.",
+            "ingredients": [
+                "Karotten", "Butter", "Sahne", "Zucker", "Zimt", "Salz"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "frische Morcheln",
+            "description": "Frische Morcheln werden in Butter oder Sahne angebraten, um ihre Aromen zu intensivieren. Oft werden sie zu Fleischgerichten oder als eigenständiges Gericht serviert.",
+            "ingredients": [
+                "Frische Morcheln", "Butter", "Sahne", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "gemästete Hühner",
+            "description": "Gemästete Hühner werden oft langsam im Ofen gebraten und mit Kräutern wie Rosmarin, Thymian und Estragon gewürzt. Sie werden mit einer feinen Sauce aus Hühnerbrühe und Weißwein serviert.",
+            "ingredients": [
+                "Hühner (gemästet)", "Butter", "Rosmarin", "Thymian", "Estragon", "Hühnerbrühe", "Weißwein", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Salat",
+            "description": "Ein frischer Salat aus saisonalen Blattsalaten wie Kopfsalat oder Romana, oft mit einer Vinaigrette aus Essig, Öl, Senf und Kräutern. Häufig wird auch etwas Zucker für die Süße hinzugefügt.",
+            "ingredients": [
+                "Blattsalat", "Essig", "Öl", "Senf", "Zucker", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "frischer Spargel",
+            "description": "Spargel wird traditionell in Salzwasser gekocht und dann mit Butter serviert. Oft wird der Spargel mit einer Hollandaise-Sauce oder einem Zitronenbutter-Dressing ergänzt.",
+            "ingredients": [
+                "Frischer Spargel", "Salz", "Butter", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Reispudding",
+            "description": "Ein cremiger Reispudding, der aus Reis, Milch, Zucker und Vanille gekocht wird. Häufig wird er mit Zimt und Zucker bestreut und warm oder kalt serviert.",
+            "ingredients": [
+                "Reis", "Milch", "Zucker", "Vanille", "Zimt"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Käse und Butter",
+            "description": "Ein einfaches, aber elegantes Gericht, das aus einer Auswahl an hochwertigen Käsesorten und frischer Butter besteht. Es wird oft mit frischem Brot serviert.",
+            "ingredients": [
+                "Verschiedene Käsesorten", "Butter", "Brot"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Nachtisch",
+            "description": "Ein süßer Abschluss einer Mahlzeit, oft bestehend aus frischen Früchten, gebackenem Kuchen oder einem anderen süßen Gericht wie Panna Cotta oder Mousse.",
+            "ingredients": [
+                "Früchte", "Zucker", "Eier", "Sahne", "Vanille"
+            ]
+        }
         ],
         "PPN": "1778366228",
         "place": {
             "Name": "Hotel Bristol",
             "WikiData": "https://www.wikidata.org/wiki/Q1630839",
+            "context": "Das Hotel Bristol war eines der vornehmsten Berliner Hotels des ausgehenden 19. und frühen 20. Jahrhunderts. Es stand in der südlichen Dorotheenstadt auf der Südseite der Straße Unter den Linden. 1944 wurde es bei einem Bombenangriff vollständig zerstört.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hotel_Bristol_Berlin_%28um_1910%29.JPG",
             "lat": "52.5162",
             "long": "13.3835"
         }
@@ -423,56 +583,85 @@
         "date": "1888",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778266207",
         "dishes": [
-            {
-                "id": 1,
-                "name": "Schildkröten-Suppe.",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Steinbutte m/ Austern-Sauce",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Englischer Hammelrücken m/ jungen Gemüsen",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Krebse.",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Junge Gans",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Gurken-Salat.",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Stangen-Spargel.",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Eis",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Dessert.",
-                "description": ""
-            }
+           {
+            "id": 1,
+            "name": "Schildkröten-Suppe.",
+            "description": "Die Schildkröten-Suppe ist ein elegantes Gericht, das in vielen gehobenen Berliner Restaurants serviert wurde. Die Zubereitung umfasst das Kochen von Schildkrötenfleisch in einer kräftigen Brühe mit Gewürzen und aromatischen Kräutern. Oft wird sie mit einer Madeira-Weinsauce verfeinert.",
+            "ingredients": [
+                "Schildkrötenfleisch", "Rinderbrühe", "Zwiebeln", "Karotten", "Sellerie", "Pfefferkörner", "Lorbeerblätter", "Madeira", "Eigelb", "Sahne", "Salz"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Steinbutte m/ Austern-Sauce",
+            "description": "Steinbutte wird traditionell in einer feinen Austern-Sauce serviert. Der Fisch wird gebraten oder gedämpft, und die Sauce wird mit frischen Austern, Butter und etwas Weißwein zubereitet, um einen luxuriösen Geschmack zu erzielen.",
+            "ingredients": [
+                "Steinbutte", "Austern", "Butter", "Weißwein", "Zwiebeln", "Pfeffer", "Zitronensaft", "Sahne", "Salz"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Englischer Hammelrücken m/ jungen Gemüsen",
+            "description": "Ein zarter Hammelrücken wird mit frischen, jungen Gemüsearten wie Karotten, Erbsen und Spargel serviert. Der Fleischrücken wird im Ofen gebraten und oft mit einer Sauce aus Kräutern, Rotwein und Butter serviert.",
+            "ingredients": [
+                "Hammelrücken", "Karotten", "Erbsen", "junger Spargel", "Rotwein", "Butter", "Kräuter (Rosmarin, Thymian)", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Krebse.",
+            "description": "Frische Krebse werden gekocht und mit einer einfachen Butter-Kräuter-Sauce serviert. Der Geschmack der Krebse wird durch die Butter und etwas Zitronensaft verstärkt.",
+            "ingredients": [
+                "Frische Krebse", "Butter", "Zitronensaft", "Petersilie", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Junge Gans",
+            "description": "Die junge Gans wird langsam im Ofen gebraten und mit Kräutern wie Thymian und Rosmarin gewürzt. Oft wird sie mit einer fruchtigen Sauce oder einem Apfelkompott serviert.",
+            "ingredients": [
+                "Junge Gans", "Thymian", "Rosmarin", "Zwiebeln", "Knoblauch", "Apfelkompott", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Gurken-Salat.",
+            "description": "Der Gurkensalat wird aus frischen Gurken, die in dünne Scheiben geschnitten und in einer Essig-Öl-Vinaigrette mariniert werden, zubereitet. Ein wenig Zucker wird oft hinzugefügt, um die Säure des Essigs auszugleichen.",
+            "ingredients": [
+                "Gurken", "Essig", "Olivenöl", "Zucker", "Salz", "Pfeffer", "Frische Dill"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Stangen-Spargel.",
+            "description": "Frischer Spargel wird in Salzwasser gekocht und mit geschmolzener Butter serviert. Gelegentlich wird er mit einer leichten Hollandaise-Sauce oder Zitronenbutter verfeinert.",
+            "ingredients": [
+                "Stangen-Spargel", "Salz", "Butter", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Eis",
+            "description": "Ein einfaches, aber erfrischendes Eis aus Sahne und Zucker, das mit Vanille oder Früchten verfeinert wird. Es wird in der Regel in einer Eismaschine zubereitet, um eine cremige Konsistenz zu erreichen.",
+            "ingredients": [
+                "Sahne", "Zucker", "Vanille", "Eier"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Dessert.",
+            "description": "Ein süßer Abschluss des Menüs, der aus verschiedenen Komponenten wie Obst, Sahne oder Mousse bestehen kann. Häufig wird auch ein frischer Kuchen oder ein Pudding serviert.",
+            "ingredients": [
+                "Früchte", "Zucker", "Sahne", "Schokolade", "Eier", "Vanille"
+            ]
+        }
         ],
         "PPN": "1778266207",
         "place": {
             "Name": "Restaurant Rudolf Dressel",
             "WikiData": null,
+            "context": "Keine Beschreibung vorhanden.",
+            "imageUrl": null,
             "lat": "52.5117",
             "long": "13.3854"
         }
@@ -484,70 +673,108 @@
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778323286",
         "dishes": [
             {
-                "id": 1,
-                "name": "Caviar sur socle",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Consommé aux nids d'hirondelles",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Homard à l'américaine",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Selle de pré-salé à la Richelieu",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Timibale denatives a Capoulette",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Truffes de Périgord au vin de Champagne",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Bécasse sur Croûtons",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Salade",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Asperges primeures hollandaise",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Pèches à la bordaloue",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Paillet au Fromage",
-                "description": ""
-            },
-            {
-                "id": 12,
-                "name": "Fruits",
-                "description": ""
-            }
+            "id": 1,
+            "name": "Caviar sur socle",
+            "description": "Caviar wird auf einem Sockel serviert, oft zusammen mit einer Garnitur aus fein geschnittenen Zwiebeln, Eiern und frischem Brot. Die Präsentation ist wichtig, und der Caviar wird mit einer eleganten Garnitur von Zitrone und Minze serviert.",
+            "ingredients": [
+                "Beluga-Caviar", "Zwiebeln", "Eier", "Zitrone", "Minze", "Toastbrot"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Consommé aux nids d'hirondelles",
+            "description": "Diese klare Suppe wird mit einer exotischen Zutat, den Nestern von Schwalben, verfeinert. Das Nest wird in der Brühe gekocht, die dann gefiltert und serviert wird. Diese Suppe ist ein luxuriöses Gericht der gehobenen Küche.",
+            "ingredients": [
+                "Geflügelbrühe", "Schwalbennester", "Karotten", "Zwiebeln", "Pfeffer", "Lorbeerblätter", "Eiweiß"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Homard à l'américaine",
+            "description": "Lobster wird mit einer intensiven Sauce aus Tomaten, Weißwein, Cognac und Kräutern gekocht. Das Gericht wird oft mit einem Hauch von Cognac flambiert und mit frischen Kräutern und einer Sauce serviert.",
+            "ingredients": [
+                "Hummer", "Tomaten", "Weißwein", "Cognac", "Butter", "Zwiebeln", "Knoblauch", "Petersilie", "Thymian", "Lorbeerblätter"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Selle de pré-salé à la Richelieu",
+            "description": "Ein zarter Rücken von vorgehaltener Lamm, der in einer kräftigen, aromatischen Sauce aus Madeira, Kräutern und einer Mischung aus Fleischbrühe und Geflügelfond gegart wird. Das Gericht wird oft mit frischen Gemüsebeilagen serviert.",
+            "ingredients": [
+                "Lammrücken", "Madeira", "Geflügelbrühe", "Kräuter (Rosmarin, Thymian)", "Karotten", "Zwiebeln", "Butter", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Timibale denatives a Capoulette",
+            "description": "Dieses Gericht umfasst ein Pastetchen aus feinstem Geflügel- oder Wildfleisch, das in eine köstliche Füllung aus Trüffeln und Geflügelfond eingewickelt wird. Es wird in einem feinen Teig gebacken und serviert.",
+            "ingredients": [
+                "Geflügelbrust", "Trüffeln", "Wildfleisch", "Geflügelfond", "Butter", "Mehl", "Ei", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Truffes de Périgord au vin de Champagne",
+            "description": "Diese berühmten Trüffeln aus der Region Périgord werden in einer Sauce aus Champagner und Butter zubereitet. Sie sind ein luxuriöses Gericht, das die Aromen der Trüffel perfekt zur Geltung bringt.",
+            "ingredients": [
+                "Trüffeln", "Champagner", "Butter", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Bécasse sur Croûtons",
+            "description": "Die Bécasse (Waldschnepfe) wird auf Croûtons serviert, die mit einer Sauce aus Rotwein und Butter übergossen werden. Das Fleisch wird vorab gegrillt und mit Kräutern gewürzt.",
+            "ingredients": [
+                "Bécasse (Waldschnepfe)", "Croûtons", "Rotwein", "Butter", "Zwiebeln", "Petersilie", "Thymian", "Lorbeerblätter"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Salade",
+            "description": "Ein frischer Salat, der mit einer Vinaigrette aus Essig, Öl und Senf serviert wird. Häufig enthält er gemischtes grünes Gemüse, Tomaten, Gurken und Kräuter.",
+            "ingredients": [
+                "Lattich", "Gurken", "Tomaten", "Essig", "Olivenöl", "Senf", "Pfeffer", "Salz", "Zucker"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Asperges primeures hollandaise",
+            "description": "Junger, frischer Spargel wird in Salzwasser gekocht und mit einer klassischen Hollandaise-Sauce serviert, die aus Butter, Eigelb und Zitrone besteht.",
+            "ingredients": [
+                "Spargel", "Butter", "Eigelb", "Zitrone", "Essig", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Pèches à la bordaloue",
+            "description": "Frische Pfirsiche werden in einer Wein- und Zucker-Sirup-Mischung gekocht und anschließend mit einer feinen Creme oder Sahne serviert.",
+            "ingredients": [
+                "Pfirsiche", "Weißwein", "Zucker", "Zitronensaft", "Sahne", "Vanille"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Paillet au Fromage",
+            "description": "Ein fein gehobenes Käsegebäck, das aus einer Mischung von hartem Käse, Butter und Mehl zubereitet wird. Es wird zu einer Teigmasse verarbeitet und zu kleinen, knusprigen Keksen geformt.",
+            "ingredients": [
+                "Hartkäse (z.B. Gruyère)", "Butter", "Mehl", "Eier", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Fruits",
+            "description": "Frische, saisonale Früchte, die zu einem einfachen Dessert angerichtet werden. Sie werden oft mit Zucker und Zimt bestreut und können mit einem Spritzer Likör oder Zuckersirup versehen werden.",
+            "ingredients": [
+                "Früchte (z.B. Äpfel, Birnen, Trauben, Pfirsiche)", "Zucker", "Zimt", "Likör"
+            ]
+        }
         ],
         "PPN": "1778323286",
         "place": {
             "Name": "Hotel Bristol",
             "WikiData": "https://www.wikidata.org/wiki/Q1630839",
+            "context":"Das Hotel Bristol war eines der vornehmsten Berliner Hotels des ausgehenden 19. und frühen 20. Jahrhunderts. Es stand in der südlichen Dorotheenstadt auf der Südseite der Straße Unter den Linden. 1944 wurde es bei einem Bombenangriff vollständig zerstört.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hotel_Bristol_Berlin_%28um_1910%29.JPG",
             "lat": "52.5162",
             "long": "13.3835"
         }
@@ -559,50 +786,76 @@
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778266126",
         "dishes": [
             {
-                "id": 1,
-                "name": "Tourtle soup en taſse",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Turbot au vin blanc",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Selte de mouton à la soubise",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Pâte de foies gras",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "garnie",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Faisans de Bohëme",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Glace à la Prince Pückler",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Deſsert",
-                "description": ""
-            }
+            "id": 1,
+            "name": "Tourtle soup en tasse",
+            "description": "Eine exotische und luxuriöse Suppe, die mit Schalentieren, gewürzter Brühe und reichhaltigen Gewürzen wie Pfeffer und Lorbeerblättern zubereitet wird. In Tassen serviert, ist diese Suppe ein Höhepunkt der feinen Küche.",
+            "ingredients": [
+                "Schwämme", "Schalentiere", "Geflügelbrühe", "Pfeffer", "Lorbeerblätter", "Schalotten", "Eier", "Zitronensaft", "Butter"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Turbot au vin blanc",
+            "description": "Ein exquisiter Turbot (Seezunge), der in Weißwein, mit Kräutern und einer guten Portion Butter gekocht wird. Das Gericht wird typischerweise mit einer Sauce aus Weißwein, Schalotten und Butter serviert.",
+            "ingredients": [
+                "Turbot (Seezunge)", "Weißwein", "Butter", "Schalotten", "Petersilie", "Thymian", "Lorbeerblätter", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Selte de mouton à la soubise",
+            "description": "Ein Lammgericht, das in einer klassischen Soubise-Sauce zubereitet wird, die aus einer Mischung aus Zwiebeln, Butter und etwas Brühe besteht. Es wird mit einer Beilage aus frischem Gemüse serviert.",
+            "ingredients": [
+                "Lammfleisch", "Zwiebeln", "Butter", "Brühe", "Mehl", "Pfeffer", "Salz", "Muskatnuss", "Zucker"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Pâte de foies gras",
+            "description": "Ein delikates Gericht aus Gänseleber, das in einer feinen Teigkruste gebacken und häufig mit einem Hauch von Cognac oder Wein brandy aromatisiert wird. Es wird kalt serviert und ist ein luxuriöses Appetithäppchen.",
+            "ingredients": [
+                "Gänseleber", "Butter", "Mehl", "Eigelb", "Cognac", "Weißwein", "Salz", "Pfeffer", "Lorbeerblätter"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "garnie",
+            "description": "Ein üppiges Gericht, das eine Vielzahl von Beilagen umfasst, wie zum Beispiel Gemüse, Fleischspezialitäten und Schalenfrüchte, alles zusammen arrangiert und kunstvoll auf einem Teller angerichtet.",
+            "ingredients": [
+                "Kohlrabi", "Karotten", "Petersilie", "Spargel", "Zwiebeln", "Kartoffeln", "Verschiedene Fleischsorten (z.B. Rindfleisch, Lamm, Geflügel)"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Faisans de Bohëme",
+            "description": "Ein zartes Phasanengericht, das mit einer Sauce aus Rotwein, Butter, Kräutern und Gewürzen verfeinert wird. Die Zubereitung umfasst das langsame Schmoren des Phasans, bis er zart und saftig ist.",
+            "ingredients": [
+                "Phasane", "Rotwein", "Butter", "Schalotten", "Pfeffer", "Lorbeerblätter", "Thymian", "Geflügelbrühe", "Karotten"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Glace à la Prince Pückler",
+            "description": "Ein klassisches Eisgericht, das aus drei verschiedenen Eissorten besteht: Vanille, Schokolade und Erdbeere. Es wird üppig mit einer Fruchtsauce oder einem süßen Sirup serviert.",
+            "ingredients": [
+                "Vanilleeis", "Schokoladeneis", "Erdbeereis", "Zucker", "Milch", "Sahne", "Eier", "Vanillemark", "Kakao"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Deſsert",
+            "description": "Das Dessert besteht aus einer Vielzahl von süßen Nachspeisen, wie Fruchtkompotten, Puddings und Gebäck. Häufig sind auch Schokoladenspezialitäten und exotische Früchte dabei.",
+            "ingredients": [
+                "Früchte (Äpfel, Birnen, Pfirsiche)", "Zucker", "Zimt", "Eier", "Butter", "Vanille", "Mehl", "Sahne", "Schokolade"
+            ]
+        }
         ],
         "PPN": "1778266126",
         "place": {
             "Name": "Restaurant Rudolf Dressel",
             "WikiData": null,
+            "context":"Keine Beschreibung vorhanden.",
+            "imageUrl": null,
             "lat": "52.5117",
             "long": "13.3854"
         }
@@ -614,60 +867,92 @@
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778266371",
         "dishes": [
             {
-                "id": 1,
-                "name": "Real Turtle en Tasses.",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Hors d'oeuvres à la Diplomate.",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Selle d'agneau à la Hongroise.",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Turbot sauce aux huîtres.",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Truffes en Serviette.",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Bécasses.",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Pointes d'asperges à la française.",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Soufflée au Chocolat.",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Dessert.",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Fruits.",
-                "description": ""
-            }
+            "id": 1,
+            "name": "Real Turtle en Tasses",
+            "description": "Eine luxuriöse Suppe aus echten Schildkröten, die in einer reichen Brühe aus Geflügel und Gemüse gekocht und mit Gewürzen wie Pfeffer, Lorbeer und Schalotten verfeinert wird. Diese Suppe wird in Tassen serviert und ist ein Highlight der gehobenen Küche.",
+            "ingredients": [
+                "Schildkröte", "Geflügelbrühe", "Schalotten", "Pfeffer", "Lorbeerblätter", "Eier", "Zitronensaft", "Butter"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Hors d'oeuvres à la Diplomate",
+            "description": "Ein raffinierter Appetizer, der verschiedene kleine Delikatessen umfasst, wie z.B. gegrillte Garnelen, Fleischpasteten und gefüllte Eier, serviert mit einer Vielzahl von Saucen und feinen Kräutern.",
+            "ingredients": [
+                "Garnelen", "Hühnerbrust", "Eier", "Butter", "Schalotten", "Petersilie", "Senf", "Weißwein", "Zucker"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Selle d'agneau à la Hongroise",
+            "description": "Ein Lammrücken, der in einer würzigen Sauce aus Paprika, Zwiebeln und Brühe zubereitet wird. Das Gericht wird mit frischem Gemüse serviert und ist ein Beispiel für die ungarische Einflüsse auf die Berliner Küche.",
+            "ingredients": [
+                "Lammrücken", "Paprika", "Zwiebeln", "Brühe", "Tomaten", "Knoblauch", "Salz", "Pfeffer", "Butter"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Turbot sauce aux huîtres",
+            "description": "Ein elegantes Fischgericht, bei dem der Turbot (Seezunge) mit einer Sauce aus Austern, Weißwein und Butter serviert wird. Der Fisch wird sanft gegart und die Sauce wird mit frischen Kräutern abgeschmeckt.",
+            "ingredients": [
+                "Turbot", "Austern", "Weißwein", "Butter", "Schalotten", "Petersilie", "Thymian", "Pfeffer", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Truffes en Serviette",
+            "description": "Trüffel, die in einer Serviette gewickelt und sanft gegart werden. Sie werden mit einer feinen Sauce aus Butter und frischen Kräutern serviert. Dies ist ein luxuriöses Gericht, das die Eleganz der feinen Küche unterstreicht.",
+            "ingredients": [
+                "Trüffel", "Butter", "Petersilie", "Thymian", "Lorbeerblätter", "Zitronensaft", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Bécasses",
+            "description": "Bécasses (Schnepfen) werden traditionell gebraten oder gegrillt und mit einer reichen Sauce aus Rotwein, Butter und Kräutern serviert. Das zarte Fleisch wird von einer aromatischen Sauce umhüllt.",
+            "ingredients": [
+                "Schnepfen", "Rotwein", "Butter", "Pfeffer", "Lorbeerblätter", "Schalotten", "Thymian", "Zucker"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Pointes d'asperges à la française",
+            "description": "Frischer Spargel, der in leicht gesalzenem Wasser gekocht und mit einer klassischen holländischen Sauce serviert wird. Das Gericht ist eine der bekanntesten Beilagen der französischen Küche, die in Berlin zu dieser Zeit populär war.",
+            "ingredients": [
+                "Spargel", "Butter", "Eier", "Zitronensaft", "Pfeffer", "Salz", "Weißwein"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Soufflée au Chocolat",
+            "description": "Ein luftiges, schokoladiges Soufflé, das mit einer Mischung aus dunkler Schokolade, Eiern und Zucker zubereitet wird. Das Soufflé wird frisch gebacken und heiß serviert, um seine perfekte Textur zu erhalten.",
+            "ingredients": [
+                "Dunkle Schokolade", "Eier", "Zucker", "Butter", "Mehl", "Vanille", "Sahne"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Dessert",
+            "description": "Ein reichhaltiges Dessert aus einer Auswahl von Puddings, Cremes und frischen Früchten. Es kann auch Gebäck wie Törtchen oder Kuchenspezialitäten enthalten, die mit Zucker und Vanille verfeinert werden.",
+            "ingredients": [
+                "Zucker", "Eier", "Vanille", "Sahne", "Mehl", "Butter", "Früchte (z.B. Äpfel, Birnen, Pflaumen)"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Fruits",
+            "description": "Ein einfaches, aber elegantes Gericht, das frische, saisonale Früchte umfasst. Dies kann eine Auswahl aus Äpfeln, Birnen, Trauben und Zitrusfrüchten sein, die als erfrischender Abschluss eines feinen Menüs serviert werden.",
+            "ingredients": [
+                "Äpfel", "Birnen", "Trauben", "Pfirsiche", "Zitronen", "Zucker", "Minze"
+            ]
+        }
         ],
         "PPN": "1778266371",
         "place": {
             "Name": "Restaurant Rudolf Dressel",
             "WikiData": null,
+            "context":"Keine Beschreibung vorhanden.",
+            "imageUrl": null,
             "lat": "52.5117",
             "long": "13.3854"
         }
@@ -678,71 +963,109 @@
         "date": "1907",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778977286",
         "dishes": [
-            {
-                "id": 1,
-                "name": "Consommé Sevigné",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "ou",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Bisques d'écrevisses",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Turbot d'Ostende, sauce caviar",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Tournedos portugaise, pommes soufflées",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Chaud-froid de cailles truffé",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Poularde de Bruxelles",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Choux-fleurs, sauce crême",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Salade",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Mousse à la diplomate",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Fromage et beurre",
-                "description": ""
-            },
-            {
-                "id": 12,
-                "name": "Fruits",
-                "description": ""
-            }
+             {
+            "id": 1,
+            "name": "Consommé Sevigné",
+            "description": "Eine klare Suppe, die aus hochwertigem Rindfleisch, Geflügel und Gemüse zubereitet wird. Sie wird durch das Hinzufügen von Eiweiß und Gewürzen geklärt, sodass eine klare und aromatische Brühe entsteht. Die Suppe wird oft mit etwas Sherry und einer feinen Garnitur serviert.",
+            "ingredients": [
+                "Rindfleisch", "Hühnerbrust", "Karotten", "Sellerie", "Zwiebeln", "Eiweiß", "Pfeffer", "Lorbeerblätter", "Sherry"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "ou",
+            "description": "Hierbei handelt es sich vermutlich um eine verkürzte Bezeichnung für ein Gericht. Ein Beispiel könnte eine Eierspeise sein, die oft als Appetizer verwendet wird. Die Zutaten könnten Rührei, Butter und frische Kräuter umfassen.",
+            "ingredients": [
+                "Eier", "Butter", "Petersilie", "Sahne", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bisques d'écrevisses",
+            "description": "Eine reichhaltige Suppe aus Flusskrebsen, die mit einer cremigen Brühe, Wein und einer Kombination aus Gewürzen verfeinert wird. Die Krebsen werden zuerst gekocht und die Brühe wird dann reduziert, um ein intensives Aroma zu erhalten.",
+            "ingredients": [
+                "Flusskrebs", "Butter", "Schalotten", "Weißwein", "Brühe", "Sahne", "Pfeffer", "Kräuter", "Tomaten"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Turbot d'Ostende, sauce caviar",
+            "description": "Der Turbot wird sorgfältig gebraten oder gedämpft und mit einer Sauce aus Kaviar, Butter und Weißwein serviert. Das Gericht kombiniert den zarten Geschmack des Fisches mit der luxuriösen Note des Kaviars.",
+            "ingredients": [
+                "Turbot", "Kaviar", "Butter", "Weißwein", "Zitronensaft", "Pfeffer", "Schalotten"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Tournedos portugaise, pommes soufflées",
+            "description": "Das Tournedos ist ein zartes Filetsteak, das mit einer portugiesischen Sauce aus Tomaten, Zwiebeln und Gewürzen serviert wird. Dazu gibt es Pommes soufflées, die in heißem Öl aufgeblasen werden, bis sie knusprig und goldbraun sind.",
+            "ingredients": [
+                "Rinderfilet", "Tomaten", "Zwiebeln", "Knoblauch", "Paprika", "Weißwein", "Butter", "Petersilie", "Kartoffeln"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Chaud-froid de cailles truffé",
+            "description": "Ein zartes Gericht, bei dem Wachteln mit Trüffeln gefüllt und in einer reichhaltigen Sauce aus Geflügelbrühe und Wein serviert werden. Die Vögel werden dann kalt serviert, was den Geschmack der Trüffel noch verstärkt.",
+            "ingredients": [
+                "Wachteln", "Trüffel", "Geflügelbrühe", "Weißwein", "Butter", "Pfeffer", "Lorbeerblätter", "Eier"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Poularde de Bruxelles",
+            "description": "Ein elegantes Gericht mit einem zarten Huhn, das mit einer Sauce aus Butter, Sahne und Weißwein überzogen wird. Die Zubereitung erfolgt unter Zugabe von frischen Kräutern, die das Gericht verfeinern.",
+            "ingredients": [
+                "Huhn", "Butter", "Sahne", "Weißwein", "Petersilie", "Thymian", "Schalotten", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Choux-fleurs, sauce crême",
+            "description": "Blumenkohl wird in leicht gesalzenem Wasser gegart und dann mit einer cremigen Sauce aus Butter, Sahne und etwas Weißwein serviert. Die Sauce wird mit frischen Kräutern wie Muskatnuss verfeinert.",
+            "ingredients": [
+                "Blumenkohl", "Butter", "Sahne", "Weißwein", "Muskatnuss", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Salade",
+            "description": "Ein frischer Salat, der eine Auswahl von saisonalen grünen Blättern, frischen Kräutern, Essig und Öl als Dressing umfasst. Der Salat wird in feinen Restaurants oft als erfrischender Abschluss eines Festmahls serviert.",
+            "ingredients": [
+                "Eisbergsalat", "Lollo Rosso", "Frisée", "Vinaigrette (Essig, Öl, Senf, Salz, Pfeffer)", "Frische Kräuter (z.B. Petersilie, Schnittlauch)"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Mousse à la diplomate",
+            "description": "Eine raffinierte Mousse, die aus einer Mischung aus Schokolade, Sahne und Eiern hergestellt wird. Die Mousse wird kalt serviert und kann mit frischen Früchten oder einer karamellisierten Zuckerkruste verziert werden.",
+            "ingredients": [
+                "Dunkle Schokolade", "Eier", "Sahne", "Zucker", "Vanille", "Butter"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Fromage et beurre",
+            "description": "Eine Auswahl an feinsten Käsesorten, die zusammen mit hochwertiger Butter und knusprigem Brot serviert wird. Diese werden oft mit einem Glas Wein als Teil eines festlichen Menüs angeboten.",
+            "ingredients": [
+                "Hartkäse", "Weichkäse", "Butter", "Baguette", "Trauben", "Nüsse"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Fruits",
+            "description": "Eine frische Auswahl an saisonalen Früchten wie Äpfel, Birnen, Trauben und Zitrusfrüchten, die als leichter und gesunder Abschluss eines opulenten Menüs serviert werden.",
+            "ingredients": [
+                "Äpfel", "Birnen", "Trauben", "Pfirsiche", "Zitronen", "Melonen", "Nüsse"
+            ]
+        }
         ],
         "PPN": "1778977286",
         "place": {
             "Name": "Carlton Hotel",
             "WikiData": "https://www.wikidata.org/wiki/Q16061122",
+            "context": "Das Carlton Hotel war ein erstklassiges Hotel in Berlin, an der Prachtstraße Unter den Linden in der Dorotheenstadt. Es wurde 1903 erbaut und bis 1918 als Hotel genutzt. Heute ist es das einzige erhaltene Gebäude seiner Epoche in diesem Straßenabschnitt.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Berlin%2C_Mitte%2C_Unter_den_Linden%2C_Hotel_Carlton.jpg/800px-Berlin%2C_Mitte%2C_Unter_den_Linden%2C_Hotel_Carlton.jpg",
             "lat": "52.516389",
             "long": "13.390561"
         }
@@ -753,71 +1076,109 @@
         "date": "1883",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778321801",
         "dishes": [
-            {
-                "id": 1,
-                "name": "Oxtail Soup",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Consommé de volaille sevigné.",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Turbot garni sauce aux huîtres",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Selle de mouton",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Escalop de veau.",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "à la jardinière",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Homards à l'americaine",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Poulet de grain au cresson",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Salade & Compôte",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Mousse aux fraises.",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Patisserie.",
-                "description": ""
-            },
-            {
-                "id": 12,
-                "name": "Desserts.",
-                "description": ""
-            }
+                    {
+            "id": 1,
+            "name": "Oxtail Soup",
+            "description": "Ochsenschwanzsuppe ist ein klassisches Gericht, das aus langsam gekochtem Ochsenschwanz, Gemüse und Gewürzen besteht. Die Brühe wird langsam gekocht und entfaltet dabei einen reichen, kräftigen Geschmack.",
+            "ingredients": [
+                "Ochsenschwanz", "Karotten", "Sellerie", "Zwiebeln", "Lorbeerblätter", "Pfeffer", "Gewürznelken", "Weißwein", "Brühe", "Butter", "Mehl", "Eier"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Consommé de volaille sevigné",
+            "description": "Diese klare Geflügelsuppe wird aus Hühnerbrust und Geflügelknochen hergestellt und mit Eiweiß geklärt, um eine klare, aromatische Brühe zu erhalten. Sie wird oft mit kleinen Garnituren wie Gemüse oder Sherry serviert.",
+            "ingredients": [
+                "Hühnerbrust", "Hühnerknochen", "Karotten", "Sellerie", "Zwiebeln", "Eiweiß", "Pfeffer", "Lorbeerblätter", "Sherry"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Turbot garni sauce aux huîtres",
+            "description": "Der Turbot wird gedämpft oder im Ofen gebacken und mit einer luxuriösen Sauce aus Austern, Butter und Weißwein serviert. Der Fisch wird oft mit feinen Kräutern und Zitrone garniert.",
+            "ingredients": [
+                "Turbot", "Austern", "Butter", "Weißwein", "Zitronensaft", "Schalotten", "Pfeffer", "Petersilie"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Selle de mouton",
+            "description": "Ein Lammrücken wird perfekt gebraten und mit einer Kruste aus Kräutern, Gewürzen und Semmelbröseln versehen. Es wird oft mit einer würzigen Sauce und Gemüse serviert.",
+            "ingredients": [
+                "Lammrücken", "Knoblauch", "Thymian", "Rosmarin", "Semmelbrösel", "Butter", "Olivenöl", "Weißwein", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Escalop de veau",
+            "description": "Das Kalbsschnitzel wird in Butter oder Öl gebraten und oft mit einer weißen Sauce aus Sahne und Zitronensaft serviert. Eine einfache, aber elegante Zubereitung.",
+            "ingredients": [
+                "Kalbfleisch", "Butter", "Mehl", "Sahne", "Zitronensaft", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "à la jardinière",
+            "description": "Dieses Gericht bezieht sich auf Fleisch oder Fisch, das mit einer Mischung aus frischem, saisonalem Gemüse wie Karotten, Erbsen, Blumenkohl und Bohnen zubereitet wird. Alles wird in einer feinen Brühe gegart.",
+            "ingredients": [
+                "Kalbfleisch", "Karotten", "Erbsen", "Blumenkohl", "Bohnen", "Butter", "Brühe", "Petersilie", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Homards à l'americaine",
+            "description": "Hummer wird in einer Sauce aus Tomaten, Weißwein, Brandy und Gewürzen gekocht. Das Gericht ist bekannt für seinen reichen Geschmack und seine aromatische Sauce.",
+            "ingredients": [
+                "Hummer", "Tomaten", "Weißwein", "Brandy", "Zwiebeln", "Knoblauch", "Pfeffer", "Paprika", "Lorbeerblätter", "Butter"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Poulet de grain au cresson",
+            "description": "Huhn wird mit frischem Kresse zubereitet und in einer leichten Sauce aus Weißwein, Butter und Kräutern serviert. Das Gericht bietet eine ausgewogene Kombination aus zartem Huhn und würzigem Kressegeschmack.",
+            "ingredients": [
+                "Huhn", "Kresse", "Weißwein", "Butter", "Petersilie", "Zitronensaft", "Knoblauch", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Salade & Compôte",
+            "description": "Eine frische grüne Salatbeilage wird mit einer klassischen Vinaigrette aus Essig, Öl und Senf zubereitet. Der Salat wird oft mit einer süßen Apfel- oder Zwetschgenkompott serviert.",
+            "ingredients": [
+                "Eisbergsalat", "Lollo Rosso", "Frisée", "Vinaigrette (Essig, Öl, Senf)", "Äpfel", "Zwetschgen", "Zucker"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Mousse aux fraises",
+            "description": "Eine leichte, luftige Mousse aus frischen Erdbeeren, Zucker und Schlagsahne. Sie wird oft als erfrischender Abschluss eines festlichen Menüs serviert.",
+            "ingredients": [
+                "Erdbeeren", "Zucker", "Sahne", "Eiweiß", "Vanillezucker"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Patisserie",
+            "description": "Dieses Gericht bezieht sich auf eine Auswahl an feinen französischen Gebäckstücken, die zu besonderen Anlässen serviert werden. Typische Zutaten umfassen Butter, Mehl, Zucker und Eier.",
+            "ingredients": [
+                "Butter", "Mehl", "Zucker", "Eier", "Hefe", "Vanillezucker", "Schokolade", "Marmelade"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Desserts",
+            "description": "Das Dessert umfasst eine Vielzahl von süßen Nachspeisen wie Obst, Puddings, Sorbets und Creme-Desserts, die häufig mit frischen Früchten und Sahne serviert werden.",
+            "ingredients": [
+                "Früchte", "Sahne", "Zucker", "Eier", "Vanille", "Schokolade", "Karamell", "Mandeln"
+            ]
+        }
         ],
         "PPN": "1778321801",
         "place": {
             "Name": "Grand Restaurant Strub",
             "WikiData": null,
+            "context": "Keine Beschreibung vorhanden.",
+            "imageUrl": null,
             "lat": "52.516948876210236",
             "long": "13.388682720244752"
         }
@@ -828,96 +1189,149 @@
         "date": "1888",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778322808",
         "dishes": [
-            {
-                "id": 1,
-                "name": "Kraftbrühe mit Gemüse",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Suppe Pierre le Grand",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Steinbutte mit Capernsauce",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Pastetchen",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Rinderbrust mit Meerrettig",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Hammelrücken bretonne",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Kartoffeln bayonne",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Blumenkohl mit Butter",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Schoten englisch",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Rohen Schinken",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Kapaun",
-                "description": ""
-            },
-            {
-                "id": 12,
-                "name": "Birkhuhn",
-                "description": ""
-            },
-            {
-                "id": 13,
-                "name": "Salat",
-                "description": ""
-            },
-            {
-                "id": 14,
-                "name": "Compott",
-                "description": ""
-            },
-            {
-                "id": 15,
-                "name": "Gemischtes Eis",
-                "description": ""
-            },
-            {
-                "id": 16,
-                "name": "Cabinets Pudding",
-                "description": ""
-            },
-            {
-                "id": 17,
-                "name": "Nachtisch",
-                "description": ""
-            }
+                    {
+            "id": 1,
+            "name": "Kraftbrühe mit Gemüse",
+            "description": "Die Kraftbrühe wird aus Rinderknochen und Gemüse gekocht und bietet eine klare, herzhafte Brühe. Diese wird durch langsames Kochen der Zutaten gewonnen und mit frischem Gemüse serviert.",
+            "ingredients": [
+                "Rinderknochen", "Karotten", "Sellerie", "Zwiebeln", "Pfefferkörner", "Lorbeerblätter", "Salz", "Wasser"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Suppe Pierre le Grand",
+            "description": "Diese reichhaltige Suppe wird aus Kalbsknochen, Gemüse, Weißwein und einer Brühe zubereitet. Sie ist für ihre komplexen Aromen bekannt und wurde oft mit einer speziellen Garnitur aus Trüffeln oder Fleischbällchen serviert.",
+            "ingredients": [
+                "Kalbsknochen", "Karotten", "Sellerie", "Zwiebeln", "Weißwein", "Brühe", "Pfeffer", "Salz", "Trüffel", "Eier"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Steinbutte mit Capernsauce",
+            "description": "Der Steinbutt wird sanft gegart und mit einer feinen Capernsauce aus Butter, Weißwein und Kapern serviert. Diese Zubereitung hebt den zarten Geschmack des Fisches hervor.",
+            "ingredients": [
+                "Steinbutt", "Butter", "Weißwein", "Kapern", "Zitronensaft", "Pfeffer", "Salz", "Schalotten"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Pastetchen",
+            "description": "Feine Blätterteigpasteten werden mit einer Mischung aus Fleisch, oft Geflügel oder Kalb, und einer weißen Sauce gefüllt. Diese werden im Ofen goldbraun gebacken.",
+            "ingredients": [
+                "Blätterteig", "Geflügel oder Kalbfleisch", "Butter", "Mehl", "Milch", "Eier", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Rinderbrust mit Meerrettig",
+            "description": "Rinderbrust wird langsam gekocht und mit einer Meerrettichsauce serviert. Diese Kombination aus zartem Fleisch und scharfem Meerrettich ist in der deutschen Küche sehr beliebt.",
+            "ingredients": [
+                "Rinderbrust", "Meerrettich", "Sahne", "Pfeffer", "Salz", "Zwiebeln", "Brühe"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Hammelrücken bretonne",
+            "description": "Der Lammrücken wird im Ofen gebraten und mit einer Sauce aus Butter, Kräutern, und Weißwein serviert. Dazu wird das Fleisch oft mit einer Kruste aus Kräutern und Semmelbröseln garniert.",
+            "ingredients": [
+                "Hammelrücken", "Butter", "Weißwein", "Semmelbrösel", "Petersilie", "Thymian", "Rosmarin", "Knoblauch", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Kartoffeln bayonne",
+            "description": "Kartoffeln werden in einer feinen Tomatensauce mit Schinken und Gewürzen serviert. Dieses Gericht ist besonders bekannt für seine würzige und herzhafte Zubereitung.",
+            "ingredients": [
+                "Kartoffeln", "Schinken", "Tomaten", "Zwiebeln", "Butter", "Pfeffer", "Salz", "Thymian"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Blumenkohl mit Butter",
+            "description": "Der Blumenkohl wird in Salzwasser gegart und dann mit geschmolzener Butter übergossen. Einfach, aber köstlich, mit einem milden, aber herzhaften Geschmack.",
+            "ingredients": [
+                "Blumenkohl", "Butter", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Schoten englisch",
+            "description": "Erbsen werden mit Butter und Gewürzen zubereitet und oft mit frischer Minze serviert. Diese Zubereitung hebt den frischen Geschmack der Erbsen hervor.",
+            "ingredients": [
+                "Erbsen", "Butter", "Minze", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Rohen Schinken",
+            "description": "Der rohe Schinken wird luftgetrocknet und ohne zusätzliche Zubereitung serviert. In der feinen Küche wird dieser oft mit frischem Brot oder Melone kombiniert.",
+            "ingredients": [
+                "Luftgetrockneter Schinken"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Kapaun",
+            "description": "Der Kapaun, ein kastrierter Hahn, wird im Ofen gebraten und mit einer feinen Sauce aus Weißwein, Brühe und Butter serviert. Das Fleisch ist besonders zart und saftig.",
+            "ingredients": [
+                "Kapaun", "Butter", "Weißwein", "Brühe", "Zwiebeln", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Birkhuhn",
+            "description": "Das Birkhuhn wird in einer Sauce aus Rotwein, Kräutern und Pilzen zubereitet. Das dunkle Fleisch des Huhns wird durch die aromatische Sauce ergänzt.",
+            "ingredients": [
+                "Birkhuhn", "Rotwein", "Pilze", "Schalotten", "Pfeffer", "Salz", "Lorbeerblätter", "Butter"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Salat",
+            "description": "Frische Blattsalate werden mit einer klassischen Vinaigrette aus Essig, Öl und Senf serviert. Der Salat kann auch mit Kräutern und etwas Zucker verfeinert werden.",
+            "ingredients": [
+                "Blattsalate", "Essig", "Öl", "Senf", "Zucker", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Compott",
+            "description": "Kompott ist eine süße Zubereitung aus frischen oder getrockneten Früchten, die in Zuckerwasser gekocht werden. Häufig wird Zimt und Nelken hinzugefügt, um den Geschmack zu verfeinern.",
+            "ingredients": [
+                "Äpfel", "Birnen", "Pflaumen", "Zucker", "Zimt", "Nelken"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Gemischtes Eis",
+            "description": "Verschiedene Sorten Eiscreme, wie Vanille, Schokolade und Erdbeere, werden zu einer Mischung kombiniert und als Dessert serviert.",
+            "ingredients": [
+                "Sahne", "Milch", "Zucker", "Vanille", "Schokolade", "Erdbeeren"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Cabinets Pudding",
+            "description": "Ein feiner Pudding, zubereitet aus Eiern, Milch, Zucker und Vanille. Dieser wird im Wasserbad gegart und oft mit Karamell überzogen.",
+            "ingredients": [
+                "Eier", "Milch", "Zucker", "Vanille", "Karamell"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Nachtisch",
+            "description": "Der Nachtisch umfasst verschiedene süße Nachspeisen wie Puddings, Sorbets, und Creme-Desserts, die oft mit Früchten oder Schokolade serviert werden.",
+            "ingredients": [
+                "Früchte", "Schokolade", "Sahne", "Zucker", "Vanille"
+            ]
+        }
         ],
         "PPN": "1778322808",
         "place": {
             "Name": "Restaurant Hiller",
             "WikiData": "https://www.wikidata.org/wiki/Q2798056",
+            "context": "Das Restaurant Hiller war ein kleines Restaurant im Berliner Ortsteil Mitte, Unter den Linden 62/63. Das Hiller wurde 1886 von dem aus Mainz stammenden Gastwirt Lorenz Adlon (1849–1921) übernommen, der damit in Berlin erfolgreich Fuß fasste. Zu den Gästen zählte nahezu der gesamte deutsche Hochadel. 1911 verkaufte Lorenz Adlon das Restaurant Hiller für 7000 Mark an Alfred Walterspiel. Es wurde 1917 aufgrund des kriegsbedingt unzeitgemäßen Luxusbetriebes geschlossen. Im Zweiten Weltkrieg wurde es wie viele andere Hotels und Restaurants zerstört",
+            "imageUrl": null,
             "lat": "52.5169",
             "long": "13.3833"
         }
@@ -929,75 +1343,116 @@
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778322476",
         "dishes": [
             {
-                "id": 1,
-                "name": "Kraftbrühe mit Graupen",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Spargel-Suppe",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Steinbutte mit Butter",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Hummer mit Remouladen-Sce.",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Rinderbrust mit Meerrettig",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Ochsenlende m/ Madeira, gebr. Kartoffeln.",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Rehbraten",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Französ. Masthuhn",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Salat und Eingem. Früchte",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Steinpilze vom Limousin",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Schoten englisch",
-                "description": ""
-            },
-            {
-                "id": 12,
-                "name": "Vanille und Erdbeeren-Eis.",
-                "description": ""
-            },
-            {
-                "id": 13,
-                "name": "Nachtisch.",
-                "description": ""
-            }
+            "id": 1,
+            "name": "Kraftbrühe mit Graupen",
+            "description": "Die Kraftbrühe wird aus Rinderknochen und Gemüse gekocht, und die Graupen werden in der Brühe gegart. Es ist eine sättigende und nahrhafte Suppe, die vor allem in der kalten Jahreszeit geschätzt wurde.",
+            "ingredients": [
+                "Rinderknochen", "Karotten", "Sellerie", "Zwiebeln", "Pfefferkörner", "Lorbeerblätter", "Graupen", "Salz", "Wasser"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Spargel-Suppe",
+            "description": "Diese delikate Suppe wird aus frischem Spargel und einer milden Brühe zubereitet, die mit Butter und Sahne verfeinert wird. Sie war besonders in den Frühlingsmonaten beliebt.",
+            "ingredients": [
+                "Spargel", "Zwiebeln", "Butter", "Sahne", "Weißwein", "Pfeffer", "Salz", "Brühe"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Steinbutte mit Butter",
+            "description": "Die Steinbutte wird leicht in Butter gebraten und einfach gewürzt, um ihren feinen Geschmack zu bewahren. Sie wird oft mit frischen Kräutern garniert.",
+            "ingredients": [
+                "Steinbutte", "Butter", "Zitronensaft", "Pfeffer", "Salz", "Kräuter (z.B. Petersilie)"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Hummer mit Remouladen-Sauce",
+            "description": "Der Hummer wird gekocht und mit einer klassischen Remoulade aus Mayonnaise, Senf und Gewürzen serviert. Dies war eine luxuriöse Zubereitung für festliche Anlässe.",
+            "ingredients": [
+                "Hummer", "Mayonnaise", "Senf", "Essig", "Kapern", "Pfeffer", "Zwiebeln", "Estragon"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Rinderbrust mit Meerrettich",
+            "description": "Die Rinderbrust wird langsam gekocht und mit einer scharfen Meerrettichsauce serviert. Diese Kombination aus zartem Fleisch und scharfem Meerrettich war ein beliebtes Gericht in der traditionellen Berliner Küche.",
+            "ingredients": [
+                "Rinderbrust", "Meerrettich", "Sahne", "Zwiebeln", "Brühe", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Ochsenlende mit Madeira, gebratene Kartoffeln",
+            "description": "Die Ochsenlende wird in Madeira und Gewürzen mariniert, dann gebraten und mit einer reichhaltigen Sauce serviert. Dazu gibt es gebratene Kartoffeln.",
+            "ingredients": [
+                "Ochsenlende", "Madeira", "Butter", "Zwiebeln", "Pfeffer", "Salz", "Kartoffeln"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Rehbraten",
+            "description": "Der Rehbraten wird langsam im Ofen gegart und mit einer Sauce aus Rotwein, Kräutern und Pilzen serviert. Diese Zubereitung bewahrt den wilden Geschmack des Rehs.",
+            "ingredients": [
+                "Rehbraten", "Rotwein", "Schalotten", "Pilze", "Rosmarin", "Thymian", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Französisches Masthuhn",
+            "description": "Das Masthuhn wird im Ofen gebraten und mit einer feinen Sauce aus Butter, Kräutern und Weißwein serviert. Es war ein Symbol für gehobene Küche.",
+            "ingredients": [
+                "Masthuhn", "Butter", "Weißwein", "Zwiebeln", "Pfeffer", "Salz", "Thymian"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Salat und Eingemachte Früchte",
+            "description": "Ein frischer Salat aus Blattsalaten, serviert mit einer klassischen Vinaigrette. Dazu gibt es eingelegte Früchte als süß-saueren Kontrast.",
+            "ingredients": [
+                "Blattsalate", "Essig", "Öl", "Senf", "Zucker", "Pfeffer", "Salz", "Eingelegte Früchte"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Steinpilze vom Limousin",
+            "description": "Frische Steinpilze aus der Region Limousin werden in Butter gebraten und mit Gewürzen verfeinert. Dieses Gericht bringt den erdigen Geschmack der Pilze zur Geltung.",
+            "ingredients": [
+                "Steinpilze", "Butter", "Knoblauch", "Petersilie", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Schoten englisch",
+            "description": "Grüne Erbsen oder Schoten werden in Butter mit frischen Kräutern und Gewürzen zubereitet. Diese einfache Beilage ist ein klassisches Gericht der Saison.",
+            "ingredients": [
+                "Erbsen", "Butter", "Minze", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Vanille und Erdbeeren-Eis",
+            "description": "Ein zartes Eis, das sowohl Vanille als auch frische Erdbeeren enthält. Es war eine beliebte Zubereitung für festliche Anlässe oder Sommerdesserts.",
+            "ingredients": [
+                "Sahne", "Milch", "Zucker", "Vanille", "Erdbeeren", "Eigelb"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Nachtisch",
+            "description": "Der Nachtisch umfasst verschiedene süße Nachspeisen wie Puddings, Kuchen oder Sorbets, die mit Früchten oder Schokoladenstücken garniert werden.",
+            "ingredients": [
+                "Früchte", "Schokolade", "Sahne", "Zucker", "Vanille", "Pudding"
+            ]
+        }
         ],
         "PPN": "1778322476",
         "place": {
             "Name": "Restaurant Hiller",
             "WikiData": "https://www.wikidata.org/wiki/Q2798056",
+            "context": "Das Restaurant Hiller war ein kleines Restaurant im Berliner Ortsteil Mitte, Unter den Linden 62/63. Das Hiller wurde 1886 von dem aus Mainz stammenden Gastwirt Lorenz Adlon (1849–1921) übernommen, der damit in Berlin erfolgreich Fuß fasste. Zu den Gästen zählte nahezu der gesamte deutsche Hochadel. 1911 verkaufte Lorenz Adlon das Restaurant Hiller für 7000 Mark an Alfred Walterspiel. Es wurde 1917 aufgrund des kriegsbedingt unzeitgemäßen Luxusbetriebes geschlossen. Im Zweiten Weltkrieg wurde es wie viele andere Hotels und Restaurants zerstört",
+            "imageUrl": null,
             "lat": "52.5169",
             "long": "13.3833"
         }
@@ -1012,6 +1467,8 @@
         "place": {
             "Name": "Hotel Bristol",
             "WikiData": "https://www.wikidata.org/wiki/Q1630839",
+            "context":"Das Hotel Bristol war eines der vornehmsten Berliner Hotels des ausgehenden 19. und frühen 20. Jahrhunderts. Es stand in der südlichen Dorotheenstadt auf der Südseite der Straße Unter den Linden. 1944 wurde es bei einem Bombenangriff vollständig zerstört.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hotel_Bristol_Berlin_%28um_1910%29.JPG",
             "lat": "52.5162",
             "long": "13.3835"
         }
@@ -1022,121 +1479,189 @@
         "date": "1892",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN1778363741",
         "dishes": [
-            {
-                "id": 1,
-                "name": "Consommé à la Princesse",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Potage parmentier",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Cotelettes de saumon du Rhin à la Verneuil",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Roastbeef à la renaissance sauce béarnaise",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Tartelettes à la favorite",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Selle de chevreuil sce. poivrade",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Salade",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Asperges sauce mousseline",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Riz à la Malte",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Fromages",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Dessert.",
-                "description": ""
-            },
-            {
-                "id": 12,
-                "name": "Kraftbrühe à la princesse",
-                "description": ""
-            },
-            {
-                "id": 13,
-                "name": "Kartoffelsuppe",
-                "description": ""
-            },
-            {
-                "id": 14,
-                "name": "Rheinlachscotelettes à la Verneuil",
-                "description": ""
-            },
-            {
-                "id": 15,
-                "name": "Roastbeef à la renaissance suace béarnaise",
-                "description": ""
-            },
-            {
-                "id": 16,
-                "name": "Tartelettes à la favorite",
-                "description": ""
-            },
-            {
-                "id": 17,
-                "name": "Rehrücken sauce poivrade",
-                "description": ""
-            },
-            {
-                "id": 18,
-                "name": "Salat",
-                "description": ""
-            },
-            {
-                "id": 19,
-                "name": "Spargel sce. mousseline",
-                "description": ""
-            },
-            {
-                "id": 20,
-                "name": "Malteser-Reis",
-                "description": ""
-            },
-            {
-                "id": 21,
-                "name": "Käse",
-                "description": ""
-            },
-            {
-                "id": 22,
-                "name": "Nachtisch",
-                "description": ""
-            }
+                    {
+            "id": 1,
+            "name": "Consommé à la Princesse",
+            "description": "Eine klare, kräftige Brühe aus Rindfleisch und Gemüse, die durch das Klären mit Eiweiß und einem feinen Bouillonverfahren zubereitet wird. Verfeinert wird sie mit einer feinen Einlage, wie zum Beispiel Gemüsestreifen oder Hühnerbrust.",
+            "ingredients": [
+                "Rinderknochen", "Gemüse (Karotten, Sellerie, Lauch)", "Eiweiß", "Pfeffer", "Lorbeerblätter", "Salz", "Wasser", "Hühnerbrust"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Potage parmentier",
+            "description": "Ein traditioneller Kartoffel-Lauch-Suppe, die aus gekochten Kartoffeln, Lauch und Brühe zubereitet wird. Die Suppe wird püriert und mit etwas Sahne verfeinert.",
+            "ingredients": [
+                "Kartoffeln", "Lauch", "Zwiebeln", "Butter", "Brühe", "Sahne", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Cotelettes de saumon du Rhin à la Verneuil",
+            "description": "Lachssteaks werden in Butter gebraten und mit einer feinen Sauce Verneuil (Hollandaise mit Tomaten) serviert. Ein elegantes Gericht aus der französischen Küche, das in Berlin häufig serviert wurde.",
+            "ingredients": [
+                "Lachsfilets", "Butter", "Zitronensaft", "Tomaten", "Eier", "Butter", "Weißwein", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Roastbeef à la renaissance sauce béarnaise",
+            "description": "Ein klassisches Roastbeef, das im Ofen gebraten wird, serviert mit einer feinen Béarnaise-Sauce aus Butter, Ei, Estragon und Weißwein.",
+            "ingredients": [
+                "Roastbeef", "Butter", "Eigelb", "Weißwein", "Estragon", "Schalotten", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Tartelettes à la favorite",
+            "description": "Kleine Törtchen aus feinem Mürbeteig, die mit einer feinen Füllung aus Pâté oder süßem Fruchtkompott gefüllt sind. Diese wurden oft bei festlichen Anlässen serviert.",
+            "ingredients": [
+                "Mürbeteig", "Butter", "Zucker", "Eier", "Früchte (z.B. Aprikosen oder Himbeeren)", "Zimt", "Puderzucker"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Selle de chevreuil sauce poivrade",
+            "description": "Der Rehrücken wird mit einer kräftigen Sauce Poivrade (eine Pfeffersauce) serviert, die aus Rotwein, Brühe, Pfeffer und Kräutern hergestellt wird. Ein edles Gericht, das auf festlichen Tafeln zu finden war.",
+            "ingredients": [
+                "Rehrücken", "Rotwein", "Brühe", "Pfefferkörner", "Schalotten", "Rosmarin", "Thymian", "Butter", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Salade",
+            "description": "Ein einfacher gemischter Salat, häufig bestehend aus Blattsalaten, serviert mit einer klassischen Vinaigrette aus Essig, Öl und Senf.",
+            "ingredients": [
+                "Blattsalate", "Essig", "Öl", "Senf", "Zucker", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Asperges sauce mousseline",
+            "description": "Frischer Spargel wird mit einer samtigen Mousseline-Sauce serviert, die aus einer reduzierten Bechamelsauce und geschlagener Sahne besteht.",
+            "ingredients": [
+                "Spargel", "Butter", "Mehl", "Milch", "Sahne", "Eigelb", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Riz à la Malte",
+            "description": "Reis wird mit einer süßen und herzhaften Kombination aus getrockneten Früchten, Zucker und Gewürzen zubereitet. Ein interessantes Gericht, das in der gehobenen Küche serviert wurde.",
+            "ingredients": [
+                "Reis", "Rosinen", "Feigen", "Zucker", "Zimt", "Pfeffer", "Butter", "Milch"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Fromages",
+            "description": "Eine Auswahl an französischen und deutschen Käsesorten, oft serviert mit frischem Brot und Früchten.",
+            "ingredients": [
+                "Brie", "Camembert", "Edamer", "Gouda", "Brot", "Trauben", "Äpfel"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Dessert",
+            "description": "Ein klassisches Dessert aus der Zeit, das Puddings, Torten oder Sorbets umfassen kann. Häufig serviert mit frischen Früchten oder einer Sauce.",
+            "ingredients": [
+                "Sahne", "Zucker", "Eier", "Vanille", "Früchte (z.B. Erdbeeren, Äpfel)", "Puderzucker"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Kraftbrühe à la princesse",
+            "description": "Eine feine klare Brühe, die mit einer Mischung aus Hühnerfleisch und Gemüse verfeinert wird. Diese Brühe ist besonders raffiniert und wird mit einer Einlage aus kleinen Fleischbällchen oder Gemüsestreifen serviert.",
+            "ingredients": [
+                "Hühnerbrust", "Karotten", "Sellerie", "Zwiebeln", "Pfefferkörner", "Lorbeerblätter", "Wasser", "Eier"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Kartoffelsuppe",
+            "description": "Eine herzhafte Suppe aus gekochten Kartoffeln, Zwiebeln und Brühe, die mit etwas Sahne verfeinert wird. Häufig wurde sie mit frischen Kräutern garniert.",
+            "ingredients": [
+                "Kartoffeln", "Zwiebeln", "Brühe", "Sahne", "Pfeffer", "Salz", "Petersilie"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Rheinlachscotelettes à la Verneuil",
+            "description": "Lachskotelettes werden mit einer feinen Verneuil-Sauce (Tomaten-Hollandaise) serviert, die mit Weißwein und frischen Kräutern zubereitet wird.",
+            "ingredients": [
+                "Lachs", "Butter", "Tomaten", "Weißwein", "Eier", "Butter", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Roastbeef à la renaissance sauce béarnaise",
+            "description": "Roastbeef wird mit einer klassischen Béarnaise-Sauce serviert, die aus Ei, Butter, Estragon und Weißwein hergestellt wird.",
+            "ingredients": [
+                "Roastbeef", "Butter", "Estragon", "Schalotten", "Weißwein", "Eigelb", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Tartelettes à la favorite",
+            "description": "Kleine Törtchen, die mit einer süßen Füllung aus Früchten oder Pâté gefüllt sind, häufig mit einer leichten Zuckerglasur überzogen.",
+            "ingredients": [
+                "Mürbeteig", "Zucker", "Früchte (z.B. Aprikosen)", "Eier", "Butter", "Puderzucker"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Rehrücken sauce poivrade",
+            "description": "Der Rehrücken wird in einer Sauce Poivrade (Pfeffersauce) serviert, die aus Rotwein, Brühe, Pfeffer und Kräutern besteht.",
+            "ingredients": [
+                "Rehrücken", "Rotwein", "Brühe", "Pfefferkörner", "Schalotten", "Rosmarin", "Thymian", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Salat",
+            "description": "Ein klassischer grüner Salat, der mit einer Vinaigrette aus Essig, Öl und Senf serviert wird.",
+            "ingredients": [
+                "Blattsalate", "Essig", "Öl", "Senf", "Salz", "Pfeffer"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Spargel sauce mousseline",
+            "description": "Spargel wird mit einer feinen Mousseline-Sauce aus Bechamel und geschlagener Sahne serviert, die das Gericht besonders cremig macht.",
+            "ingredients": [
+                "Spargel", "Mehl", "Butter", "Sahne", "Eigelb", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Malteser-Reis",
+            "description": "Reis wird mit getrockneten Früchten und Gewürzen gekocht, was dem Gericht einen süßen und herzhaften Geschmack verleiht.",
+            "ingredients": [
+                "Reis", "Rosinen", "Feigen", "Zucker", "Zimt", "Pfeffer", "Butter"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Käse",
+            "description": "Eine Auswahl an deutschen und französischen Käsesorten, die mit frischem Brot und Früchten serviert wird.",
+            "ingredients": [
+                "Brie", "Camembert", "Gouda", "Emmentaler", "Brot", "Trauben", "Äpfel"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Nachtisch",
+            "description": "Ein süßes Dessert, das aus verschiedenen Puddings, Kuchen oder frischen Früchten bestehen kann.",
+            "ingredients": [
+                "Sahne", "Zucker", "Eier", "Vanille", "Früchte (z.B. Erdbeeren)", "Puderzucker"
+            ]
+        }
         ],
         "PPN": "1778363741",
         "place": {
             "Name": "Hotel Bristol",
             "WikiData": "https://www.wikidata.org/wiki/Q1630839",
+            "context":"Das Hotel Bristol war eines der vornehmsten Berliner Hotels des ausgehenden 19. und frühen 20. Jahrhunderts. Es stand in der südlichen Dorotheenstadt auf der Südseite der Straße Unter den Linden. 1944 wurde es bei einem Bombenangriff vollständig zerstört.",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hotel_Bristol_Berlin_%28um_1910%29.JPG",
             "lat": "52.5162",
             "long": "13.3835"
         }
@@ -1147,81 +1672,125 @@
         "date": "1887",
         "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN177832228X",
         "dishes": [
-            {
-                "id": 1,
-                "name": "Vorspeisen",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Kaiser-Suppe",
-                "description": ""
-            },
-            {
-                "id": 3,
-                "name": "Ochsenschweif-Suppe",
-                "description": ""
-            },
-            {
-                "id": 4,
-                "name": "Rheinlachs, Sauce Diplomate",
-                "description": ""
-            },
-            {
-                "id": 5,
-                "name": "Frische Hummer, Sauce à la Russe",
-                "description": ""
-            },
-            {
-                "id": 6,
-                "name": "Rinderbrust mit Meerrettig",
-                "description": ""
-            },
-            {
-                "id": 7,
-                "name": "Kalbsrücken à la Bismarck, Neue Kartoffeln",
-                "description": ""
-            },
-            {
-                "id": 8,
-                "name": "Poularde von Metz",
-                "description": ""
-            },
-            {
-                "id": 9,
-                "name": "Birkhuhn",
-                "description": ""
-            },
-            {
-                "id": 10,
-                "name": "Salat und Compot",
-                "description": ""
-            },
-            {
-                "id": 11,
-                "name": "Cêpes du Limousin",
-                "description": ""
-            },
-            {
-                "id": 12,
-                "name": "Schoten à l'anglaise",
-                "description": ""
-            },
-            {
-                "id": 13,
-                "name": "Prinz Wilhelm-Eis",
-                "description": ""
-            },
-            {
-                "id": 14,
-                "name": "Nachtisch",
-                "description": ""
-            }
+                    {
+            "id": 1,
+            "name": "Vorspeisen",
+            "description": "Vorspeisen wurden oft in Form von kleinen Häppchen serviert, wie Pasteten, Salaten oder Suppen. Typische Zutaten waren Geflügel, Fisch, Wurstwaren und verschiedene Gemüsesorten.",
+            "ingredients": [
+                "Wurstwaren", "Geflügel", "Fisch", "Kartoffeln", "Zwiebeln", "Essig", "Öl", "Salat"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Kaiser-Suppe",
+            "description": "Eine gehaltvolle Suppe, die traditionell aus einer kräftigen Fleischbrühe, Gemüse und einer feinen Einlage wie Fleischbällchen oder kleinen Teigtaschen bestand. Eine edle Suppe, die oft bei festlichen Anlässen gereicht wurde.",
+            "ingredients": [
+                "Rindfleisch", "Gemüse (Karotten, Sellerie, Lauch)", "Brühe", "Eier", "Mehl", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Ochsenschweif-Suppe",
+            "description": "Eine herzhafte Suppe aus Ochsenschwänzen, die lange gekocht werden, um einen kräftigen Geschmack zu entwickeln. Mit Gemüse und Gewürzen serviert.",
+            "ingredients": [
+                "Ochsenschwänze", "Zwiebeln", "Karotten", "Sellerie", "Lorbeerblätter", "Pfefferkörner", "Brühe", "Salz"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Rheinlachs, Sauce Diplomate",
+            "description": "Lachs aus dem Rhein, serviert mit einer raffinierten Sauce Diplomate, die aus einer Kombination von Bechamelsauce, Hühnerbrühe, Gelatine und Sahne besteht.",
+            "ingredients": [
+                "Rheinlachs", "Butter", "Mehl", "Brühe", "Sahne", "Gelatine", "Pfeffer", "Salz", "Zitronensaft"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Frische Hummer, Sauce à la Russe",
+            "description": "Frische Hummer, serviert mit einer Sauce à la Russe, die auf Mayonnaise und Kaviar basiert und oft mit frischem Gemüse garniert wird.",
+            "ingredients": [
+                "Hummer", "Mayonnaise", "Kaviar", "Eier", "Zitronensaft", "Pfeffer", "Salz", "Gemüse (z.B. Karotten, Sellerie)"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Rinderbrust mit Meerrettich",
+            "description": "Eine geschmorte Rinderbrust, die mit frisch geriebenem Meerrettich serviert wird, um den Geschmack der saftigen Fleischscheiben zu ergänzen.",
+            "ingredients": [
+                "Rinderbrust", "Meerrettich", "Zwiebeln", "Brühe", "Pfeffer", "Salz", "Butter"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Kalbsrücken à la Bismarck, Neue Kartoffeln",
+            "description": "Kalbsrücken wird in der Bismarck-Variante zubereitet, mit einer Sauce aus Madeira, Butter und Gewürzen, dazu frisch gekochte neue Kartoffeln.",
+            "ingredients": [
+                "Kalbsrücken", "Butter", "Madeira", "Brühe", "Pfeffer", "Salz", "Kartoffeln"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Poularde von Metz",
+            "description": "Eine zarte Poulette (Hühnchen) wird in Metz-Stil mit einer feinen Sauce aus Butter, Weißwein und Kräutern zubereitet.",
+            "ingredients": [
+                "Poularde", "Butter", "Weißwein", "Schalotten", "Petersilie", "Rosmarin", "Thymian", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Birkhuhn",
+            "description": "Ein Wildgericht aus Birkhuhn, das in einer feinen Sauce aus Rotwein und Wildbrühe serviert wird. Häufig ergänzt durch Gemüse und Pilze.",
+            "ingredients": [
+                "Birkhuhn", "Rotwein", "Wildbrühe", "Pilze", "Schalotten", "Pfeffer", "Salz", "Thymian"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Salat und Compot",
+            "description": "Ein einfacher Salat, der mit einer Vinaigrette serviert wird, ergänzt durch ein süßes Kompott aus Äpfeln, Birnen oder anderen saisonalen Früchten.",
+            "ingredients": [
+                "Salat", "Essig", "Öl", "Senf", "Zucker", "Früchte (Äpfel, Birnen)"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Cêpes du Limousin",
+            "description": "Frische Steinpilze aus dem Limousin, in Butter gebraten und mit einer leichten Sauce aus Sahne und Kräutern verfeinert.",
+            "ingredients": [
+                "Cêpes (Steinpilze)", "Butter", "Sahne", "Petersilie", "Knoblauch", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Schoten à l'anglaise",
+            "description": "Frische grüne Erbsenschoten, die in Salzwasser gekocht und mit Butter und Pfeffer serviert werden.",
+            "ingredients": [
+                "Erbsenschoten", "Butter", "Pfeffer", "Salz"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Prinz Wilhelm-Eis",
+            "description": "Ein luxuriöses Dessert aus Vanilleeis, verfeinert mit einer Soße aus dunkler Schokolade und Kirschen.",
+            "ingredients": [
+                "Vanilleeis", "Zucker", "Milch", "Schokolade", "Kirschen", "Rum"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Nachtisch",
+            "description": "Ein süßes Dessert, das je nach Saison variiert, aber häufig aus Puddings, Torten oder frischen Früchten bestand. Oft wird es mit Zucker und Sahne verfeinert.",
+            "ingredients": [
+                "Sahne", "Zucker", "Eier", "Vanille", "Früchte (z.B. Erdbeeren, Äpfel)", "Puderzucker"
+            ]
+        }
         ],
         "PPN": "177832228X",
         "place": {
             "Name": "Restaurant Hiller",
             "WikiData": "https://www.wikidata.org/wiki/Q2798056",
+            "context":"Das Restaurant Hiller war ein kleines Restaurant im Berliner Ortsteil Mitte, Unter den Linden 62/63. Das Hiller wurde 1886 von dem aus Mainz stammenden Gastwirt Lorenz Adlon (1849–1921) übernommen, der damit in Berlin erfolgreich Fuß fasste. Zu den Gästen zählte nahezu der gesamte deutsche Hochadel. 1911 verkaufte Lorenz Adlon das Restaurant Hiller für 7000 Mark an Alfred Walterspiel. Es wurde 1917 aufgrund des kriegsbedingt unzeitgemäßen Luxusbetriebes geschlossen. Im Zweiten Weltkrieg wurde es wie viele andere Hotels und Restaurants zerstört",
+            "imageUrl": null,
             "lat": "52.5169",
             "long": "13.3833"
         }

@@ -17,27 +17,150 @@
         <div class="col-9">
             <div class="display-5">Transkription</div>
             <div class="lead mt-3 mb-1">Vom Bild zur Information</div>
-            <p style="width: 67ch;"">In einem ersten Schritt wurden die Digitalisate maschinell transkribiert. Hierfür wurde die offene Transkriptionssoftware eScriptorium genutzt. eScriptorium segmentierte die Digitalisate, es wurden weitere Elemente manuell ausgezeichnet und schließlich Volltexte transkribiert.</p>
+            <p style="width: 67ch;">In einem ersten Schritt wurden die Digitalisate maschinell transkribiert. Hierfür
+                wurde die offene Transkriptionssoftware eScriptorium genutzt. eScriptorium segmentierte die
+                Digitalisate, es wurden weitere Elemente manuell ausgezeichnet und schließlich Volltexte transkribiert.
+            </p>
             <div class=" lead mt-3 mb-1">Auszeichnung
+            </div>
+            <p style="width: 67ch;">Im Anschluss an die Transkription wurden die Volltext mit dem Auszeichnungsstandard
+                der Text Encoding Initiative (TEI) ausgezeichnet. Dabei wurden sowohl die Einrichtungen, also die
+                Restaurants und Hotels, der Menükarten ausgezeichnet und, sofern vorhanden, mit eindeutigen Identifiern
+                versehen. Somit ist es möglich, Informationen zum historischen Kontext und weitere Dokumente wie Fotos
+                mit den Quellen zu verknüpfen.</p>
+            <p style="width: 67ch;"> Zusätzlich wurden die einzelnen Speisen der Menükarten ausgezeichnet, damit diese
+                maschinell
+                ausgelesen und für die weitere Manipulation mittels eines Sprachmodells genutzt werden konnten.
+            </p>
         </div>
-        <p style="width: 67ch;"">In einem ersten Schritt wurden die Digitalisate maschinell transkribiert. Hierfür wurde die offene Transkriptionssoftware eScriptorium genutzt. eScriptorium segmentierte die Digitalisate, es wurden weitere Elemente manuell ausgezeichnet und schließlich Volltexte transkribiert.</p>
+
+
     </div>
-
-
-</div>
-<div class=" row mt-5 mb-5">
+    <div class=" row mt-5 mb-5">
         <div class="col-3"></div>
 
         <div class="col-9  ">
             <div class="display-5">Anreicherung</div>
             <div class="lead mt-3 mb-1">Linked Open Data</div>
-            <p style="width: 67ch;"">In einem ersten Schritt wurden die Digitalisate maschinell transkribiert. Hierfür wurde die offene Transkriptionssoftware eScriptorium genutzt. eScriptorium segmentierte die Digitalisate, es wurden weitere Elemente manuell ausgezeichnet und schließlich Volltexte transkribiert.</p>
-        <div class=" lead mt-3 mb-1">GPT-4-Turbo
-        </div>
-        <p style="width: 67ch;"">In einem ersten Schritt wurden die Digitalisate maschinell transkribiert. Hierfür wurde die offene Transkriptionssoftware eScriptorium genutzt. eScriptorium segmentierte die Digitalisate, es wurden weitere Elemente manuell ausgezeichnet und schließlich Volltexte transkribiert.</p>
-    </div>
+            <p style="width: 67ch;">Offene Daten über Plattformen wie Wikipedia oder die Gemeinsame Normdatei
+                ermöglichen
+                es, die Metadaten der Staatsbibliothek zu Berlin anzureichern. Für die Hotels und Restaurants der
+                Menükarten wurden eindeutige Identifier von Wikidata hinzugefügt. Somit können, sofern vorhanden,
+                Beschreibungen und historische Fotografien der Gebäude eingebunden werden.</p>
+            <div id="ki" class=" lead mt-3 mb-1">GPT-4-Turbo
+            </div>
+            <p style="width: 67ch;">Für die Erstellung der Zutatenlisten und der Informationen zur Zubereitung der
+                Speisen wurde das Sprachmodell GPT-4-Turbo genutzt. Die Informationen können entsprechend fehlerbehaftet
+                sein und sollten im Zweifel immer mit weiteren Quellen oder Sekundärliteratur überprüft werden.</p>
+            <p style="width: 67ch;">Für die Generierung der Informationen wurde folgender Prompt erstellt:</p>
+            <p class="font-monospace bg-secondary-subtle p-5" style="width: 67ch;">You’re an expert in fien de siecle
+                food
+                history, restaurants
+                based in
+                Berlin and
+                historical cooking practices. For each
+                dish in the array dishes add a list of ingredients that are historically accurate to late
+                nineteenth-century and
+                early-twentieth-century Berlin cooking. The output language is German. Structure the list of ingredients
+                as an array of
+                individual strings, like this: “ingredients”: [“sugar”, “salt”, “tomatoes”]. Then add historically
+                accurate intructions
+                for preparing each dish. Add the instructions to the field “description”, like this: “description”:
+                “First, cook the
+                beast in the oven.” Here is the object with the list of dishes in the field “dishes”:</p>
+            <p style="width: 67ch;">Im Anschluss wurden die in der Datenbank vorgehaltenen Informationen zu den Speisen
+                in den Prompt eingefügt und die Abfrage gestartet. Das Sprachmodell füllte die leeren Felder für Zutaten
+                (<span class="font-monospace">ingredients</span>) und für die Zubereitung (<span class="font-monospace">
+                    description</span>) aus.
+            </p>
+            <p class="font-monospace bg-secondary-subtle p-5" style="width: 67ch;">{
+                "id": 1,
+                "name": "Hollaͤnder Austern.",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 2,
+                "name": "Ochsenschwanzsuppe",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 3,
+                "name": "Kraftbruͤhe mit Gemuͤse.",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 4,
+                "name": "Ostender Seezunge nach Marguery",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 5,
+                "name": "Merlans im Ofen gebacken.",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 6,
+                "name": "Lammbraten mit Zwiebelsauce",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 7,
+                "name": "Ochsenrippenstuͤck, Chorronsauce.",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 8,
+                "name": "Mittelmeer Langusten auf russische Art.",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 9,
+                "name": "Junge Pute",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 10,
+                "name": "Boͤhmischer Goldfasan",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 11,
+                "name": "Salat.",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 12,
+                "name": "Koͤnigsberger Bombe.",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 13,
+                "name": "Butter und Kaͤse.",
+                "description": "",
+                "ingredients": []
+                },
+                {
+                "id": 14,
+                "name": "Nachtisch.",
+                "description": "",
+                "ingredients": []
+                }</p>
 
-</div>
+        </div>
+
+    </div>
 </div>
 
 {%endblock%}

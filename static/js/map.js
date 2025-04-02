@@ -19,7 +19,7 @@ const myIcon = L.icon({
     iconUrl: 'static/marker-icon.svg',
     iconSize: [48, 48],
     iconAnchor: [0, 0],
-    popupAnchor: [-3, -76] 
+    popupAnchor: [0, 0]
 });
 
 const fetch_db = async () => {
@@ -32,30 +32,43 @@ const get_locations = async () => {
   const locations = await fetch_db();
   console.log(locations)
   setMarkers(locations);
+  return locations
 }
 
+const restaurants = get_locations()
+
 const setMarkers = (locations) => {
+  let markers = L.markerClusterGroup(); // Declare markers outside the loop
+
   locations.map((element) => {
-    let marker = L.marker([element.place.lat, element.place.long], { keyboard: true, icon: myIcon, }).addTo(map);
+    let marker = L.marker([element.place.lat, element.place.long], { keyboard: true, icon: myIcon });
 
     const popupCard = `
-    <div class="card" style="width: 22rem; border: none;">
-      <div class="card-body">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Bundesarchiv_Bild_183-R99514%2C_Berlin%2C_Wilhelmplatz%2C_Hotel_%22Kaiserhof%22.jpg" style="width: 20rem;" alt="...">
-        <h5 class="mt-3">${element.place.Name}</h5>
-        <p>Das Hotel Kaiserhof war das erste Luxushotel in Berlin. Es stand am Wilhelmplatz 3–5 schräg gegenüber der Reichskanzlei im damaligen Berliner Regierungsviertel. Das Hotel wurde im Oktober 1875 eröffnet und am 23. November 1943 durch mehrere Bombeneinschläge zerstört.</p>
-        <div class="small text-body-secondary text-center mt-4 mb-2">Quelle: Wikidata und Wikipedia</div>
-        <hr/>
-        <div class="text-center">
-          <div class="btn btn-secondary" onclick="window.location.href='item/${element.id}'">Menükarte</div>
+      <div class="card" style="width: 22rem; border: none;">
+        <div class="card-body">
+          <img src="${element.place.imageUrl || 'static/default_hotel.svg'}" style="width: 20rem; margin-bottom:1rem;" alt="...">
+          <small class="text-secondary">Ort</small>
+          <h5 class="mb-3">${element.place.Name}</h5>
+          <small class="text-secondary">Hintergrund</small>
+          <div class="mt-2">${element.place.context}</div>
+          <div class="small text-body-secondary  mt-1 mb-5">(Quelle: Wikidata und Wikipedia)</div>
+         
+          <div class="lead text-center fs-6">${element.title}</div> <hr/>
+          <div class="text-center">
+            <div class="btn btn-secondary" onclick="window.location.href='item/${element.id}'">Menükarte</div>
+          </div>
         </div>
-        
-      </div>
-    </div>`
+      </div>`;
 
-    marker.bindPopup(popupCard, {maxWidth: 800});
+    marker.bindPopup(popupCard, { maxWidth: 800 });
+    markers.addLayer(marker); // Add marker to the cluster group
   });
+
+  map.addLayer(markers); // Add the cluster group to the map
 };
+
+
+
 
 const backButton = L.control({ position: "topright" });
 

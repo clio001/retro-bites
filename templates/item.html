@@ -16,7 +16,8 @@
                     <div class="display-6 p-3 mt-3">{{item.title}}</div>
                     <div class="lead p-1">{{item.date}}</div>
                 </div>
-                <div class="text-center mt-5"><img src="{{ url_for('static', filename='flower1.svg') }}" width="48" height="48" /></div>
+                <div class="text-center mt-5"><img src="{{ url_for('static', filename='flower1.svg') }}" width="48"
+                        height="48" /></div>
 
                 <div class="accordion" style="padding: 3rem 10rem 10rem 10rem" id="accordionExample">
 
@@ -39,14 +40,15 @@
                                     {% endfor %}
                                 </div>
                                 <div style="margin-bottom: 1rem;"><strong>Zubereitung</strong></div>
-                                <p>{{dish.preparation}}</p>
+                                <p>{{dish.description}}</p>
                                 <div style="display: flex;">
                                     <div class="small text-secondary mt-3">Quelle: Diese
                                         Informationen wurde mittels ChatGPT
                                         4
                                         Turbo generiert
-                                        <div type="button" class="btn btn-sm btn-outline-secondary"
-                                            style="border-radius: 25px;"><small>Info</small>
+                                        <div class="btn btn-sm btn-outline-secondary" style="border-radius: 25px;"
+                                            onclick="window.location.href='/data/#ki'">
+                                            <small>Info</small>
                                         </div>
                                     </div>
                                 </div>
